@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="UTF-8"?><database>
+    <element extends="task" label="Orders" max_length="40" name="x_616811_cafe_mana_orders" sizeclass="0" type="collection">
+        <element label="Order for" max_length="32" name="order_for" reference="sys_user" type="reference"/>
+        <element label="Total Amount" max_length="20" name="total_amount" type="currency"/>
+    </element>
+</database>
