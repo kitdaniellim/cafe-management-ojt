@@ -4,16 +4,16 @@
         <sys_created_by>fletcher</sys_created_by>
         <sys_created_on>2021-11-05 08:07:40</sys_created_on>
         <sys_id>57f090c3476730101c198a5f746d4303</sys_id>
-        <sys_mod_count>0</sys_mod_count>
-        <sys_name>x_616811_cafe_mana_orders.x_616811_cafe_mana.orders_user</sys_name>
+        <sys_mod_count>1</sys_mod_count>
+        <sys_name>x_616811_cafe_mana_orders.x_616811_cafe_mana.user</sys_name>
         <sys_package display_value="Cafe Management" source="x_616811_cafe_mana">6a49c4cb472730101c198a5f746d43b0</sys_package>
         <sys_policy/>
         <sys_scope display_value="Cafe Management">6a49c4cb472730101c198a5f746d43b0</sys_scope>
         <sys_security_acl display_value="x_616811_cafe_mana_orders">97f090c3476730101c198a5f746d4300</sys_security_acl>
         <sys_update_name>sys_security_acl_role_57f090c3476730101c198a5f746d4303</sys_update_name>
         <sys_updated_by>fletcher</sys_updated_by>
-        <sys_updated_on>2021-11-05 08:07:40</sys_updated_on>
-        <sys_user_role display_value="x_616811_cafe_mana.orders_user" name="x_616811_cafe_mana.orders_user">47f05883476730101c198a5f746d439f</sys_user_role>
+        <sys_updated_on>2021-11-09 01:50:20</sys_updated_on>
+        <sys_user_role display_value="x_616811_cafe_mana.user" name="x_616811_cafe_mana.user">531ac80f472730101c198a5f746d43de</sys_user_role>
         <transaction_id/>
     </sys_security_acl_role>
 </record_update>
