@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="question_choice">
+    <question_choice action="DELETE">
+        <inactive>false</inactive>
+        <order>100</order>
+        <published_ref/>
+        <question display_value="Short">cf7ef32c478001101c198a5f746d437f</question>
+        <sys_class_name>question_choice</sys_class_name>
+        <sys_created_by>system</sys_created_by>
+        <sys_created_on>2021-11-23 03:31:53</sys_created_on>
+        <sys_id>437ef32c478001101c198a5f746d437d</sys_id>
+        <sys_mod_count>1</sys_mod_count>
+        <sys_name>Short</sys_name>
+        <sys_package display_value="Cafe Management" source="x_616811_cafe_mana">6a49c4cb472730101c198a5f746d43b0</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Cafe Management">6a49c4cb472730101c198a5f746d43b0</sys_scope>
+        <sys_update_name>question_choice_437ef32c478001101c198a5f746d437d</sys_update_name>
+        <sys_updated_by>system</sys_updated_by>
+        <sys_updated_on>2021-11-23 03:31:54</sys_updated_on>
+        <text>Short</text>
+        <value/>
+    </question_choice>
+    <fx_price action="DELETE" query="id=437ef32c478001101c198a5f746d437d"/>
+    <sys_update_version action="INSERT_OR_UPDATE">
+        <action>DELETE</action>
+        <application display_value="Cafe Management">6a49c4cb472730101c198a5f746d43b0</application>
+        <file_path/>
+        <instance_id>a71ba0b1db236810431011f8489619ce</instance_id>
+        <instance_name>dev112014</instance_name>
+        <name>question_choice_437ef32c478001101c198a5f746d437d</name>
+        <payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update table="question_choice"><question_choice action="INSERT_OR_UPDATE"><inactive>false</inactive><order>100</order><published_ref/><question display_value="Short">cf7ef32c478001101c198a5f746d437f</question><sys_class_name>question_choice</sys_class_name><sys_created_by>system</sys_created_by><sys_created_on>2021-11-23 03:31:53</sys_created_on><sys_id>437ef32c478001101c198a5f746d437d</sys_id><sys_mod_count>1</sys_mod_count><sys_name>Short</sys_name><sys_package display_value="Cafe Management" source="x_616811_cafe_mana">6a49c4cb472730101c198a5f746d43b0</sys_package><sys_policy/><sys_scope display_value="Cafe Management">6a49c4cb472730101c198a5f746d43b0</sys_scope><sys_update_name>question_choice_437ef32c478001101c198a5f746d437d</sys_update_name><sys_updated_by>system</sys_updated_by><sys_updated_on>2021-11-23 03:31:54</sys_updated_on><text>Short</text><value/></question_choice><fx_price action="delete_multiple" query="id=437ef32c478001101c198a5f746d437d"/></record_update>]]></payload>
+        <payload_hash>-308659158</payload_hash>
+        <record_name>Short</record_name>
+        <reverted_from/>
+        <source>1ef7b1b4477330101c198a5f746d43d6</source>
+        <source_table>sys_update_set</source_table>
+        <state>previous</state>
+        <sys_created_by>system</sys_created_by>
+        <sys_created_on>2021-11-23 03:31:54</sys_created_on>
+        <sys_id>877ef32c478001101c198a5f746d4397</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_recorded_at>17d4ad999060000001</sys_recorded_at>
+        <sys_updated_by>system</sys_updated_by>
+        <sys_updated_on>2021-11-23 03:31:54</sys_updated_on>
+        <type>Question Choice</type>
+        <update_guid>8f7ef32ca28001102dde91373e109696</update_guid>
+        <update_guid_history>8f7ef32ca28001102dde91373e109696:-308659158,4b7ef32c87800110a3f1d089e039657e:1874470378</update_guid_history>
+    </sys_update_version>
+    <sys_metadata_delete action="INSERT_OR_UPDATE">
+        <sys_audit_delete display_value="Short">17aff76c478001101c198a5f746d43e4</sys_audit_delete>
+        <sys_class_name>sys_metadata_delete</sys_class_name>
+        <sys_created_by>fletcher</sys_created_by>
+        <sys_created_on>2021-11-23 03:37:06</sys_created_on>
+        <sys_db_object display_value="" name="question_choice">question_choice</sys_db_object>
+        <sys_id>15e622c236c441c29ba942a4b7a67fa9</sys_id>
+        <sys_metadata>437ef32c478001101c198a5f746d437d</sys_metadata>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>Short</sys_name>
+        <sys_package display_value="Cafe Management" source="x_616811_cafe_mana">6a49c4cb472730101c198a5f746d43b0</sys_package>
+        <sys_parent/>
+        <sys_policy/>
+        <sys_scope display_value="Cafe Management">6a49c4cb472730101c198a5f746d43b0</sys_scope>
+        <sys_scope_delete display_value="">1c6aea8ac1af4c3ea4b770f9ea8efb84</sys_scope_delete>
+        <sys_update_name>question_choice_437ef32c478001101c198a5f746d437d</sys_update_name>
+        <sys_update_version display_value="question_choice_437ef32c478001101c198a5f746d437d">877ef32c478001101c198a5f746d4397</sys_update_version>
+        <sys_updated_by>fletcher</sys_updated_by>
+        <sys_updated_on>2021-11-23 03:37:06</sys_updated_on>
+    </sys_metadata_delete>
+</record_update>

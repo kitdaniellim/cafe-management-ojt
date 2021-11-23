@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update sys_domain="global" table="sys_script">
+    <sys_script action="INSERT_OR_UPDATE">
+        <abort_action>false</abort_action>
+        <access>package_private</access>
+        <action_delete>false</action_delete>
+        <action_insert>true</action_insert>
+        <action_query>false</action_query>
+        <action_update>false</action_update>
+        <active>true</active>
+        <add_message>false</add_message>
+        <advanced>true</advanced>
+        <change_fields>false</change_fields>
+        <client_callable>false</client_callable>
+        <collection>x_616811_cafe_mana_orders</collection>
+        <condition/>
+        <description/>
+        <execute_function>false</execute_function>
+        <filter_condition/>
+        <is_rest>false</is_rest>
+        <message/>
+        <name>Five Orders Max. Baristas</name>
+        <order>100</order>
+        <priority>100</priority>
+        <rest_method/>
+        <rest_method_text/>
+        <rest_service/>
+        <rest_service_text/>
+        <rest_variables/>
+        <role_conditions/>
+        <script><![CDATA[(function executeRule(current, previous /*null when async*/) {
+
+	// Add your code here
+	var query = new GlideRecord('x_616811_cafe_mana_orders'); 
+	var gr1 = query.addQuery('assigned_to', current.assigned_to); 
+	var gr2 = query.addQuery('state', '1');
+	gr2.addOrCondition('state', '2');
+	gr2.addOrCondition('state', '-5');
+	query.query(); 
+	
+	var rowCount = query.getRowCount();
+	if (rowCount == 5) {
+		var assignedUser = new GlideRecord('sys_user');
+		assignedUser.get(current.assigned_to);
+		gs.addErrorMessage(assignedUser.name + ' has already five open/pending/work in progress orders');
+		current.setAbortAction(true);
+	}
+})(current, previous);]]></script>
+        <sys_class_name>sys_script</sys_class_name>
+        <sys_created_by>fletcher</sys_created_by>
+        <sys_created_on>2021-11-12 05:55:08</sys_created_on>
+        <sys_domain>global</sys_domain>
+        <sys_domain_path>/</sys_domain_path>
+        <sys_id>a4af634947f330101c198a5f746d4317</sys_id>
+        <sys_mod_count>18</sys_mod_count>
+        <sys_name>Five Orders Max. Baristas</sys_name>
+        <sys_overrides/>
+        <sys_package display_value="Cafe Management" source="x_616811_cafe_mana">6a49c4cb472730101c198a5f746d43b0</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Cafe Management">6a49c4cb472730101c198a5f746d43b0</sys_scope>
+        <sys_update_name>sys_script_a4af634947f330101c198a5f746d4317</sys_update_name>
+        <sys_updated_by>fletcher</sys_updated_by>
+        <sys_updated_on>2021-11-12 06:44:52</sys_updated_on>
+        <template/>
+        <when>before</when>
+    </sys_script>
+    <sys_translated_text action="delete_multiple" query="documentkey=a4af634947f330101c198a5f746d4317"/>
+</record_update>

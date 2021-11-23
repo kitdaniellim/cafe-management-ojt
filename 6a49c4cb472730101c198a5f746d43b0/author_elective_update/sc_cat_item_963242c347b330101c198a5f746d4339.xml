@@ -1,0 +1,130 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sc_cat_item">
+    <sc_cat_item action="DELETE">
+        <access_type>restricted</access_type>
+        <active>true</active>
+        <availability>on_desktop</availability>
+        <billable>false</billable>
+        <category/>
+        <checked_out/>
+        <cost>0</cost>
+        <custom_cart/>
+        <delivery_plan display_value="DEFAULT">523da512c611228900811a37c97c2014</delivery_plan>
+        <delivery_plan_script/>
+        <delivery_time>1970-01-03 00:00:00</delivery_time>
+        <description/>
+        <display_price_property>non_zero</display_price_property>
+        <entitlement_script/>
+        <flow_designer_flow/>
+        <group/>
+        <hide_sp>false</hide_sp>
+        <icon/>
+        <ignore_price>false</ignore_price>
+        <image/>
+        <location/>
+        <mandatory_attachment>false</mandatory_attachment>
+        <meta/>
+        <mobile_hide_price>false</mobile_hide_price>
+        <mobile_picture/>
+        <mobile_picture_type>use_desktop_picture</mobile_picture_type>
+        <model/>
+        <name>Mocha Frappuccino</name>
+        <no_attachment_v2>false</no_attachment_v2>
+        <no_cart>false</no_cart>
+        <no_cart_v2>false</no_cart_v2>
+        <no_delivery_time_v2>false</no_delivery_time_v2>
+        <no_order>false</no_order>
+        <no_order_now>false</no_order_now>
+        <no_proceed_checkout>false</no_proceed_checkout>
+        <no_quantity>false</no_quantity>
+        <no_quantity_v2>false</no_quantity_v2>
+        <no_search>false</no_search>
+        <no_wishlist_v2>false</no_wishlist_v2>
+        <omit_price>false</omit_price>
+        <order>0</order>
+        <ordered_item_link/>
+        <owner display_value="">system</owner>
+        <picture/>
+        <preview>JavaScript: popupOpenStandard("com.glideapp.servicecatalog_cat_item_view.do?v=1&amp;sysparm_id=963242c347b330101c198a5f746d4339&amp;sysparm_preview=true", "summary");</preview>
+        <published_ref/>
+        <recurring_frequency/>
+        <request_method/>
+        <roles/>
+        <sc_catalogs/>
+        <sc_ic_item_staging/>
+        <sc_ic_version/>
+        <sc_template/>
+        <short_description/>
+        <show_variable_help_on_load>false</show_variable_help_on_load>
+        <start_closed>false</start_closed>
+        <state/>
+        <sys_class_name>sc_cat_item</sys_class_name>
+        <sys_created_by>system</sys_created_by>
+        <sys_created_on>2021-11-18 02:38:07</sys_created_on>
+        <sys_id>963242c347b330101c198a5f746d4339</sys_id>
+        <sys_mod_count>1</sys_mod_count>
+        <sys_name>Mocha Frappuccino</sys_name>
+        <sys_package display_value="Cafe Management" source="x_616811_cafe_mana">6a49c4cb472730101c198a5f746d43b0</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Cafe Management">6a49c4cb472730101c198a5f746d43b0</sys_scope>
+        <sys_update_name>sc_cat_item_963242c347b330101c198a5f746d4339</sys_update_name>
+        <sys_updated_by>kit</sys_updated_by>
+        <sys_updated_on>2021-11-18 06:52:49</sys_updated_on>
+        <taxonomy_topic/>
+        <template/>
+        <template_manager_roles/>
+        <type>item</type>
+        <use_sc_layout>true</use_sc_layout>
+        <vendor/>
+        <visible_bundle>true</visible_bundle>
+        <visible_guide>true</visible_guide>
+        <visible_standalone>true</visible_standalone>
+        <workflow/>
+    </sc_cat_item>
+    <sys_translated_text action="DELETE" query="documentkey=963242c347b330101c198a5f746d4339"/>
+    <fx_price action="DELETE" query="id=963242c347b330101c198a5f746d4339"/>
+    <sys_update_version action="INSERT_OR_UPDATE">
+        <action>DELETE</action>
+        <application display_value="Cafe Management">6a49c4cb472730101c198a5f746d43b0</application>
+        <file_path/>
+        <instance_id>a71ba0b1db236810431011f8489619ce</instance_id>
+        <instance_name>dev112014</instance_name>
+        <name>sc_cat_item_963242c347b330101c198a5f746d4339</name>
+        <payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update table="sc_cat_item"><sc_cat_item action="INSERT_OR_UPDATE"><access_type>restricted</access_type><active>true</active><availability>on_desktop</availability><billable>false</billable><category/><checked_out/><cost>0</cost><custom_cart/><delivery_plan display_value="DEFAULT">523da512c611228900811a37c97c2014</delivery_plan><delivery_plan_script/><delivery_time>1970-01-03 00:00:00</delivery_time><description/><display_price_property>non_zero</display_price_property><entitlement_script/><flow_designer_flow/><group/><hide_sp>false</hide_sp><icon/><ignore_price>false</ignore_price><image/><location/><mandatory_attachment>false</mandatory_attachment><meta/><mobile_hide_price>false</mobile_hide_price><mobile_picture/><mobile_picture_type>use_desktop_picture</mobile_picture_type><model/><name>Mocha Frappuccino</name><no_attachment_v2>false</no_attachment_v2><no_cart>false</no_cart><no_cart_v2>false</no_cart_v2><no_delivery_time_v2>false</no_delivery_time_v2><no_order>false</no_order><no_order_now>false</no_order_now><no_proceed_checkout>false</no_proceed_checkout><no_quantity>false</no_quantity><no_quantity_v2>false</no_quantity_v2><no_search>false</no_search><no_wishlist_v2>false</no_wishlist_v2><omit_price>false</omit_price><order>0</order><ordered_item_link/><owner display_value="">system</owner><picture/><preview>JavaScript: popupOpenStandard("com.glideapp.servicecatalog_cat_item_view.do?v=1&amp;sysparm_id=963242c347b330101c198a5f746d4339&amp;sysparm_preview=true", "summary");</preview><published_ref/><recurring_frequency/><request_method/><roles/><sc_catalogs/><sc_ic_item_staging/><sc_ic_version/><sc_template/><short_description/><show_variable_help_on_load>false</show_variable_help_on_load><start_closed>false</start_closed><state/><sys_class_name>sc_cat_item</sys_class_name><sys_created_by>system</sys_created_by><sys_created_on>2021-11-18 02:38:07</sys_created_on><sys_id>963242c347b330101c198a5f746d4339</sys_id><sys_mod_count>1</sys_mod_count><sys_name>Mocha Frappuccino</sys_name><sys_package display_value="Cafe Management" source="x_616811_cafe_mana">6a49c4cb472730101c198a5f746d43b0</sys_package><sys_policy/><sys_scope display_value="Cafe Management">6a49c4cb472730101c198a5f746d43b0</sys_scope><sys_update_name>sc_cat_item_963242c347b330101c198a5f746d4339</sys_update_name><sys_updated_by>kit</sys_updated_by><sys_updated_on>2021-11-18 06:52:49</sys_updated_on><taxonomy_topic/><template/><template_manager_roles/><type>item</type><use_sc_layout>true</use_sc_layout><vendor/><visible_bundle>true</visible_bundle><visible_guide>true</visible_guide><visible_standalone>true</visible_standalone><workflow/></sc_cat_item><sys_translated_text action="delete_multiple" query="documentkey=963242c347b330101c198a5f746d4339"/><fx_price action="delete_multiple" query="id=963242c347b330101c198a5f746d4339"/></record_update>]]></payload>
+        <payload_hash>-2012590141</payload_hash>
+        <record_name>Mocha Frappuccino</record_name>
+        <reverted_from/>
+        <source>1ef7b1b4477330101c198a5f746d43d6</source>
+        <source_table>sys_update_set</source_table>
+        <state>previous</state>
+        <sys_created_by>kit</sys_created_by>
+        <sys_created_on>2021-11-18 06:52:49</sys_created_on>
+        <sys_id>ad8c3a4347b730101c198a5f746d43b3</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_recorded_at>17d31d1c1bc0000001</sys_recorded_at>
+        <sys_updated_by>kit</sys_updated_by>
+        <sys_updated_on>2021-11-18 06:52:49</sys_updated_on>
+        <type>Catalog Item</type>
+        <update_guid>e58c3a4378b73010493994e2d5282ab3</update_guid>
+        <update_guid_history>e58c3a4378b73010493994e2d5282ab3:-2012590141,ea3242c34eb33010770dd6e2e3b33654:603211278</update_guid_history>
+    </sys_update_version>
+    <sys_metadata_delete action="INSERT_OR_UPDATE">
+        <sys_audit_delete display_value="Mocha Frappuccino">258c3a4347b730101c198a5f746d43c7</sys_audit_delete>
+        <sys_class_name>sys_metadata_delete</sys_class_name>
+        <sys_created_by>kit</sys_created_by>
+        <sys_created_on>2021-11-18 06:52:50</sys_created_on>
+        <sys_db_object display_value="" name="sc_cat_item">sc_cat_item</sys_db_object>
+        <sys_id>1f1d7aa9d98f474cb51904f7dc1bebe4</sys_id>
+        <sys_metadata>963242c347b330101c198a5f746d4339</sys_metadata>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>Mocha Frappuccino</sys_name>
+        <sys_package display_value="Cafe Management" source="x_616811_cafe_mana">6a49c4cb472730101c198a5f746d43b0</sys_package>
+        <sys_parent/>
+        <sys_policy/>
+        <sys_scope display_value="Cafe Management">6a49c4cb472730101c198a5f746d43b0</sys_scope>
+        <sys_scope_delete display_value="">1c6aea8ac1af4c3ea4b770f9ea8efb84</sys_scope_delete>
+        <sys_update_name>sc_cat_item_963242c347b330101c198a5f746d4339</sys_update_name>
+        <sys_update_version display_value="sc_cat_item_963242c347b330101c198a5f746d4339">ad8c3a4347b730101c198a5f746d43b3</sys_update_version>
+        <sys_updated_by>kit</sys_updated_by>
+        <sys_updated_on>2021-11-18 06:52:50</sys_updated_on>
+    </sys_metadata_delete>
+</record_update>

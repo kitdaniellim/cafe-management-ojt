@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="io_set_item">
+    <io_set_item action="DELETE">
+        <order>100</order>
+        <sc_cat_item display_value="First Sample Drink">2010830747b730101c198a5f746d4387</sc_cat_item>
+        <sys_class_name>io_set_item</sys_class_name>
+        <sys_created_by>kit</sys_created_by>
+        <sys_created_on>2021-11-19 06:41:10</sys_created_on>
+        <sys_id>e473cceb47f330101c198a5f746d4369</sys_id>
+        <sys_mod_count>1</sys_mod_count>
+        <sys_name>Drinks Set.First Sample Drink</sys_name>
+        <sys_package display_value="Cafe Management" source="x_616811_cafe_mana">6a49c4cb472730101c198a5f746d43b0</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Cafe Management">6a49c4cb472730101c198a5f746d43b0</sys_scope>
+        <sys_update_name>io_set_item_e473cceb47f330101c198a5f746d4369</sys_update_name>
+        <sys_updated_by>system</sys_updated_by>
+        <sys_updated_on>2021-11-19 07:47:02</sys_updated_on>
+        <variable_set display_value="Drinks Set">c014b42a47b730101c198a5f746d4309</variable_set>
+    </io_set_item>
+    <sys_update_version action="INSERT_OR_UPDATE">
+        <action>DELETE</action>
+        <application display_value="Cafe Management">6a49c4cb472730101c198a5f746d43b0</application>
+        <file_path/>
+        <instance_id>a71ba0b1db236810431011f8489619ce</instance_id>
+        <instance_name>dev112014</instance_name>
+        <name>io_set_item_e473cceb47f330101c198a5f746d4369</name>
+        <payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update table="io_set_item"><io_set_item action="INSERT_OR_UPDATE"><order>100</order><sc_cat_item display_value="First Sample Drink">2010830747b730101c198a5f746d4387</sc_cat_item><sys_class_name>io_set_item</sys_class_name><sys_created_by>kit</sys_created_by><sys_created_on>2021-11-19 06:41:10</sys_created_on><sys_id>e473cceb47f330101c198a5f746d4369</sys_id><sys_mod_count>1</sys_mod_count><sys_name>Drinks Set.First Sample Drink</sys_name><sys_package display_value="Cafe Management" source="x_616811_cafe_mana">6a49c4cb472730101c198a5f746d43b0</sys_package><sys_policy/><sys_scope display_value="Cafe Management">6a49c4cb472730101c198a5f746d43b0</sys_scope><sys_update_name>io_set_item_e473cceb47f330101c198a5f746d4369</sys_update_name><sys_updated_by>system</sys_updated_by><sys_updated_on>2021-11-19 07:47:02</sys_updated_on><variable_set display_value="Drinks Set">c014b42a47b730101c198a5f746d4309</variable_set></io_set_item></record_update>]]></payload>
+        <payload_hash>758165569</payload_hash>
+        <record_name>Drinks Set.First Sample Drink</record_name>
+        <reverted_from/>
+        <source>1ef7b1b4477330101c198a5f746d43d6</source>
+        <source_table>sys_update_set</source_table>
+        <state>previous</state>
+        <sys_created_by>system</sys_created_by>
+        <sys_created_on>2021-11-19 07:47:03</sys_created_on>
+        <sys_id>258210eb473730101c198a5f746d4367</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_recorded_at>17d3729c1190000001</sys_recorded_at>
+        <sys_updated_by>system</sys_updated_by>
+        <sys_updated_on>2021-11-19 07:47:03</sys_updated_on>
+        <type>Catalog Variable Set</type>
+        <update_guid>a98210eb3d3730100e1473b53497de66</update_guid>
+        <update_guid_history>a98210eb3d3730100e1473b53497de66:758165569,a473cceb95f330103041e5ef11b1827c:-2015205698</update_guid_history>
+    </sys_update_version>
+    <sys_metadata_delete action="INSERT_OR_UPDATE">
+        <sys_audit_delete display_value="Drinks Set.First Sample Drink">e3f750a3477730101c198a5f746d43c8</sys_audit_delete>
+        <sys_class_name>sys_metadata_delete</sys_class_name>
+        <sys_created_by>system</sys_created_by>
+        <sys_created_on>2021-11-19 08:10:56</sys_created_on>
+        <sys_db_object display_value="" name="io_set_item">io_set_item</sys_db_object>
+        <sys_id>6b76f65289fb44a89c82a1cfdaf67579</sys_id>
+        <sys_metadata>e473cceb47f330101c198a5f746d4369</sys_metadata>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>Drinks Set.First Sample Drink</sys_name>
+        <sys_package display_value="Cafe Management" source="x_616811_cafe_mana">6a49c4cb472730101c198a5f746d43b0</sys_package>
+        <sys_parent/>
+        <sys_policy/>
+        <sys_scope display_value="Cafe Management">6a49c4cb472730101c198a5f746d43b0</sys_scope>
+        <sys_scope_delete display_value="">1c6aea8ac1af4c3ea4b770f9ea8efb84</sys_scope_delete>
+        <sys_update_name>io_set_item_e473cceb47f330101c198a5f746d4369</sys_update_name>
+        <sys_update_version display_value="io_set_item_e473cceb47f330101c198a5f746d4369">258210eb473730101c198a5f746d4367</sys_update_version>
+        <sys_updated_by>system</sys_updated_by>
+        <sys_updated_on>2021-11-19 08:10:56</sys_updated_on>
+    </sys_metadata_delete>
+</record_update>

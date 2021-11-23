@@ -1,0 +1,1207 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update sys_domain="global" table="sys_hub_flow">
+    <sys_hub_flow action="INSERT_OR_UPDATE">
+        <access>public</access>
+        <acls/>
+        <active>true</active>
+        <annotation/>
+        <callable_by_client_api>false</callable_by_client_api>
+        <category/>
+        <compiler_build>glide-rome-06-23-2021__patch1-hotfix1-09-15-2021_09-16-2021_1434.zip</compiler_build>
+        <copied_from/>
+        <copied_from_name/>
+        <description>Creates a Catalog Item record of the associated Drink.</description>
+        <internal_name>create_catalog_item_record_on_drink_creation</internal_name>
+        <label_cache>[{"name":"1d2ca9d7-5447-4526-a631-c16b3627728a.__dont_treat_as_error__","label":"2➛Don\u0027t Treat as Error","reference_display":"Don\u0027t Treat as Error","type":"boolean","base_type":"boolean","attributes":{"uiType":"boolean","visible_in_ui":"false","action_error_output":"true","element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper"}},{"name":"1d2ca9d7-5447-4526-a631-c16b3627728a.__action_status__","label":"2➛Action Status","reference_display":"Action Status","type":"object","base_type":"object","attributes":{"uiType":"object","co_type_name":"FDACTIONSTATUS","action_error_output":"true","element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper"}},{"name":"1d2ca9d7-5447-4526-a631-c16b3627728a.table_name","label":"2➛Drinks Table","reference":"x_616811_cafe_mana_drinks","reference_display":"Drinks","type":"table_name","base_type":"table_name","attributes":{"element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper"}},{"name":"1d2ca9d7-5447-4526-a631-c16b3627728a.record","label":"2➛Drinks Record","reference":"x_616811_cafe_mana_drinks","reference_display":"Drinks","type":"reference","base_type":"reference","attributes":{"element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper"}},{"name":"Updated_1.current.name","label":"Trigger➛Catalog Item Record➛Name","reference":"","reference_display":"Name","type":"translated_text","base_type":"translated_text","parent_table_name":"sc_cat_item","column_name":"name"},{"name":"84d97171-c6e6-426b-9e79-bfb4da42425a.__dont_treat_as_error__","label":"2➛Don\u0027t Treat as Error","reference_display":"Don\u0027t Treat as Error","type":"boolean","base_type":"boolean","attributes":{"uiType":"boolean","visible_in_ui":"false","action_error_output":"true","element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper"}},{"name":"84d97171-c6e6-426b-9e79-bfb4da42425a.__action_status__","label":"2➛Action Status","reference_display":"Action Status","type":"object","base_type":"object","attributes":{"uiType":"object","co_type_name":"FDACTIONSTATUS","action_error_output":"true","element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper"}},{"name":"84d97171-c6e6-426b-9e79-bfb4da42425a.error_message","label":"2➛Error Message","reference_display":"Error Message","type":"string","base_type":"string","attributes":{"uiType":"string","uiTypeLabel":"String","element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper","pwd2droppable":"true","uiUniqueId":"87687532-9e3d-4497-a88e-90f45bfb9adb"}},{"name":"84d97171-c6e6-426b-9e79-bfb4da42425a.status","label":"2➛Status","reference_display":"Status","type":"choice","base_type":"choice","attributes":{"uiType":"choice","uiTypeLabel":"Choice","element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper","uiUniqueId":"5e478657-3a84-4a60-a92b-d3e80005ad34"}},{"name":"84d97171-c6e6-426b-9e79-bfb4da42425a.Table","label":"2➛Drinks Table","reference":"x_616811_cafe_mana_drinks","reference_display":"Drinks","type":"table_name","base_type":"table_name","attributes":{"element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper"}},{"name":"84d97171-c6e6-426b-9e79-bfb4da42425a.Record","label":"2➛Drinks Record","reference":"x_616811_cafe_mana_drinks","reference_display":"Drinks","type":"reference","base_type":"reference","attributes":{"element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper"}},{"name":"b3384fbd-7d66-45e4-8ddd-05fd998888ce.__dont_treat_as_error__","label":"1➛Don\u0027t Treat as Error","reference_display":"Don\u0027t Treat as Error","type":"boolean","base_type":"boolean","attributes":{"element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper","uiType":"boolean","visible_in_ui":"false","action_error_output":"true"}},{"name":"b3384fbd-7d66-45e4-8ddd-05fd998888ce.__action_status__","label":"1➛Action Status","reference_display":"Action Status","type":"object","base_type":"object","attributes":{"co_type_name":"FDACTIONSTATUS","element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper","uiType":"object","action_error_output":"true"}},{"name":"b3384fbd-7d66-45e4-8ddd-05fd998888ce.table_name","label":"1➛Table","reference_display":"Table","type":"table_name","base_type":"table_name","attributes":{"element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper"}},{"name":"b3384fbd-7d66-45e4-8ddd-05fd998888ce.record","label":"1➛Record","reference_display":"Record","type":"document_id","base_type":"document_id","attributes":{"element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper"}},{"name":"c9f11ca1-9e63-48d0-87c7-a0de2f566ffd.__dont_treat_as_error__","label":"2➛Don\u0027t Treat as Error","reference_display":"Don\u0027t Treat as Error","type":"boolean","base_type":"boolean","attributes":{"element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper","uiType":"boolean","visible_in_ui":"false","action_error_output":"true"}},{"name":"c9f11ca1-9e63-48d0-87c7-a0de2f566ffd.__action_status__","label":"2➛Action Status","reference_display":"Action Status","type":"object","base_type":"object","attributes":{"co_type_name":"FDACTIONSTATUS","element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper","uiType":"object","action_error_output":"true"}},{"name":"c9f11ca1-9e63-48d0-87c7-a0de2f566ffd.table_name","label":"2➛Table","reference_display":"Table","type":"table_name","base_type":"table_name","attributes":{"element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper"}},{"name":"c9f11ca1-9e63-48d0-87c7-a0de2f566ffd.record","label":"2➛Record","reference_display":"Record","type":"document_id","base_type":"document_id","attributes":{"element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper"}},{"name":"Created_1.current","label":"Trigger➛Drinks Record","reference":"x_616811_cafe_mana_drinks","reference_display":"Drinks","type":"reference","base_type":"reference","attributes":{}},{"name":"9eae2277-e642-4459-a0e3-c3b3e09a2a9a.__dont_treat_as_error__","label":"2➛Don\u0027t Treat as Error","reference_display":"Don\u0027t Treat as Error","type":"boolean","base_type":"boolean","attributes":{"element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper","uiType":"boolean","visible_in_ui":"false","action_error_output":"true"}},{"name":"9eae2277-e642-4459-a0e3-c3b3e09a2a9a.__action_status__","label":"2➛Action Status","reference_display":"Action Status","type":"object","base_type":"object","attributes":{"co_type_name":"FDACTIONSTATUS","element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper","uiType":"object","action_error_output":"true"}},{"name":"9eae2277-e642-4459-a0e3-c3b3e09a2a9a.Catalog Task","label":"2➛Catalog Task","reference":"sc_task","reference_display":"Catalog Task","type":"document_id","base_type":"document_id","attributes":{"element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper"}},{"name":"Created_1.current.image","label":"Trigger➛Drinks Record➛Image","reference":"","reference_display":"Image","type":"user_image","base_type":"user_image","parent_table_name":"x_616811_cafe_mana_drinks","column_name":"image"},{"name":"Created_1.current.short_description","label":"Trigger➛Drinks Record➛Short Description","reference":"","reference_display":"Short Description","type":"string","base_type":"string","parent_table_name":"x_616811_cafe_mana_drinks","column_name":"short_description"},{"name":"Created_1.current.name","label":"Trigger➛Drinks Record➛Name","reference":"","reference_display":"Name","type":"string","base_type":"string","parent_table_name":"x_616811_cafe_mana_drinks","column_name":"name"},{"name":"04b65589-9af7-431b-b446-1307adb6c35c.__dont_treat_as_error__","label":"1➛Don\u0027t Treat as Error","reference_display":"Don\u0027t Treat as Error","type":"boolean","base_type":"boolean","attributes":{"uiType":"boolean","visible_in_ui":"false","action_error_output":"true","element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper"}},{"name":"04b65589-9af7-431b-b446-1307adb6c35c.__action_status__","label":"1➛Action Status","reference_display":"Action Status","type":"object","base_type":"object","attributes":{"uiType":"object","co_type_name":"FDACTIONSTATUS","action_error_output":"true","element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper"}},{"name":"04b65589-9af7-431b-b446-1307adb6c35c.table_name","label":"1➛Table","reference_display":"Table","type":"table_name","base_type":"table_name","attributes":{"element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper"}},{"name":"04b65589-9af7-431b-b446-1307adb6c35c.record","label":"1➛Record","reference_display":"Record","type":"document_id","base_type":"document_id","attributes":{"element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper"}},{"name":"Updated_1.current.active","label":"Trigger➛Catalog Item Record➛Active","reference":"","reference_display":"Active","type":"boolean","base_type":"boolean","parent_table_name":"sc_cat_item","column_name":"active"},{"name":"84d97171-c6e6-426b-9e79-bfb4da42425a.Record.active","label":"2➛Drinks Record➛Active","reference":"","reference_display":"Active","type":"boolean","base_type":"boolean","parent_table_name":"x_616811_cafe_mana_drinks","column_name":"active"},{"name":"67898df3-f7a3-4c9f-b94a-c399d6698ba2.record","label":"2➛Drinks Record","reference":"x_616811_cafe_mana_drinks","reference_display":"Drinks","type":"reference","base_type":"reference","attributes":{"element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper"}},{"name":"67898df3-f7a3-4c9f-b94a-c399d6698ba2.table_name","label":"2➛Drinks Table","reference":"x_616811_cafe_mana_drinks","reference_display":"Drinks","type":"table_name","base_type":"table_name","attributes":{"element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper"}},{"name":"67898df3-f7a3-4c9f-b94a-c399d6698ba2.__action_status__","label":"2➛Action Status","reference_display":"Action Status","type":"object","base_type":"object","attributes":{"co_type_name":"FDACTIONSTATUS","element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper","uiType":"object","action_error_output":"true"}},{"name":"67898df3-f7a3-4c9f-b94a-c399d6698ba2.__dont_treat_as_error__","label":"2➛Don\u0027t Treat as Error","reference_display":"Don\u0027t Treat as Error","type":"boolean","base_type":"boolean","attributes":{"element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper","uiType":"boolean","visible_in_ui":"false","action_error_output":"true"}},{"name":"cfb0e97a-33e2-4333-96cd-795497cad184.record","label":"4➛Record","reference_display":"Record","type":"document_id","base_type":"document_id","attributes":{"element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper"}},{"name":"cfb0e97a-33e2-4333-96cd-795497cad184.table_name","label":"4➛Table","reference_display":"Table","type":"table_name","base_type":"table_name","attributes":{"element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper"}},{"name":"cfb0e97a-33e2-4333-96cd-795497cad184.__action_status__","label":"4➛Action Status","reference_display":"Action Status","type":"object","base_type":"object","attributes":{"co_type_name":"FDACTIONSTATUS","element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper","uiType":"object","action_error_output":"true"}},{"name":"cfb0e97a-33e2-4333-96cd-795497cad184.__dont_treat_as_error__","label":"4➛Don\u0027t Treat as Error","reference_display":"Don\u0027t Treat as Error","type":"boolean","base_type":"boolean","attributes":{"element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper","uiType":"boolean","visible_in_ui":"false","action_error_output":"true"}},{"name":"90d28547-bddd-4a9c-8413-5706e4772c8c.record","label":"2➛Drinks Record","reference":"x_616811_cafe_mana_drinks","reference_display":"Drinks","type":"reference","base_type":"reference","attributes":{"element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper"}},{"name":"90d28547-bddd-4a9c-8413-5706e4772c8c.table_name","label":"2➛Drinks Table","reference":"x_616811_cafe_mana_drinks","reference_display":"Drinks","type":"table_name","base_type":"table_name","attributes":{"element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper"}},{"name":"90d28547-bddd-4a9c-8413-5706e4772c8c.__action_status__","label":"2➛Action Status","reference_display":"Action Status","type":"object","base_type":"object","attributes":{"uiType":"object","co_type_name":"FDACTIONSTATUS","action_error_output":"true","element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper"}},{"name":"90d28547-bddd-4a9c-8413-5706e4772c8c.__dont_treat_as_error__","label":"2➛Don\u0027t Treat as Error","reference_display":"Don\u0027t Treat as Error","type":"boolean","base_type":"boolean","attributes":{"uiType":"boolean","visible_in_ui":"false","action_error_output":"true","element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper"}},{"name":"81e246b5-aaf2-4a84-9d16-98053fff0d73.Record","label":"1➛Drinks Record","reference":"x_616811_cafe_mana_drinks","reference_display":"Drinks","type":"reference","base_type":"reference","attributes":{"element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper"}},{"name":"81e246b5-aaf2-4a84-9d16-98053fff0d73.Table","label":"1➛Drinks Table","reference":"x_616811_cafe_mana_drinks","reference_display":"Drinks","type":"table_name","base_type":"table_name","attributes":{"element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper"}},{"name":"81e246b5-aaf2-4a84-9d16-98053fff0d73.status","label":"1➛Status","reference_display":"Status","type":"choice","base_type":"choice","attributes":{"uiType":"choice","uiTypeLabel":"Choice","element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper","uiUniqueId":"5e478657-3a84-4a60-a92b-d3e80005ad34"}},{"name":"81e246b5-aaf2-4a84-9d16-98053fff0d73.error_message","label":"1➛Error Message","reference_display":"Error Message","type":"string","base_type":"string","attributes":{"uiType":"string","uiTypeLabel":"String","element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper","pwd2droppable":"true","uiUniqueId":"87687532-9e3d-4497-a88e-90f45bfb9adb"}},{"name":"81e246b5-aaf2-4a84-9d16-98053fff0d73.__action_status__","label":"1➛Action Status","reference_display":"Action Status","type":"object","base_type":"object","attributes":{"uiType":"object","co_type_name":"FDACTIONSTATUS","action_error_output":"true","element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper"}},{"name":"81e246b5-aaf2-4a84-9d16-98053fff0d73.__dont_treat_as_error__","label":"1➛Don\u0027t Treat as Error","reference_display":"Don\u0027t Treat as Error","type":"boolean","base_type":"boolean","attributes":{"uiType":"boolean","visible_in_ui":"false","action_error_output":"true","element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper"}},{"name":"Updated_1.current.short_description","label":"Trigger➛Catalog Item Record➛Short description","reference":"","reference_display":"Short description","type":"translated_text","base_type":"translated_text","parent_table_name":"sc_cat_item","column_name":"short_description"},{"name":"Updated_1.current.image","label":"Trigger➛Catalog Item Record➛Image","reference":"","reference_display":"Image","type":"image","base_type":"image","parent_table_name":"sc_cat_item","column_name":"image"}]</label_cache>
+        <master_snapshot>aaf50caf47f330101c198a5f746d4337</master_snapshot>
+        <name>Update Drink Record on Active Change</name>
+        <natlang/>
+        <outputs/>
+        <remote_trigger_id>5e685ca3477730101c198a5f746d43c9</remote_trigger_id>
+        <run_as>user</run_as>
+        <run_with_roles/>
+        <sc_callable>false</sc_callable>
+        <show_draft_actions>false</show_draft_actions>
+        <show_triggered_flows>false</show_triggered_flows>
+        <status>published</status>
+        <sys_class_name>sys_hub_flow</sys_class_name>
+        <sys_created_by>kit</sys_created_by>
+        <sys_created_on>2021-11-19 06:03:47</sys_created_on>
+        <sys_domain>global</sys_domain>
+        <sys_domain_path>/</sys_domain_path>
+        <sys_id>0dea771747f330101c198a5f746d43ec</sys_id>
+        <sys_mod_count>17</sys_mod_count>
+        <sys_name>Update Drink Record on Active Change</sys_name>
+        <sys_overrides/>
+        <sys_package display_value="Cafe Management" source="x_616811_cafe_mana">6a49c4cb472730101c198a5f746d43b0</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Cafe Management">6a49c4cb472730101c198a5f746d43b0</sys_scope>
+        <sys_update_name>sys_hub_flow_0dea771747f330101c198a5f746d43ec</sys_update_name>
+        <sys_updated_by>kit</sys_updated_by>
+        <sys_updated_on>2021-11-19 08:12:46</sys_updated_on>
+        <type>flow</type>
+    </sys_hub_flow>
+    <sys_translated_text action="delete_multiple" query="documentkey=0dea771747f330101c198a5f746d43ec"/>
+    <sys_variable_value action="delete_multiple" query="document_key=0dea771747f330101c198a5f746d43ec"/>
+    <sys_flow_record_trigger action="INSERT_OR_UPDATE">
+        <active>true</active>
+        <condition table="sc_cat_item">activeVALCHANGES<item endquery="false" field="active" goto="false" newquery="false" operator="VALCHANGES" or="false" value=""/>
+        </condition>
+        <name/>
+        <on_delete>false</on_delete>
+        <on_insert>false</on_insert>
+        <on_update>true</on_update>
+        <run_flow_in>background</run_flow_in>
+        <run_on_extended>false</run_on_extended>
+        <run_when_setting>both</run_when_setting>
+        <run_when_user_list/>
+        <run_when_user_setting>any</run_when_user_setting>
+        <sys_class_name>sys_flow_record_trigger</sys_class_name>
+        <sys_created_by>kit</sys_created_by>
+        <sys_created_on>2021-11-19 08:12:45</sys_created_on>
+        <sys_domain>global</sys_domain>
+        <sys_domain_path>/</sys_domain_path>
+        <sys_id>5e685ca3477730101c198a5f746d43c9</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_overrides/>
+        <sys_scope display_value="Cafe Management">6a49c4cb472730101c198a5f746d43b0</sys_scope>
+        <sys_updated_by>kit</sys_updated_by>
+        <sys_updated_on>2021-11-19 08:12:45</sys_updated_on>
+        <table>sc_cat_item</table>
+    </sys_flow_record_trigger>
+    <sys_trigger_runner_mapping action="INSERT_OR_UPDATE">
+        <active>true</active>
+        <data>{"table":"sys_trigger_runner_mapping","id":"d6685ca3477730101c198a5f746d43ca","name":"trigger_runner","type":"java.util.Collections$UnmodifiableMap"}</data>
+        <identifier>0dea771747f330101c198a5f746d43ec</identifier>
+        <runner>FDTriggerRunner</runner>
+        <sys_created_by>kit</sys_created_by>
+        <sys_created_on>2021-11-19 08:12:45</sys_created_on>
+        <sys_id>d6685ca3477730101c198a5f746d43ca</sys_id>
+        <sys_mod_count>1</sys_mod_count>
+        <sys_updated_by>kit</sys_updated_by>
+        <sys_updated_on>2021-11-19 08:12:45</sys_updated_on>
+        <trigger display_value="">5e685ca3477730101c198a5f746d43c9</trigger>
+    </sys_trigger_runner_mapping>
+    <sys_json_chunk action="INSERT_OR_UPDATE">
+        <data>H4sIAAAAAAAAAGXLWwqAIBBA0b3MdytwKxGD5fggGUFHLKK99yAo6Pce7ga5MtqYGgYGBaOeZpdTZQPdTc0TYy2UMYYioPrh0wuJBHbXl8T/jpc1r48mRlqE2JA5u9WxEOwH5v2lw4YAAAA=</data>
+        <document_id>d6685ca3477730101c198a5f746d43ca</document_id>
+        <field>trigger_runner</field>
+        <length>144</length>
+        <position>0</position>
+        <source_table>sys_trigger_runner_mapping</source_table>
+        <sys_created_by>kit</sys_created_by>
+        <sys_created_on>2021-11-19 08:12:45</sys_created_on>
+        <sys_id>9e685ca3477730101c198a5f746d43ca</sys_id>
+    </sys_json_chunk>
+    <sys_trigger_runner_mapping action="delete_multiple" query="identifier=0dea771747f330101c198a5f746d43ec^sys_idNOT INd6685ca3477730101c198a5f746d43ca"/>
+    <sys_hub_trigger_instance action="delete_multiple" query="flow=0dea771747f330101c198a5f746d43ec^sys_idNOT INe8f900e3473730101c198a5f746d437a"/>
+    <sys_hub_trigger_instance action="INSERT_OR_UPDATE">
+        <comment>When Catalog Item Active field changes</comment>
+        <display_text/>
+        <flow display_value="Update Drink Record on Active Change">0dea771747f330101c198a5f746d43ec</flow>
+        <name>Updated</name>
+        <remote_sys_id/>
+        <sys_created_by>kit</sys_created_by>
+        <sys_created_on>2021-11-19 07:09:34</sys_created_on>
+        <sys_id>e8f900e3473730101c198a5f746d437a</sys_id>
+        <sys_mod_count>14</sys_mod_count>
+        <sys_scope/>
+        <sys_updated_by>kit</sys_updated_by>
+        <sys_updated_on>2021-11-19 08:12:45</sys_updated_on>
+        <trigger_definition display_value="Updated">bb695e60c31322002841b63b12d3aea5</trigger_definition>
+        <trigger_inputs/>
+        <trigger_outputs/>
+        <trigger_type>record_update</trigger_type>
+    </sys_hub_trigger_instance>
+    <sys_variable_value action="delete_multiple" query="document_key=e8f900e3473730101c198a5f746d437a"/>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>sys_hub_trigger_instance</document>
+        <document_key>e8f900e3473730101c198a5f746d437a</document_key>
+        <order>1</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>kit</sys_created_by>
+        <sys_created_on>2021-11-19 07:09:34</sys_created_on>
+        <sys_id>24f900e3473730101c198a5f746d437c</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>kit</sys_updated_by>
+        <sys_updated_on>2021-11-19 07:09:34</sys_updated_on>
+        <value>sc_cat_item</value>
+        <variable display_value="Table">1dda12e0c31322002841b63b12d3aea8</variable>
+    </sys_variable_value>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>sys_hub_trigger_instance</document>
+        <document_key>e8f900e3473730101c198a5f746d437a</document_key>
+        <order>100</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>kit</sys_created_by>
+        <sys_created_on>2021-11-19 07:09:34</sys_created_on>
+        <sys_id>2cf900e3473730101c198a5f746d437b</sys_id>
+        <sys_mod_count>1</sys_mod_count>
+        <sys_updated_by>kit</sys_updated_by>
+        <sys_updated_on>2021-11-19 07:45:40</sys_updated_on>
+        <value>activeVALCHANGES</value>
+        <variable display_value="Condition">bb9adea0c31322002841b63b12d3ae67</variable>
+    </sys_variable_value>
+    <sys_element_mapping action="delete_multiple" query="table=var__m_sys_hub_trigger_output_bb695e60c31322002841b63b12d3aea5^id=e8f900e3473730101c198a5f746d437a"/>
+    <sys_flow_cat_variable_model action="delete_multiple" query="id=0dea771747f330101c198a5f746d43ec^sys_idNOT IN89ea7b1747f330101c198a5f746d4361"/>
+    <sys_flow_cat_variable_model action="INSERT_OR_UPDATE">
+        <id>0dea771747f330101c198a5f746d43ec</id>
+        <name>Create Catalog Item Record on Drink Creation</name>
+        <sys_created_by>kit</sys_created_by>
+        <sys_created_on>2021-11-19 06:03:47</sys_created_on>
+        <sys_id>89ea7b1747f330101c198a5f746d4361</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_scope/>
+        <sys_updated_by>kit</sys_updated_by>
+        <sys_updated_on>2021-11-19 06:03:47</sys_updated_on>
+    </sys_flow_cat_variable_model>
+    <sys_hub_flow_input action="delete_multiple" query="model=0dea771747f330101c198a5f746d43ec^sys_idNOT IN21f588af47f330101c198a5f746d43c7,25f588af47f330101c198a5f746d43ce,a4f900e3473730101c198a5f746d436d"/>
+    <sys_hub_flow_input action="INSERT_OR_UPDATE">
+        <active>true</active>
+        <array>false</array>
+        <array_denormalized>false</array_denormalized>
+        <attributes>element_mapping_provider=com.glide.flow_design.action.data.FlowDesignVariableMapper,uiType=document_id</attributes>
+        <audit>false</audit>
+        <calculation><![CDATA[(function calculatedFieldValue(current) {
+
+	// Add your code here
+	return '';  // return the calculated value
+
+})(current);]]></calculation>
+        <choice/>
+        <choice_field/>
+        <choice_table/>
+        <column_label/>
+        <comments/>
+        <create_roles/>
+        <default_value/>
+        <defaultsort/>
+        <delete_roles/>
+        <dependent>table_name</dependent>
+        <dependent_on_field>table_name</dependent_on_field>
+        <display>false</display>
+        <dynamic_creation>false</dynamic_creation>
+        <dynamic_creation_script/>
+        <dynamic_default_value/>
+        <dynamic_ref_qual/>
+        <element>current</element>
+        <element_reference>false</element_reference>
+        <foreign_database/>
+        <function_definition/>
+        <function_field>false</function_field>
+        <help/>
+        <hint/>
+        <internal_type display_value="">document_id</internal_type>
+        <label>Record</label>
+        <mandatory>true</mandatory>
+        <max_length>200</max_length>
+        <model display_value="Update Drink Record on Active Change">0dea771747f330101c198a5f746d43ec</model>
+        <model_id>0dea771747f330101c198a5f746d43ec</model_id>
+        <model_table>sys_hub_flow</model_table>
+        <name>var__m_sys_hub_flow_input_0dea771747f330101c198a5f746d43ec</name>
+        <next_element/>
+        <order>100</order>
+        <primary>false</primary>
+        <read_only>false</read_only>
+        <read_roles/>
+        <reference/>
+        <reference_cascade_rule/>
+        <reference_floats>false</reference_floats>
+        <reference_key/>
+        <reference_qual/>
+        <reference_qual_condition/>
+        <reference_type/>
+        <sizeclass/>
+        <spell_check>false</spell_check>
+        <staged>false</staged>
+        <sys_class_name>sys_hub_flow_input</sys_class_name>
+        <sys_created_by>kit</sys_created_by>
+        <sys_created_on>2021-11-19 06:52:09</sys_created_on>
+        <sys_id>21f588af47f330101c198a5f746d43c7</sys_id>
+        <sys_mod_count>7</sys_mod_count>
+        <sys_name/>
+        <sys_package/>
+        <sys_policy/>
+        <sys_scope display_value="Cafe Management">6a49c4cb472730101c198a5f746d43b0</sys_scope>
+        <sys_update_name/>
+        <sys_updated_by>kit</sys_updated_by>
+        <sys_updated_on>2021-11-19 08:12:45</sys_updated_on>
+        <table_reference>false</table_reference>
+        <text_index>false</text_index>
+        <unique>false</unique>
+        <use_dependent_field>true</use_dependent_field>
+        <use_dynamic_default>false</use_dynamic_default>
+        <use_reference_qualifier>simple</use_reference_qualifier>
+        <virtual>false</virtual>
+        <widget/>
+        <write_roles/>
+        <xml_view>false</xml_view>
+    </sys_hub_flow_input>
+    <sys_hub_flow_input action="INSERT_OR_UPDATE">
+        <active>true</active>
+        <array>false</array>
+        <array_denormalized>false</array_denormalized>
+        <attributes>element_mapping_provider=com.glide.flow_design.action.data.FlowDesignVariableMapper,test_input_hidden=true,uiType=table_name</attributes>
+        <audit>false</audit>
+        <calculation><![CDATA[(function calculatedFieldValue(current) {
+
+	// Add your code here
+	return '';  // return the calculated value
+
+})(current);]]></calculation>
+        <choice/>
+        <choice_field/>
+        <choice_table/>
+        <column_label/>
+        <comments/>
+        <create_roles/>
+        <default_value/>
+        <defaultsort/>
+        <delete_roles/>
+        <dependent/>
+        <dependent_on_field/>
+        <display>false</display>
+        <dynamic_creation>false</dynamic_creation>
+        <dynamic_creation_script/>
+        <dynamic_default_value/>
+        <dynamic_ref_qual/>
+        <element>table_name</element>
+        <element_reference>false</element_reference>
+        <foreign_database/>
+        <function_definition/>
+        <function_field>false</function_field>
+        <help/>
+        <hint/>
+        <internal_type display_value="">table_name</internal_type>
+        <label>Table Name</label>
+        <mandatory>false</mandatory>
+        <max_length>200</max_length>
+        <model display_value="Update Drink Record on Active Change">0dea771747f330101c198a5f746d43ec</model>
+        <model_id>0dea771747f330101c198a5f746d43ec</model_id>
+        <model_table>sys_hub_flow</model_table>
+        <name>var__m_sys_hub_flow_input_0dea771747f330101c198a5f746d43ec</name>
+        <next_element/>
+        <order>101</order>
+        <primary>false</primary>
+        <read_only>false</read_only>
+        <read_roles/>
+        <reference/>
+        <reference_cascade_rule/>
+        <reference_floats>false</reference_floats>
+        <reference_key/>
+        <reference_qual/>
+        <reference_qual_condition/>
+        <reference_type/>
+        <sizeclass/>
+        <spell_check>false</spell_check>
+        <staged>false</staged>
+        <sys_class_name>sys_hub_flow_input</sys_class_name>
+        <sys_created_by>kit</sys_created_by>
+        <sys_created_on>2021-11-19 06:52:09</sys_created_on>
+        <sys_id>25f588af47f330101c198a5f746d43ce</sys_id>
+        <sys_mod_count>7</sys_mod_count>
+        <sys_name/>
+        <sys_package/>
+        <sys_policy/>
+        <sys_scope display_value="Cafe Management">6a49c4cb472730101c198a5f746d43b0</sys_scope>
+        <sys_update_name/>
+        <sys_updated_by>kit</sys_updated_by>
+        <sys_updated_on>2021-11-19 08:12:45</sys_updated_on>
+        <table_reference>false</table_reference>
+        <text_index>false</text_index>
+        <unique>false</unique>
+        <use_dependent_field>false</use_dependent_field>
+        <use_dynamic_default>false</use_dynamic_default>
+        <use_reference_qualifier>simple</use_reference_qualifier>
+        <virtual>false</virtual>
+        <widget/>
+        <write_roles/>
+        <xml_view>false</xml_view>
+    </sys_hub_flow_input>
+    <sys_hub_flow_input action="INSERT_OR_UPDATE">
+        <active>true</active>
+        <array>false</array>
+        <array_denormalized>false</array_denormalized>
+        <attributes>child_label=FDChangeDetails,child_name=FDChangeDetails,child_type=object,child_type_label=Object,co_type_name=FD4a685ca3b7773010483490b1fb852c3d,element_mapping_provider=com.glide.flow_design.action.data.FlowDesignVariableMapper,pwd2droppable=true,uiType=array.object,uiTypeLabel=Array.Object</attributes>
+        <audit>false</audit>
+        <calculation><![CDATA[(function calculatedFieldValue(current) {
+
+	// Add your code here
+	return '';  // return the calculated value
+
+})(current);]]></calculation>
+        <choice/>
+        <choice_field/>
+        <choice_table/>
+        <column_label/>
+        <comments/>
+        <create_roles/>
+        <default_value/>
+        <defaultsort/>
+        <delete_roles/>
+        <dependent/>
+        <dependent_on_field/>
+        <display>false</display>
+        <dynamic_creation>false</dynamic_creation>
+        <dynamic_creation_script/>
+        <dynamic_default_value/>
+        <dynamic_ref_qual/>
+        <element>changed_fields</element>
+        <element_reference>false</element_reference>
+        <foreign_database/>
+        <function_definition/>
+        <function_field>false</function_field>
+        <help/>
+        <hint/>
+        <internal_type display_value="String">string</internal_type>
+        <label>Changed Fields</label>
+        <mandatory>false</mandatory>
+        <max_length>4000</max_length>
+        <model display_value="Update Drink Record on Active Change">0dea771747f330101c198a5f746d43ec</model>
+        <model_id>0dea771747f330101c198a5f746d43ec</model_id>
+        <model_table>sys_hub_flow</model_table>
+        <name>var__m_sys_hub_flow_input_0dea771747f330101c198a5f746d43ec</name>
+        <next_element/>
+        <order>100</order>
+        <primary>false</primary>
+        <read_only>false</read_only>
+        <read_roles/>
+        <reference/>
+        <reference_cascade_rule/>
+        <reference_floats>false</reference_floats>
+        <reference_key/>
+        <reference_qual/>
+        <reference_qual_condition/>
+        <reference_type/>
+        <sizeclass/>
+        <spell_check>false</spell_check>
+        <staged>false</staged>
+        <sys_class_name>sys_hub_flow_input</sys_class_name>
+        <sys_created_by>kit</sys_created_by>
+        <sys_created_on>2021-11-19 07:09:34</sys_created_on>
+        <sys_id>a4f900e3473730101c198a5f746d436d</sys_id>
+        <sys_mod_count>12</sys_mod_count>
+        <sys_name/>
+        <sys_package/>
+        <sys_policy/>
+        <sys_scope display_value="Cafe Management">6a49c4cb472730101c198a5f746d43b0</sys_scope>
+        <sys_update_name/>
+        <sys_updated_by>kit</sys_updated_by>
+        <sys_updated_on>2021-11-19 08:12:45</sys_updated_on>
+        <table_reference>false</table_reference>
+        <text_index>false</text_index>
+        <unique>false</unique>
+        <use_dependent_field>false</use_dependent_field>
+        <use_dynamic_default>false</use_dynamic_default>
+        <use_reference_qualifier>simple</use_reference_qualifier>
+        <virtual>false</virtual>
+        <widget/>
+        <write_roles/>
+        <xml_view>false</xml_view>
+    </sys_hub_flow_input>
+    <sys_hub_action_instance action="delete_multiple" query="flow=0dea771747f330101c198a5f746d43ec^sys_idNOT IN253218ab473730101c198a5f746d433f,ed3218ab473730101c198a5f746d4331"/>
+    <sys_hub_action_instance action="INSERT_OR_UPDATE">
+        <action_inputs/>
+        <action_inputs/>
+        <action_type display_value="Update Record">f9d01dd2c31332002841b63b12d3aea1</action_type>
+        <action_type_parent/>
+        <comment/>
+        <compiled_snapshot>f9d01dd2c31332002841b63b12d3aea1</compiled_snapshot>
+        <display_text/>
+        <flow display_value="Update Drink Record on Active Change">0dea771747f330101c198a5f746d43ec</flow>
+        <order>2</order>
+        <parent_ui_id/>
+        <sys_class_name>sys_hub_action_instance</sys_class_name>
+        <sys_created_by>kit</sys_created_by>
+        <sys_created_on>2021-11-19 07:45:40</sys_created_on>
+        <sys_id>253218ab473730101c198a5f746d433f</sys_id>
+        <sys_mod_count>28</sys_mod_count>
+        <sys_scope display_value="Cafe Management">6a49c4cb472730101c198a5f746d43b0</sys_scope>
+        <sys_updated_by>system</sys_updated_by>
+        <sys_updated_on>2021-11-19 08:23:40</sys_updated_on>
+        <ui_id>90d28547-bddd-4a9c-8413-5706e4772c8c</ui_id>
+    </sys_hub_action_instance>
+    <sys_variable_value action="delete_multiple" query="document_key=253218ab473730101c198a5f746d433f"/>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>sys_hub_action_instance</document>
+        <document_key>253218ab473730101c198a5f746d433f</document_key>
+        <order>50</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>kit</sys_created_by>
+        <sys_created_on>2021-11-19 07:45:41</sys_created_on>
+        <sys_id>a13218ab473730101c198a5f746d4341</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>kit</sys_updated_by>
+        <sys_updated_on>2021-11-19 07:45:41</sys_updated_on>
+        <value>x_616811_cafe_mana_drinks</value>
+        <variable display_value="Table">b5d01916c31332002841b63b12d3aec9</variable>
+    </sys_variable_value>
+    <sys_element_mapping action="delete_multiple" query="id=253218ab473730101c198a5f746d433f"/>
+    <sys_element_mapping action="INSERT_OR_UPDATE">
+        <field>record</field>
+        <id>253218ab473730101c198a5f746d433f</id>
+        <sys_created_by>kit</sys_created_by>
+        <sys_created_on>2021-11-19 07:45:41</sys_created_on>
+        <sys_id>6d3218ab473730101c198a5f746d4340</sys_id>
+        <sys_mod_count>1</sys_mod_count>
+        <sys_updated_by>kit</sys_updated_by>
+        <sys_updated_on>2021-11-19 07:57:23</sys_updated_on>
+        <table>var__m_sys_hub_action_input_f9d01dd2c31332002841b63b12d3aea1</table>
+        <value>{{81e246b5-aaf2-4a84-9d16-98053fff0d73.Record}}</value>
+    </sys_element_mapping>
+    <sys_element_mapping action="INSERT_OR_UPDATE">
+        <field>table_name</field>
+        <id>253218ab473730101c198a5f746d433f</id>
+        <sys_created_by>kit</sys_created_by>
+        <sys_created_on>2021-11-19 07:45:41</sys_created_on>
+        <sys_id>a93218ab473730101c198a5f746d4340</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>kit</sys_updated_by>
+        <sys_updated_on>2021-11-19 07:45:41</sys_updated_on>
+        <table>var__m_sys_hub_action_input_f9d01dd2c31332002841b63b12d3aea1</table>
+        <value/>
+    </sys_element_mapping>
+    <sys_element_mapping action="INSERT_OR_UPDATE">
+        <field>values</field>
+        <id>253218ab473730101c198a5f746d433f</id>
+        <sys_created_by>kit</sys_created_by>
+        <sys_created_on>2021-11-19 07:45:41</sys_created_on>
+        <sys_id>213218ab473730101c198a5f746d4341</sys_id>
+        <sys_mod_count>2</sys_mod_count>
+        <sys_updated_by>kit</sys_updated_by>
+        <sys_updated_on>2021-11-19 08:09:59</sys_updated_on>
+        <table>var__m_sys_hub_action_input_f9d01dd2c31332002841b63b12d3aea1</table>
+        <value>active={{Updated_1.current.active}}</value>
+    </sys_element_mapping>
+    <sys_hub_action_instance action="INSERT_OR_UPDATE">
+        <action_inputs/>
+        <action_inputs/>
+        <action_type display_value="Look Up Record">9d09f99587003300663ca1bb36cb0ba3</action_type>
+        <action_type_parent/>
+        <comment/>
+        <compiled_snapshot>9d09f99587003300663ca1bb36cb0ba3</compiled_snapshot>
+        <display_text/>
+        <flow display_value="Update Drink Record on Active Change">0dea771747f330101c198a5f746d43ec</flow>
+        <order>1</order>
+        <parent_ui_id/>
+        <sys_class_name>sys_hub_action_instance</sys_class_name>
+        <sys_created_by>kit</sys_created_by>
+        <sys_created_on>2021-11-19 07:45:40</sys_created_on>
+        <sys_id>ed3218ab473730101c198a5f746d4331</sys_id>
+        <sys_mod_count>28</sys_mod_count>
+        <sys_scope display_value="Cafe Management">6a49c4cb472730101c198a5f746d43b0</sys_scope>
+        <sys_updated_by>system</sys_updated_by>
+        <sys_updated_on>2021-11-19 08:23:40</sys_updated_on>
+        <ui_id>81e246b5-aaf2-4a84-9d16-98053fff0d73</ui_id>
+    </sys_hub_action_instance>
+    <sys_variable_value action="delete_multiple" query="document_key=ed3218ab473730101c198a5f746d4331"/>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>sys_hub_action_instance</document>
+        <document_key>ed3218ab473730101c198a5f746d4331</document_key>
+        <order>0</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>kit</sys_created_by>
+        <sys_created_on>2021-11-19 07:45:40</sys_created_on>
+        <sys_id>ad3218ab473730101c198a5f746d4334</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>kit</sys_updated_by>
+        <sys_updated_on>2021-11-19 07:45:40</sys_updated_on>
+        <value>x_616811_cafe_mana_drinks</value>
+        <variable display_value="Table">d909f99587003300663ca1bb36cb0ba4</variable>
+    </sys_variable_value>
+    <sys_element_mapping action="delete_multiple" query="id=ed3218ab473730101c198a5f746d4331"/>
+    <sys_element_mapping action="INSERT_OR_UPDATE">
+        <field>conditions</field>
+        <id>ed3218ab473730101c198a5f746d4331</id>
+        <sys_created_by>kit</sys_created_by>
+        <sys_created_on>2021-11-19 07:45:40</sys_created_on>
+        <sys_id>653218ab473730101c198a5f746d4334</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>kit</sys_updated_by>
+        <sys_updated_on>2021-11-19 07:45:40</sys_updated_on>
+        <table>var__m_sys_hub_action_input_9d09f99587003300663ca1bb36cb0ba3</table>
+        <value>name={{Updated_1.current.name}}</value>
+    </sys_element_mapping>
+    <sys_element_mapping action="INSERT_OR_UPDATE">
+        <field>table</field>
+        <id>ed3218ab473730101c198a5f746d4331</id>
+        <sys_created_by>kit</sys_created_by>
+        <sys_created_on>2021-11-19 07:45:40</sys_created_on>
+        <sys_id>2d3218ab473730101c198a5f746d4334</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>kit</sys_updated_by>
+        <sys_updated_on>2021-11-19 07:45:40</sys_updated_on>
+        <table>var__m_sys_hub_action_input_9d09f99587003300663ca1bb36cb0ba3</table>
+        <value/>
+    </sys_element_mapping>
+    <sys_documentation action="delete_multiple" query="name=var__m_sys_hub_flow_input_0dea771747f330101c198a5f746d43ec^sys_idNOT IN29f588af47f330101c198a5f746d43cc,e0f900e3473730101c198a5f746d4372,e1f588af47f330101c198a5f746d43d2"/>
+    <sys_documentation action="INSERT_OR_UPDATE">
+        <element>current</element>
+        <help/>
+        <hint/>
+        <label>Record</label>
+        <language>en</language>
+        <name>var__m_sys_hub_flow_input_0dea771747f330101c198a5f746d43ec</name>
+        <plural/>
+        <sys_class_name>sys_documentation</sys_class_name>
+        <sys_created_by>kit</sys_created_by>
+        <sys_created_on>2021-11-19 06:52:09</sys_created_on>
+        <sys_id>29f588af47f330101c198a5f746d43cc</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name/>
+        <sys_package display_value="Cafe Management" source="x_616811_cafe_mana">6a49c4cb472730101c198a5f746d43b0</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Cafe Management">6a49c4cb472730101c198a5f746d43b0</sys_scope>
+        <sys_update_name/>
+        <sys_updated_by>kit</sys_updated_by>
+        <sys_updated_on>2021-11-19 06:52:09</sys_updated_on>
+        <url/>
+        <url_target/>
+    </sys_documentation>
+    <sys_documentation action="INSERT_OR_UPDATE">
+        <element>changed_fields</element>
+        <help/>
+        <hint/>
+        <label>Changed Fields</label>
+        <language>en</language>
+        <name>var__m_sys_hub_flow_input_0dea771747f330101c198a5f746d43ec</name>
+        <plural/>
+        <sys_class_name>sys_documentation</sys_class_name>
+        <sys_created_by>kit</sys_created_by>
+        <sys_created_on>2021-11-19 07:09:34</sys_created_on>
+        <sys_id>e0f900e3473730101c198a5f746d4372</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name/>
+        <sys_package display_value="Cafe Management" source="x_616811_cafe_mana">6a49c4cb472730101c198a5f746d43b0</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Cafe Management">6a49c4cb472730101c198a5f746d43b0</sys_scope>
+        <sys_update_name/>
+        <sys_updated_by>kit</sys_updated_by>
+        <sys_updated_on>2021-11-19 07:09:34</sys_updated_on>
+        <url/>
+        <url_target/>
+    </sys_documentation>
+    <sys_documentation action="INSERT_OR_UPDATE">
+        <element>table_name</element>
+        <help/>
+        <hint/>
+        <label>Table Name</label>
+        <language>en</language>
+        <name>var__m_sys_hub_flow_input_0dea771747f330101c198a5f746d43ec</name>
+        <plural/>
+        <sys_class_name>sys_documentation</sys_class_name>
+        <sys_created_by>kit</sys_created_by>
+        <sys_created_on>2021-11-19 06:52:09</sys_created_on>
+        <sys_id>e1f588af47f330101c198a5f746d43d2</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name/>
+        <sys_package display_value="Cafe Management" source="x_616811_cafe_mana">6a49c4cb472730101c198a5f746d43b0</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Cafe Management">6a49c4cb472730101c198a5f746d43b0</sys_scope>
+        <sys_update_name/>
+        <sys_updated_by>kit</sys_updated_by>
+        <sys_updated_on>2021-11-19 06:52:09</sys_updated_on>
+        <url/>
+        <url_target/>
+    </sys_documentation>
+    <sys_flow_trigger_plan action="delete_multiple" query="plan_id=0dea771747f330101c198a5f746d43ec^sys_idNOT INb6f50caf47f330101c198a5f746d43ae"/>
+    <sys_flow_trigger_plan action="INSERT_OR_UPDATE">
+        <binding_strategy>com.snc.process_flow.engine.binding.OncePerRecord</binding_strategy>
+        <plan>{"persistor":{"@class":".ChunkingPlanPersistor","table":"sys_flow_trigger_plan","id":"b6f50caf47f330101c198a5f746d43ae","name":"plan","plan_signature":null}}</plan>
+        <plan_id>0dea771747f330101c198a5f746d43ec</plan_id>
+        <snapshot>86ea10a7477730101c198a5f746d4372</snapshot>
+        <sys_created_by>kit</sys_created_by>
+        <sys_created_on>2021-11-19 06:52:14</sys_created_on>
+        <sys_domain>global</sys_domain>
+        <sys_domain_path>/</sys_domain_path>
+        <sys_id>b6f50caf47f330101c198a5f746d43ae</sys_id>
+        <sys_mod_count>3</sys_mod_count>
+        <sys_overrides/>
+        <sys_scope/>
+        <sys_updated_by>kit</sys_updated_by>
+        <sys_updated_on>2021-11-19 08:12:45</sys_updated_on>
+        <trigger display_value="">5e685ca3477730101c198a5f746d43c9</trigger>
+    </sys_flow_trigger_plan>
+    <sys_hub_flow_snapshot action="INSERT_OR_UPDATE">
+        <access>public</access>
+        <acls/>
+        <active>true</active>
+        <annotation/>
+        <callable_by_client_api>false</callable_by_client_api>
+        <category/>
+        <copied_from/>
+        <copied_from_name/>
+        <description>Creates a Catalog Item record of the associated Drink.</description>
+        <internal_name>create_catalog_item_record_on_drink_creation</internal_name>
+        <label_cache>[{"name":"1d2ca9d7-5447-4526-a631-c16b3627728a.__dont_treat_as_error__","label":"2➛Don\u0027t Treat as Error","reference_display":"Don\u0027t Treat as Error","type":"boolean","base_type":"boolean","attributes":{"uiType":"boolean","visible_in_ui":"false","action_error_output":"true","element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper"}},{"name":"1d2ca9d7-5447-4526-a631-c16b3627728a.__action_status__","label":"2➛Action Status","reference_display":"Action Status","type":"object","base_type":"object","attributes":{"uiType":"object","co_type_name":"FDACTIONSTATUS","action_error_output":"true","element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper"}},{"name":"1d2ca9d7-5447-4526-a631-c16b3627728a.table_name","label":"2➛Drinks Table","reference":"x_616811_cafe_mana_drinks","reference_display":"Drinks","type":"table_name","base_type":"table_name","attributes":{"element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper"}},{"name":"1d2ca9d7-5447-4526-a631-c16b3627728a.record","label":"2➛Drinks Record","reference":"x_616811_cafe_mana_drinks","reference_display":"Drinks","type":"reference","base_type":"reference","attributes":{"element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper"}},{"name":"Updated_1.current.name","label":"Trigger➛Catalog Item Record➛Name","reference":"","reference_display":"Name","type":"translated_text","base_type":"translated_text","parent_table_name":"sc_cat_item","column_name":"name"},{"name":"84d97171-c6e6-426b-9e79-bfb4da42425a.__dont_treat_as_error__","label":"2➛Don\u0027t Treat as Error","reference_display":"Don\u0027t Treat as Error","type":"boolean","base_type":"boolean","attributes":{"uiType":"boolean","visible_in_ui":"false","action_error_output":"true","element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper"}},{"name":"84d97171-c6e6-426b-9e79-bfb4da42425a.__action_status__","label":"2➛Action Status","reference_display":"Action Status","type":"object","base_type":"object","attributes":{"uiType":"object","co_type_name":"FDACTIONSTATUS","action_error_output":"true","element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper"}},{"name":"84d97171-c6e6-426b-9e79-bfb4da42425a.error_message","label":"2➛Error Message","reference_display":"Error Message","type":"string","base_type":"string","attributes":{"uiType":"string","uiTypeLabel":"String","element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper","pwd2droppable":"true","uiUniqueId":"87687532-9e3d-4497-a88e-90f45bfb9adb"}},{"name":"84d97171-c6e6-426b-9e79-bfb4da42425a.status","label":"2➛Status","reference_display":"Status","type":"choice","base_type":"choice","attributes":{"uiType":"choice","uiTypeLabel":"Choice","element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper","uiUniqueId":"5e478657-3a84-4a60-a92b-d3e80005ad34"}},{"name":"84d97171-c6e6-426b-9e79-bfb4da42425a.Table","label":"2➛Drinks Table","reference":"x_616811_cafe_mana_drinks","reference_display":"Drinks","type":"table_name","base_type":"table_name","attributes":{"element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper"}},{"name":"84d97171-c6e6-426b-9e79-bfb4da42425a.Record","label":"2➛Drinks Record","reference":"x_616811_cafe_mana_drinks","reference_display":"Drinks","type":"reference","base_type":"reference","attributes":{"element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper"}},{"name":"b3384fbd-7d66-45e4-8ddd-05fd998888ce.__dont_treat_as_error__","label":"1➛Don\u0027t Treat as Error","reference_display":"Don\u0027t Treat as Error","type":"boolean","base_type":"boolean","attributes":{"element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper","uiType":"boolean","visible_in_ui":"false","action_error_output":"true"}},{"name":"b3384fbd-7d66-45e4-8ddd-05fd998888ce.__action_status__","label":"1➛Action Status","reference_display":"Action Status","type":"object","base_type":"object","attributes":{"co_type_name":"FDACTIONSTATUS","element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper","uiType":"object","action_error_output":"true"}},{"name":"b3384fbd-7d66-45e4-8ddd-05fd998888ce.table_name","label":"1➛Table","reference_display":"Table","type":"table_name","base_type":"table_name","attributes":{"element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper"}},{"name":"b3384fbd-7d66-45e4-8ddd-05fd998888ce.record","label":"1➛Record","reference_display":"Record","type":"document_id","base_type":"document_id","attributes":{"element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper"}},{"name":"c9f11ca1-9e63-48d0-87c7-a0de2f566ffd.__dont_treat_as_error__","label":"2➛Don\u0027t Treat as Error","reference_display":"Don\u0027t Treat as Error","type":"boolean","base_type":"boolean","attributes":{"element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper","uiType":"boolean","visible_in_ui":"false","action_error_output":"true"}},{"name":"c9f11ca1-9e63-48d0-87c7-a0de2f566ffd.__action_status__","label":"2➛Action Status","reference_display":"Action Status","type":"object","base_type":"object","attributes":{"co_type_name":"FDACTIONSTATUS","element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper","uiType":"object","action_error_output":"true"}},{"name":"c9f11ca1-9e63-48d0-87c7-a0de2f566ffd.table_name","label":"2➛Table","reference_display":"Table","type":"table_name","base_type":"table_name","attributes":{"element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper"}},{"name":"c9f11ca1-9e63-48d0-87c7-a0de2f566ffd.record","label":"2➛Record","reference_display":"Record","type":"document_id","base_type":"document_id","attributes":{"element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper"}},{"name":"Created_1.current","label":"Trigger➛Drinks Record","reference":"x_616811_cafe_mana_drinks","reference_display":"Drinks","type":"reference","base_type":"reference","attributes":{}},{"name":"9eae2277-e642-4459-a0e3-c3b3e09a2a9a.__dont_treat_as_error__","label":"2➛Don\u0027t Treat as Error","reference_display":"Don\u0027t Treat as Error","type":"boolean","base_type":"boolean","attributes":{"element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper","uiType":"boolean","visible_in_ui":"false","action_error_output":"true"}},{"name":"9eae2277-e642-4459-a0e3-c3b3e09a2a9a.__action_status__","label":"2➛Action Status","reference_display":"Action Status","type":"object","base_type":"object","attributes":{"co_type_name":"FDACTIONSTATUS","element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper","uiType":"object","action_error_output":"true"}},{"name":"9eae2277-e642-4459-a0e3-c3b3e09a2a9a.Catalog Task","label":"2➛Catalog Task","reference":"sc_task","reference_display":"Catalog Task","type":"document_id","base_type":"document_id","attributes":{"element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper"}},{"name":"Created_1.current.image","label":"Trigger➛Drinks Record➛Image","reference":"","reference_display":"Image","type":"user_image","base_type":"user_image","parent_table_name":"x_616811_cafe_mana_drinks","column_name":"image"},{"name":"Created_1.current.short_description","label":"Trigger➛Drinks Record➛Short Description","reference":"","reference_display":"Short Description","type":"string","base_type":"string","parent_table_name":"x_616811_cafe_mana_drinks","column_name":"short_description"},{"name":"Created_1.current.name","label":"Trigger➛Drinks Record➛Name","reference":"","reference_display":"Name","type":"string","base_type":"string","parent_table_name":"x_616811_cafe_mana_drinks","column_name":"name"},{"name":"04b65589-9af7-431b-b446-1307adb6c35c.__dont_treat_as_error__","label":"1➛Don\u0027t Treat as Error","reference_display":"Don\u0027t Treat as Error","type":"boolean","base_type":"boolean","attributes":{"uiType":"boolean","visible_in_ui":"false","action_error_output":"true","element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper"}},{"name":"04b65589-9af7-431b-b446-1307adb6c35c.__action_status__","label":"1➛Action Status","reference_display":"Action Status","type":"object","base_type":"object","attributes":{"uiType":"object","co_type_name":"FDACTIONSTATUS","action_error_output":"true","element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper"}},{"name":"04b65589-9af7-431b-b446-1307adb6c35c.table_name","label":"1➛Table","reference_display":"Table","type":"table_name","base_type":"table_name","attributes":{"element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper"}},{"name":"04b65589-9af7-431b-b446-1307adb6c35c.record","label":"1➛Record","reference_display":"Record","type":"document_id","base_type":"document_id","attributes":{"element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper"}},{"name":"Updated_1.current.active","label":"Trigger➛Catalog Item Record➛Active","reference":"","reference_display":"Active","type":"boolean","base_type":"boolean","parent_table_name":"sc_cat_item","column_name":"active"},{"name":"84d97171-c6e6-426b-9e79-bfb4da42425a.Record.active","label":"2➛Drinks Record➛Active","reference":"","reference_display":"Active","type":"boolean","base_type":"boolean","parent_table_name":"x_616811_cafe_mana_drinks","column_name":"active"},{"name":"67898df3-f7a3-4c9f-b94a-c399d6698ba2.record","label":"2➛Drinks Record","reference":"x_616811_cafe_mana_drinks","reference_display":"Drinks","type":"reference","base_type":"reference","attributes":{"element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper"}},{"name":"67898df3-f7a3-4c9f-b94a-c399d6698ba2.table_name","label":"2➛Drinks Table","reference":"x_616811_cafe_mana_drinks","reference_display":"Drinks","type":"table_name","base_type":"table_name","attributes":{"element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper"}},{"name":"67898df3-f7a3-4c9f-b94a-c399d6698ba2.__action_status__","label":"2➛Action Status","reference_display":"Action Status","type":"object","base_type":"object","attributes":{"co_type_name":"FDACTIONSTATUS","element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper","uiType":"object","action_error_output":"true"}},{"name":"67898df3-f7a3-4c9f-b94a-c399d6698ba2.__dont_treat_as_error__","label":"2➛Don\u0027t Treat as Error","reference_display":"Don\u0027t Treat as Error","type":"boolean","base_type":"boolean","attributes":{"element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper","uiType":"boolean","visible_in_ui":"false","action_error_output":"true"}},{"name":"cfb0e97a-33e2-4333-96cd-795497cad184.record","label":"4➛Record","reference_display":"Record","type":"document_id","base_type":"document_id","attributes":{"element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper"}},{"name":"cfb0e97a-33e2-4333-96cd-795497cad184.table_name","label":"4➛Table","reference_display":"Table","type":"table_name","base_type":"table_name","attributes":{"element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper"}},{"name":"cfb0e97a-33e2-4333-96cd-795497cad184.__action_status__","label":"4➛Action Status","reference_display":"Action Status","type":"object","base_type":"object","attributes":{"co_type_name":"FDACTIONSTATUS","element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper","uiType":"object","action_error_output":"true"}},{"name":"cfb0e97a-33e2-4333-96cd-795497cad184.__dont_treat_as_error__","label":"4➛Don\u0027t Treat as Error","reference_display":"Don\u0027t Treat as Error","type":"boolean","base_type":"boolean","attributes":{"element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper","uiType":"boolean","visible_in_ui":"false","action_error_output":"true"}},{"name":"90d28547-bddd-4a9c-8413-5706e4772c8c.record","label":"2➛Drinks Record","reference":"x_616811_cafe_mana_drinks","reference_display":"Drinks","type":"reference","base_type":"reference","attributes":{"element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper"}},{"name":"90d28547-bddd-4a9c-8413-5706e4772c8c.table_name","label":"2➛Drinks Table","reference":"x_616811_cafe_mana_drinks","reference_display":"Drinks","type":"table_name","base_type":"table_name","attributes":{"element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper"}},{"name":"90d28547-bddd-4a9c-8413-5706e4772c8c.__action_status__","label":"2➛Action Status","reference_display":"Action Status","type":"object","base_type":"object","attributes":{"uiType":"object","co_type_name":"FDACTIONSTATUS","action_error_output":"true","element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper"}},{"name":"90d28547-bddd-4a9c-8413-5706e4772c8c.__dont_treat_as_error__","label":"2➛Don\u0027t Treat as Error","reference_display":"Don\u0027t Treat as Error","type":"boolean","base_type":"boolean","attributes":{"uiType":"boolean","visible_in_ui":"false","action_error_output":"true","element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper"}},{"name":"81e246b5-aaf2-4a84-9d16-98053fff0d73.Record","label":"1➛Drinks Record","reference":"x_616811_cafe_mana_drinks","reference_display":"Drinks","type":"reference","base_type":"reference","attributes":{"element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper"}},{"name":"81e246b5-aaf2-4a84-9d16-98053fff0d73.Table","label":"1➛Drinks Table","reference":"x_616811_cafe_mana_drinks","reference_display":"Drinks","type":"table_name","base_type":"table_name","attributes":{"element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper"}},{"name":"81e246b5-aaf2-4a84-9d16-98053fff0d73.status","label":"1➛Status","reference_display":"Status","type":"choice","base_type":"choice","attributes":{"uiType":"choice","uiTypeLabel":"Choice","element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper","uiUniqueId":"5e478657-3a84-4a60-a92b-d3e80005ad34"}},{"name":"81e246b5-aaf2-4a84-9d16-98053fff0d73.error_message","label":"1➛Error Message","reference_display":"Error Message","type":"string","base_type":"string","attributes":{"uiType":"string","uiTypeLabel":"String","element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper","pwd2droppable":"true","uiUniqueId":"87687532-9e3d-4497-a88e-90f45bfb9adb"}},{"name":"81e246b5-aaf2-4a84-9d16-98053fff0d73.__action_status__","label":"1➛Action Status","reference_display":"Action Status","type":"object","base_type":"object","attributes":{"uiType":"object","co_type_name":"FDACTIONSTATUS","action_error_output":"true","element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper"}},{"name":"81e246b5-aaf2-4a84-9d16-98053fff0d73.__dont_treat_as_error__","label":"1➛Don\u0027t Treat as Error","reference_display":"Don\u0027t Treat as Error","type":"boolean","base_type":"boolean","attributes":{"uiType":"boolean","visible_in_ui":"false","action_error_output":"true","element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper"}},{"name":"Updated_1.current.short_description","label":"Trigger➛Catalog Item Record➛Short description","reference":"","reference_display":"Short description","type":"translated_text","base_type":"translated_text","parent_table_name":"sc_cat_item","column_name":"short_description"},{"name":"Updated_1.current.image","label":"Trigger➛Catalog Item Record➛Image","reference":"","reference_display":"Image","type":"image","base_type":"image","parent_table_name":"sc_cat_item","column_name":"image"}]</label_cache>
+        <master>true</master>
+        <name>Update Drink Record on Active Change</name>
+        <natlang/>
+        <outputs/>
+        <parent_flow display_value="Update Drink Record on Active Change">0dea771747f330101c198a5f746d43ec</parent_flow>
+        <remote_trigger_id/>
+        <run_as>user</run_as>
+        <run_with_roles/>
+        <sc_callable>false</sc_callable>
+        <status>published</status>
+        <sys_class_name>sys_hub_flow_snapshot</sys_class_name>
+        <sys_created_by>kit</sys_created_by>
+        <sys_created_on>2021-11-19 06:52:13</sys_created_on>
+        <sys_domain>global</sys_domain>
+        <sys_domain_path>/</sys_domain_path>
+        <sys_id>aaf50caf47f330101c198a5f746d4337</sys_id>
+        <sys_mod_count>3</sys_mod_count>
+        <sys_name/>
+        <sys_overrides/>
+        <sys_package/>
+        <sys_policy/>
+        <sys_scope display_value="Cafe Management">6a49c4cb472730101c198a5f746d43b0</sys_scope>
+        <sys_update_name/>
+        <sys_updated_by>kit</sys_updated_by>
+        <sys_updated_on>2021-11-19 08:12:44</sys_updated_on>
+        <type>flow</type>
+    </sys_hub_flow_snapshot>
+    <sys_translated_text action="delete_multiple" query="documentkey=aaf50caf47f330101c198a5f746d4337"/>
+    <sys_variable_value action="delete_multiple" query="document_key=aaf50caf47f330101c198a5f746d4337"/>
+    <sys_hub_trigger_instance action="delete_multiple" query="flow=aaf50caf47f330101c198a5f746d4337^sys_idNOT INbaf50caf47f330101c198a5f746d439c"/>
+    <sys_hub_trigger_instance action="INSERT_OR_UPDATE">
+        <comment>When Catalog Item Active field changes</comment>
+        <display_text/>
+        <flow display_value="Update Drink Record on Active Change">aaf50caf47f330101c198a5f746d4337</flow>
+        <name>Updated</name>
+        <remote_sys_id/>
+        <sys_created_by>kit</sys_created_by>
+        <sys_created_on>2021-11-19 06:52:14</sys_created_on>
+        <sys_id>baf50caf47f330101c198a5f746d439c</sys_id>
+        <sys_mod_count>12</sys_mod_count>
+        <sys_scope/>
+        <sys_updated_by>kit</sys_updated_by>
+        <sys_updated_on>2021-11-19 08:12:45</sys_updated_on>
+        <trigger_definition display_value="Updated">bb695e60c31322002841b63b12d3aea5</trigger_definition>
+        <trigger_inputs/>
+        <trigger_outputs/>
+        <trigger_type>record_update</trigger_type>
+    </sys_hub_trigger_instance>
+    <sys_variable_value action="delete_multiple" query="document_key=baf50caf47f330101c198a5f746d439c"/>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>sys_hub_trigger_instance</document>
+        <document_key>baf50caf47f330101c198a5f746d439c</document_key>
+        <order>1</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>kit</sys_created_by>
+        <sys_created_on>2021-11-19 06:52:14</sys_created_on>
+        <sys_id>72f50caf47f330101c198a5f746d439e</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>kit</sys_updated_by>
+        <sys_updated_on>2021-11-19 06:52:14</sys_updated_on>
+        <value>x_616811_cafe_mana_drinks</value>
+        <variable display_value="Table">cfca92e0c31322002841b63b12d3ae00</variable>
+    </sys_variable_value>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>sys_hub_trigger_instance</document>
+        <document_key>baf50caf47f330101c198a5f746d439c</document_key>
+        <order>1</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>kit</sys_created_by>
+        <sys_created_on>2021-11-19 08:09:07</sys_created_on>
+        <sys_id>b497d063477730101c198a5f746d437e</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>kit</sys_updated_by>
+        <sys_updated_on>2021-11-19 08:09:07</sys_updated_on>
+        <value>sc_cat_item</value>
+        <variable display_value="Table">1dda12e0c31322002841b63b12d3aea8</variable>
+    </sys_variable_value>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>sys_hub_trigger_instance</document>
+        <document_key>baf50caf47f330101c198a5f746d439c</document_key>
+        <order>100</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>kit</sys_created_by>
+        <sys_created_on>2021-11-19 06:52:14</sys_created_on>
+        <sys_id>bef50caf47f330101c198a5f746d439d</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>kit</sys_updated_by>
+        <sys_updated_on>2021-11-19 06:52:14</sys_updated_on>
+        <value>^EQ</value>
+        <variable display_value="Condition">66aadea0c31322002841b63b12d3aebf</variable>
+    </sys_variable_value>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>sys_hub_trigger_instance</document>
+        <document_key>baf50caf47f330101c198a5f746d439c</document_key>
+        <order>100</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>kit</sys_created_by>
+        <sys_created_on>2021-11-19 08:09:07</sys_created_on>
+        <sys_id>f097d063477730101c198a5f746d437e</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>kit</sys_updated_by>
+        <sys_updated_on>2021-11-19 08:09:07</sys_updated_on>
+        <value>activeVALCHANGES</value>
+        <variable display_value="Condition">bb9adea0c31322002841b63b12d3ae67</variable>
+    </sys_variable_value>
+    <sys_element_mapping action="delete_multiple" query="table=var__m_sys_hub_trigger_output_bb695e60c31322002841b63b12d3aea5^id=baf50caf47f330101c198a5f746d439c"/>
+    <sys_flow_cat_variable_model action="delete_multiple" query="id=aaf50caf47f330101c198a5f746d4337^sys_idNOT IN2ef50caf47f330101c198a5f746d4338"/>
+    <sys_flow_cat_variable_model action="INSERT_OR_UPDATE">
+        <id>aaf50caf47f330101c198a5f746d4337</id>
+        <name>Create Catalog Item Record on Drink Creation</name>
+        <sys_created_by>kit</sys_created_by>
+        <sys_created_on>2021-11-19 06:52:13</sys_created_on>
+        <sys_id>2ef50caf47f330101c198a5f746d4338</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_scope/>
+        <sys_updated_by>kit</sys_updated_by>
+        <sys_updated_on>2021-11-19 06:52:13</sys_updated_on>
+    </sys_flow_cat_variable_model>
+    <sys_hub_flow_input action="delete_multiple" query="model=aaf50caf47f330101c198a5f746d4337^sys_idNOT IN66f50caf47f330101c198a5f746d437d,a2f50caf47f330101c198a5f746d433a,b097d063477730101c198a5f746d4368"/>
+    <sys_hub_flow_input action="INSERT_OR_UPDATE">
+        <active>true</active>
+        <array>false</array>
+        <array_denormalized>false</array_denormalized>
+        <attributes>element_mapping_provider=com.glide.flow_design.action.data.FlowDesignVariableMapper,test_input_hidden=true,uiType=table_name</attributes>
+        <audit>false</audit>
+        <calculation><![CDATA[(function calculatedFieldValue(current) {
+
+	// Add your code here
+	return '';  // return the calculated value
+
+})(current);]]></calculation>
+        <choice/>
+        <choice_field/>
+        <choice_table/>
+        <column_label/>
+        <comments/>
+        <create_roles/>
+        <default_value/>
+        <defaultsort/>
+        <delete_roles/>
+        <dependent/>
+        <dependent_on_field/>
+        <display>false</display>
+        <dynamic_creation>false</dynamic_creation>
+        <dynamic_creation_script/>
+        <dynamic_default_value/>
+        <dynamic_ref_qual/>
+        <element>table_name</element>
+        <element_reference>false</element_reference>
+        <foreign_database/>
+        <function_definition/>
+        <function_field>false</function_field>
+        <help/>
+        <hint/>
+        <internal_type display_value="">table_name</internal_type>
+        <label>Table Name</label>
+        <mandatory>false</mandatory>
+        <max_length>200</max_length>
+        <model display_value="Update Drink Record on Active Change">aaf50caf47f330101c198a5f746d4337</model>
+        <model_id>aaf50caf47f330101c198a5f746d4337</model_id>
+        <model_table>sys_hub_flow_snapshot</model_table>
+        <name>var__m_sys_hub_flow_input_aaf50caf47f330101c198a5f746d4337</name>
+        <next_element/>
+        <order>101</order>
+        <primary>false</primary>
+        <read_only>false</read_only>
+        <read_roles/>
+        <reference/>
+        <reference_cascade_rule/>
+        <reference_floats>false</reference_floats>
+        <reference_key/>
+        <reference_qual/>
+        <reference_qual_condition/>
+        <reference_type/>
+        <sizeclass/>
+        <spell_check>false</spell_check>
+        <staged>false</staged>
+        <sys_class_name>sys_hub_flow_input</sys_class_name>
+        <sys_created_by>kit</sys_created_by>
+        <sys_created_on>2021-11-19 06:52:14</sys_created_on>
+        <sys_id>66f50caf47f330101c198a5f746d437d</sys_id>
+        <sys_mod_count>5</sys_mod_count>
+        <sys_name/>
+        <sys_package/>
+        <sys_policy/>
+        <sys_scope display_value="Cafe Management">6a49c4cb472730101c198a5f746d43b0</sys_scope>
+        <sys_update_name/>
+        <sys_updated_by>kit</sys_updated_by>
+        <sys_updated_on>2021-11-19 08:12:44</sys_updated_on>
+        <table_reference>false</table_reference>
+        <text_index>false</text_index>
+        <unique>false</unique>
+        <use_dependent_field>false</use_dependent_field>
+        <use_dynamic_default>false</use_dynamic_default>
+        <use_reference_qualifier>simple</use_reference_qualifier>
+        <virtual>false</virtual>
+        <widget/>
+        <write_roles/>
+        <xml_view>false</xml_view>
+    </sys_hub_flow_input>
+    <sys_hub_flow_input action="INSERT_OR_UPDATE">
+        <active>true</active>
+        <array>false</array>
+        <array_denormalized>false</array_denormalized>
+        <attributes>element_mapping_provider=com.glide.flow_design.action.data.FlowDesignVariableMapper,uiType=document_id</attributes>
+        <audit>false</audit>
+        <calculation><![CDATA[(function calculatedFieldValue(current) {
+
+	// Add your code here
+	return '';  // return the calculated value
+
+})(current);]]></calculation>
+        <choice/>
+        <choice_field/>
+        <choice_table/>
+        <column_label/>
+        <comments/>
+        <create_roles/>
+        <default_value/>
+        <defaultsort/>
+        <delete_roles/>
+        <dependent>table_name</dependent>
+        <dependent_on_field>table_name</dependent_on_field>
+        <display>false</display>
+        <dynamic_creation>false</dynamic_creation>
+        <dynamic_creation_script/>
+        <dynamic_default_value/>
+        <dynamic_ref_qual/>
+        <element>current</element>
+        <element_reference>false</element_reference>
+        <foreign_database/>
+        <function_definition/>
+        <function_field>false</function_field>
+        <help/>
+        <hint/>
+        <internal_type display_value="">document_id</internal_type>
+        <label>Record</label>
+        <mandatory>true</mandatory>
+        <max_length>200</max_length>
+        <model display_value="Update Drink Record on Active Change">aaf50caf47f330101c198a5f746d4337</model>
+        <model_id>aaf50caf47f330101c198a5f746d4337</model_id>
+        <model_table>sys_hub_flow_snapshot</model_table>
+        <name>var__m_sys_hub_flow_input_aaf50caf47f330101c198a5f746d4337</name>
+        <next_element/>
+        <order>100</order>
+        <primary>false</primary>
+        <read_only>false</read_only>
+        <read_roles/>
+        <reference/>
+        <reference_cascade_rule/>
+        <reference_floats>false</reference_floats>
+        <reference_key/>
+        <reference_qual/>
+        <reference_qual_condition/>
+        <reference_type/>
+        <sizeclass/>
+        <spell_check>false</spell_check>
+        <staged>false</staged>
+        <sys_class_name>sys_hub_flow_input</sys_class_name>
+        <sys_created_by>kit</sys_created_by>
+        <sys_created_on>2021-11-19 06:52:13</sys_created_on>
+        <sys_id>a2f50caf47f330101c198a5f746d433a</sys_id>
+        <sys_mod_count>5</sys_mod_count>
+        <sys_name/>
+        <sys_package/>
+        <sys_policy/>
+        <sys_scope display_value="Cafe Management">6a49c4cb472730101c198a5f746d43b0</sys_scope>
+        <sys_update_name/>
+        <sys_updated_by>kit</sys_updated_by>
+        <sys_updated_on>2021-11-19 08:12:44</sys_updated_on>
+        <table_reference>false</table_reference>
+        <text_index>false</text_index>
+        <unique>false</unique>
+        <use_dependent_field>true</use_dependent_field>
+        <use_dynamic_default>false</use_dynamic_default>
+        <use_reference_qualifier>simple</use_reference_qualifier>
+        <virtual>false</virtual>
+        <widget/>
+        <write_roles/>
+        <xml_view>false</xml_view>
+    </sys_hub_flow_input>
+    <sys_hub_flow_input action="INSERT_OR_UPDATE">
+        <active>true</active>
+        <array>false</array>
+        <array_denormalized>false</array_denormalized>
+        <attributes>child_label=FDChangeDetails,child_name=FDChangeDetails,child_type=object,child_type_label=Object,co_type_name=FD4a685ca3b7773010483490b1fb852c3d,element_mapping_provider=com.glide.flow_design.action.data.FlowDesignVariableMapper,pwd2droppable=true,uiType=array.object,uiTypeLabel=Array.Object</attributes>
+        <audit>false</audit>
+        <calculation><![CDATA[(function calculatedFieldValue(current) {
+
+	// Add your code here
+	return '';  // return the calculated value
+
+})(current);]]></calculation>
+        <choice/>
+        <choice_field/>
+        <choice_table/>
+        <column_label/>
+        <comments/>
+        <create_roles/>
+        <default_value/>
+        <defaultsort/>
+        <delete_roles/>
+        <dependent/>
+        <dependent_on_field/>
+        <display>false</display>
+        <dynamic_creation>false</dynamic_creation>
+        <dynamic_creation_script/>
+        <dynamic_default_value/>
+        <dynamic_ref_qual/>
+        <element>changed_fields</element>
+        <element_reference>false</element_reference>
+        <foreign_database/>
+        <function_definition/>
+        <function_field>false</function_field>
+        <help/>
+        <hint/>
+        <internal_type display_value="String">string</internal_type>
+        <label>Changed Fields</label>
+        <mandatory>false</mandatory>
+        <max_length>4000</max_length>
+        <model display_value="Update Drink Record on Active Change">aaf50caf47f330101c198a5f746d4337</model>
+        <model_id>aaf50caf47f330101c198a5f746d4337</model_id>
+        <model_table>sys_hub_flow_snapshot</model_table>
+        <name>var__m_sys_hub_flow_input_aaf50caf47f330101c198a5f746d4337</name>
+        <next_element/>
+        <order>100</order>
+        <primary>false</primary>
+        <read_only>false</read_only>
+        <read_roles/>
+        <reference/>
+        <reference_cascade_rule/>
+        <reference_floats>false</reference_floats>
+        <reference_key/>
+        <reference_qual/>
+        <reference_qual_condition/>
+        <reference_type/>
+        <sizeclass/>
+        <spell_check>false</spell_check>
+        <staged>false</staged>
+        <sys_class_name>sys_hub_flow_input</sys_class_name>
+        <sys_created_by>kit</sys_created_by>
+        <sys_created_on>2021-11-19 08:09:06</sys_created_on>
+        <sys_id>b097d063477730101c198a5f746d4368</sys_id>
+        <sys_mod_count>3</sys_mod_count>
+        <sys_name/>
+        <sys_package/>
+        <sys_policy/>
+        <sys_scope display_value="Cafe Management">6a49c4cb472730101c198a5f746d43b0</sys_scope>
+        <sys_update_name/>
+        <sys_updated_by>kit</sys_updated_by>
+        <sys_updated_on>2021-11-19 08:12:44</sys_updated_on>
+        <table_reference>false</table_reference>
+        <text_index>false</text_index>
+        <unique>false</unique>
+        <use_dependent_field>false</use_dependent_field>
+        <use_dynamic_default>false</use_dynamic_default>
+        <use_reference_qualifier>simple</use_reference_qualifier>
+        <virtual>false</virtual>
+        <widget/>
+        <write_roles/>
+        <xml_view>false</xml_view>
+    </sys_hub_flow_input>
+    <sys_hub_action_instance action="delete_multiple" query="flow=aaf50caf47f330101c198a5f746d4337^sys_idNOT IN8997d063477730101c198a5f746d438f,c597d063477730101c198a5f746d4387"/>
+    <sys_hub_action_instance action="INSERT_OR_UPDATE">
+        <action_inputs/>
+        <action_inputs/>
+        <action_type display_value="Update Record">f9d01dd2c31332002841b63b12d3aea1</action_type>
+        <action_type_parent display_value="Update Record">baf174c8c3c232002841b63b12d3aee4</action_type_parent>
+        <comment/>
+        <compiled_snapshot>f9d01dd2c31332002841b63b12d3aea1</compiled_snapshot>
+        <display_text/>
+        <flow display_value="Update Drink Record on Active Change">aaf50caf47f330101c198a5f746d4337</flow>
+        <order>2</order>
+        <parent_ui_id/>
+        <sys_class_name>sys_hub_action_instance</sys_class_name>
+        <sys_created_by>kit</sys_created_by>
+        <sys_created_on>2021-11-19 08:09:07</sys_created_on>
+        <sys_id>8997d063477730101c198a5f746d438f</sys_id>
+        <sys_mod_count>12</sys_mod_count>
+        <sys_scope display_value="Cafe Management">6a49c4cb472730101c198a5f746d43b0</sys_scope>
+        <sys_updated_by>kit</sys_updated_by>
+        <sys_updated_on>2021-11-19 08:12:44</sys_updated_on>
+        <ui_id>90d28547-bddd-4a9c-8413-5706e4772c8c</ui_id>
+    </sys_hub_action_instance>
+    <sys_variable_value action="delete_multiple" query="document_key=8997d063477730101c198a5f746d438f"/>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>sys_hub_action_instance</document>
+        <document_key>8997d063477730101c198a5f746d438f</document_key>
+        <order>50</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>kit</sys_created_by>
+        <sys_created_on>2021-11-19 08:09:07</sys_created_on>
+        <sys_id>c597d063477730101c198a5f746d4391</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>kit</sys_updated_by>
+        <sys_updated_on>2021-11-19 08:09:07</sys_updated_on>
+        <value>x_616811_cafe_mana_drinks</value>
+        <variable display_value="Table">b5d01916c31332002841b63b12d3aec9</variable>
+    </sys_variable_value>
+    <sys_element_mapping action="delete_multiple" query="id=8997d063477730101c198a5f746d438f"/>
+    <sys_element_mapping action="INSERT_OR_UPDATE">
+        <field>record</field>
+        <id>8997d063477730101c198a5f746d438f</id>
+        <sys_created_by>kit</sys_created_by>
+        <sys_created_on>2021-11-19 08:09:07</sys_created_on>
+        <sys_id>8197d063477730101c198a5f746d4391</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>kit</sys_updated_by>
+        <sys_updated_on>2021-11-19 08:09:07</sys_updated_on>
+        <table>var__m_sys_hub_action_input_f9d01dd2c31332002841b63b12d3aea1</table>
+        <value>{{81e246b5-aaf2-4a84-9d16-98053fff0d73.Record}}</value>
+    </sys_element_mapping>
+    <sys_element_mapping action="INSERT_OR_UPDATE">
+        <field>table_name</field>
+        <id>8997d063477730101c198a5f746d438f</id>
+        <sys_created_by>kit</sys_created_by>
+        <sys_created_on>2021-11-19 08:09:07</sys_created_on>
+        <sys_id>cd97d063477730101c198a5f746d4390</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>kit</sys_updated_by>
+        <sys_updated_on>2021-11-19 08:09:07</sys_updated_on>
+        <table>var__m_sys_hub_action_input_f9d01dd2c31332002841b63b12d3aea1</table>
+        <value/>
+    </sys_element_mapping>
+    <sys_element_mapping action="INSERT_OR_UPDATE">
+        <field>values</field>
+        <id>8997d063477730101c198a5f746d438f</id>
+        <sys_created_by>kit</sys_created_by>
+        <sys_created_on>2021-11-19 08:09:07</sys_created_on>
+        <sys_id>4597d063477730101c198a5f746d4391</sys_id>
+        <sys_mod_count>1</sys_mod_count>
+        <sys_updated_by>kit</sys_updated_by>
+        <sys_updated_on>2021-11-19 08:10:03</sys_updated_on>
+        <table>var__m_sys_hub_action_input_f9d01dd2c31332002841b63b12d3aea1</table>
+        <value>active={{Updated_1.current.active}}</value>
+    </sys_element_mapping>
+    <sys_hub_action_instance action="INSERT_OR_UPDATE">
+        <action_inputs/>
+        <action_inputs/>
+        <action_type display_value="Look Up Record">9d09f99587003300663ca1bb36cb0ba3</action_type>
+        <action_type_parent display_value="Look Up Record">b93f42810b30030085c083eb37673a63</action_type_parent>
+        <comment/>
+        <compiled_snapshot>9d09f99587003300663ca1bb36cb0ba3</compiled_snapshot>
+        <display_text/>
+        <flow display_value="Update Drink Record on Active Change">aaf50caf47f330101c198a5f746d4337</flow>
+        <order>1</order>
+        <parent_ui_id/>
+        <sys_class_name>sys_hub_action_instance</sys_class_name>
+        <sys_created_by>kit</sys_created_by>
+        <sys_created_on>2021-11-19 08:09:07</sys_created_on>
+        <sys_id>c597d063477730101c198a5f746d4387</sys_id>
+        <sys_mod_count>12</sys_mod_count>
+        <sys_scope display_value="Cafe Management">6a49c4cb472730101c198a5f746d43b0</sys_scope>
+        <sys_updated_by>kit</sys_updated_by>
+        <sys_updated_on>2021-11-19 08:12:44</sys_updated_on>
+        <ui_id>81e246b5-aaf2-4a84-9d16-98053fff0d73</ui_id>
+    </sys_hub_action_instance>
+    <sys_variable_value action="delete_multiple" query="document_key=c597d063477730101c198a5f746d4387"/>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>sys_hub_action_instance</document>
+        <document_key>c597d063477730101c198a5f746d4387</document_key>
+        <order>0</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>kit</sys_created_by>
+        <sys_created_on>2021-11-19 08:09:07</sys_created_on>
+        <sys_id>cd97d063477730101c198a5f746d4389</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>kit</sys_updated_by>
+        <sys_updated_on>2021-11-19 08:09:07</sys_updated_on>
+        <value>x_616811_cafe_mana_drinks</value>
+        <variable display_value="Table">d909f99587003300663ca1bb36cb0ba4</variable>
+    </sys_variable_value>
+    <sys_element_mapping action="delete_multiple" query="id=c597d063477730101c198a5f746d4387"/>
+    <sys_element_mapping action="INSERT_OR_UPDATE">
+        <field>conditions</field>
+        <id>c597d063477730101c198a5f746d4387</id>
+        <sys_created_by>kit</sys_created_by>
+        <sys_created_on>2021-11-19 08:09:07</sys_created_on>
+        <sys_id>8597d063477730101c198a5f746d4389</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>kit</sys_updated_by>
+        <sys_updated_on>2021-11-19 08:09:07</sys_updated_on>
+        <table>var__m_sys_hub_action_input_9d09f99587003300663ca1bb36cb0ba3</table>
+        <value>name={{Updated_1.current.name}}</value>
+    </sys_element_mapping>
+    <sys_element_mapping action="INSERT_OR_UPDATE">
+        <field>table</field>
+        <id>c597d063477730101c198a5f746d4387</id>
+        <sys_created_by>kit</sys_created_by>
+        <sys_created_on>2021-11-19 08:09:07</sys_created_on>
+        <sys_id>4d97d063477730101c198a5f746d4389</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>kit</sys_updated_by>
+        <sys_updated_on>2021-11-19 08:09:07</sys_updated_on>
+        <table>var__m_sys_hub_action_input_9d09f99587003300663ca1bb36cb0ba3</table>
+        <value/>
+    </sys_element_mapping>
+    <sys_documentation action="delete_multiple" query="name=var__m_sys_hub_flow_input_aaf50caf47f330101c198a5f746d4337^sys_idNOT IN6ef50caf47f330101c198a5f746d436c,7897d063477730101c198a5f746d436e,a2f50caf47f330101c198a5f746d4383"/>
+    <sys_documentation action="INSERT_OR_UPDATE">
+        <element>current</element>
+        <help/>
+        <hint/>
+        <label>Record</label>
+        <language>en</language>
+        <name>var__m_sys_hub_flow_input_aaf50caf47f330101c198a5f746d4337</name>
+        <plural/>
+        <sys_class_name>sys_documentation</sys_class_name>
+        <sys_created_by>kit</sys_created_by>
+        <sys_created_on>2021-11-19 06:52:14</sys_created_on>
+        <sys_id>6ef50caf47f330101c198a5f746d436c</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name/>
+        <sys_package display_value="Cafe Management" source="x_616811_cafe_mana">6a49c4cb472730101c198a5f746d43b0</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Cafe Management">6a49c4cb472730101c198a5f746d43b0</sys_scope>
+        <sys_update_name/>
+        <sys_updated_by>kit</sys_updated_by>
+        <sys_updated_on>2021-11-19 06:52:14</sys_updated_on>
+        <url/>
+        <url_target/>
+    </sys_documentation>
+    <sys_documentation action="INSERT_OR_UPDATE">
+        <element>changed_fields</element>
+        <help/>
+        <hint/>
+        <label>Changed Fields</label>
+        <language>en</language>
+        <name>var__m_sys_hub_flow_input_aaf50caf47f330101c198a5f746d4337</name>
+        <plural/>
+        <sys_class_name>sys_documentation</sys_class_name>
+        <sys_created_by>kit</sys_created_by>
+        <sys_created_on>2021-11-19 08:09:07</sys_created_on>
+        <sys_id>7897d063477730101c198a5f746d436e</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name/>
+        <sys_package display_value="Cafe Management" source="x_616811_cafe_mana">6a49c4cb472730101c198a5f746d43b0</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Cafe Management">6a49c4cb472730101c198a5f746d43b0</sys_scope>
+        <sys_update_name/>
+        <sys_updated_by>kit</sys_updated_by>
+        <sys_updated_on>2021-11-19 08:09:07</sys_updated_on>
+        <url/>
+        <url_target/>
+    </sys_documentation>
+    <sys_documentation action="INSERT_OR_UPDATE">
+        <element>table_name</element>
+        <help/>
+        <hint/>
+        <label>Table Name</label>
+        <language>en</language>
+        <name>var__m_sys_hub_flow_input_aaf50caf47f330101c198a5f746d4337</name>
+        <plural/>
+        <sys_class_name>sys_documentation</sys_class_name>
+        <sys_created_by>kit</sys_created_by>
+        <sys_created_on>2021-11-19 06:52:14</sys_created_on>
+        <sys_id>a2f50caf47f330101c198a5f746d4383</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name/>
+        <sys_package display_value="Cafe Management" source="x_616811_cafe_mana">6a49c4cb472730101c198a5f746d43b0</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Cafe Management">6a49c4cb472730101c198a5f746d43b0</sys_scope>
+        <sys_update_name/>
+        <sys_updated_by>kit</sys_updated_by>
+        <sys_updated_on>2021-11-19 06:52:14</sys_updated_on>
+        <url/>
+        <url_target/>
+    </sys_documentation>
+    <sys_hub_flow action="update">
+        <sys_id>0dea771747f330101c198a5f746d43ec</sys_id>
+        <latest_snapshot>aaf50caf47f330101c198a5f746d4337</latest_snapshot>
+    </sys_hub_flow>
+</record_update>

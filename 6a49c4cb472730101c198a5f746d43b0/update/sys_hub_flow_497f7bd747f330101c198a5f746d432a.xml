@@ -1,0 +1,1570 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update sys_domain="global" table="sys_hub_flow">
+    <sys_hub_flow action="INSERT_OR_UPDATE">
+        <access>public</access>
+        <acls/>
+        <active>false</active>
+        <annotation/>
+        <callable_by_client_api>false</callable_by_client_api>
+        <category/>
+        <compiler_build/>
+        <copied_from/>
+        <copied_from_name/>
+        <description>Insert a record in the Drinks Set variable set when a Size record associated with a drink is created</description>
+        <internal_name>insert_on_drinks_set_on_creation_of_a_sizes_record</internal_name>
+        <label_cache>[{"name":"Created_1.current.drinks.name","label":"Trigger➛Cafe Mana M2m Sizes Drinks Record➛Drinks➛Name","reference":"","reference_display":"Name","type":"string","base_type":"string","parent_table_name":"x_616811_cafe_mana_drinks","column_name":"name"},{"name":"7123465d-d827-4410-91b8-861a9a3700e5.__dont_treat_as_error__","label":"12➛Don\u0027t Treat as Error","reference_display":"Don\u0027t Treat as Error","type":"boolean","base_type":"boolean","attributes":{"uiType":"boolean","visible_in_ui":"false","action_error_output":"true","element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper"}},{"name":"7123465d-d827-4410-91b8-861a9a3700e5.__action_status__","label":"12➛Action Status","reference_display":"Action Status","type":"object","base_type":"object","attributes":{"uiType":"object","co_type_name":"FDACTIONSTATUS","action_error_output":"true","element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper"}},{"name":"7123465d-d827-4410-91b8-861a9a3700e5.Count","label":"12➛Count","reference_display":"Count","type":"integer","base_type":"integer","attributes":{"element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper"}},{"name":"7123465d-d827-4410-91b8-861a9a3700e5.Table","label":"12➛Variable Table","reference":"item_option_new","reference_display":"Variable Table","type":"table_name","base_type":"table_name","attributes":{"element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper"}},{"name":"7123465d-d827-4410-91b8-861a9a3700e5.Records","label":"12➛Variable Records","reference":"item_option_new","reference_display":"Variable Records","type":"records","base_type":"records","attributes":{"element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper"}},{"name":"a93d1ed0-841a-431d-ade9-c1bb4cd313b7.__dont_treat_as_error__","label":"12➛Don\u0027t Treat as Error","reference_display":"Don\u0027t Treat as Error","type":"boolean","base_type":"boolean","attributes":{"element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper","uiType":"boolean","visible_in_ui":"false","action_error_output":"true"}},{"name":"a93d1ed0-841a-431d-ade9-c1bb4cd313b7.__action_status__","label":"12➛Action Status","reference_display":"Action Status","type":"object","base_type":"object","attributes":{"co_type_name":"FDACTIONSTATUS","element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper","uiType":"object","action_error_output":"true"}},{"name":"a93d1ed0-841a-431d-ade9-c1bb4cd313b7.error_message","label":"12➛Error Message","reference_display":"Error Message","type":"string","base_type":"string","attributes":{"uiTypeLabel":"String","element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper","pwd2droppable":"true","uiType":"string","uiUniqueId":"87687532-9e3d-4497-a88e-90f45bfb9adb"}},{"name":"a93d1ed0-841a-431d-ade9-c1bb4cd313b7.status","label":"12➛Status","reference_display":"Status","type":"choice","base_type":"choice","attributes":{"uiTypeLabel":"Choice","element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper","uiType":"choice","uiUniqueId":"5e478657-3a84-4a60-a92b-d3e80005ad34"}},{"name":"a93d1ed0-841a-431d-ade9-c1bb4cd313b7.Table","label":"12➛Variable Table","reference":"item_option_new","reference_display":"Variable","type":"table_name","base_type":"table_name","attributes":{"element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper"}},{"name":"a93d1ed0-841a-431d-ade9-c1bb4cd313b7.Record","label":"12➛Variable Record","reference":"item_option_new","reference_display":"Variable","type":"reference","base_type":"reference","attributes":{"element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper"}},{"name":"6b5f0872-736c-4a3c-92ac-61a32dc17d1a.__dont_treat_as_error__","label":"16➛Don\u0027t Treat as Error","reference_display":"Don\u0027t Treat as Error","type":"boolean","base_type":"boolean","attributes":{"uiType":"boolean","visible_in_ui":"false","action_error_output":"true","element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper"}},{"name":"6b5f0872-736c-4a3c-92ac-61a32dc17d1a.__action_status__","label":"16➛Action Status","reference_display":"Action Status","type":"object","base_type":"object","attributes":{"uiType":"object","co_type_name":"FDACTIONSTATUS","action_error_output":"true","element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper"}},{"name":"6b5f0872-736c-4a3c-92ac-61a32dc17d1a.table_name","label":"16➛Question Choice Table","reference":"question_choice","reference_display":"Question Choice Table","type":"table_name","base_type":"table_name","attributes":{"element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper"}},{"name":"6b5f0872-736c-4a3c-92ac-61a32dc17d1a.record","label":"16➛Question Choice Record","reference":"question_choice","reference_display":"Question Choice Record","type":"reference","base_type":"reference","attributes":{"element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper"}},{"name":"e101e994-b4b6-4d79-9e1e-56b45b555125.__dont_treat_as_error__","label":"11➛Don\u0027t Treat as Error","reference_display":"Don\u0027t Treat as Error","type":"boolean","base_type":"boolean","attributes":{"uiType":"boolean","visible_in_ui":"false","action_error_output":"true","element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper"}},{"name":"e101e994-b4b6-4d79-9e1e-56b45b555125.__action_status__","label":"11➛Action Status","reference_display":"Action Status","type":"object","base_type":"object","attributes":{"uiType":"object","co_type_name":"FDACTIONSTATUS","action_error_output":"true","element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper"}},{"name":"e101e994-b4b6-4d79-9e1e-56b45b555125.table_name","label":"11➛Question Choice Table","reference":"question_choice","reference_display":"Question Choice Table","type":"table_name","base_type":"table_name","attributes":{"element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper"}},{"name":"e101e994-b4b6-4d79-9e1e-56b45b555125.record","label":"11➛Question Choice Record","reference":"question_choice","reference_display":"Question Choice Record","type":"reference","base_type":"reference","attributes":{"element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper"}},{"name":"57af8045-b7ef-45d8-9575-9dee0a71e0c7.__dont_treat_as_error__","label":"9➛Don\u0027t Treat as Error","reference_display":"Don\u0027t Treat as Error","type":"boolean","base_type":"boolean","attributes":{"uiType":"boolean","visible_in_ui":"false","action_error_output":"true","element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper"}},{"name":"57af8045-b7ef-45d8-9575-9dee0a71e0c7.__action_status__","label":"9➛Action Status","reference_display":"Action Status","type":"object","base_type":"object","attributes":{"uiType":"object","co_type_name":"FDACTIONSTATUS","action_error_output":"true","element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper"}},{"name":"57af8045-b7ef-45d8-9575-9dee0a71e0c7.table_name","label":"9➛Question Choice Table","reference":"question_choice","reference_display":"Question Choice Table","type":"table_name","base_type":"table_name","attributes":{"element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper"}},{"name":"57af8045-b7ef-45d8-9575-9dee0a71e0c7.record","label":"9➛Question Choice Record","reference":"question_choice","reference_display":"Question Choice Record","type":"reference","base_type":"reference","attributes":{"element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper"}},{"name":"e3d9c114-faa2-43c7-b25f-1902bbb72141.__dont_treat_as_error__","label":"7➛Don\u0027t Treat as Error","reference_display":"Don\u0027t Treat as Error","type":"boolean","base_type":"boolean","attributes":{"uiType":"boolean","visible_in_ui":"false","action_error_output":"true","element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper"}},{"name":"e3d9c114-faa2-43c7-b25f-1902bbb72141.__action_status__","label":"7➛Action Status","reference_display":"Action Status","type":"object","base_type":"object","attributes":{"uiType":"object","co_type_name":"FDACTIONSTATUS","action_error_output":"true","element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper"}},{"name":"e3d9c114-faa2-43c7-b25f-1902bbb72141.table_name","label":"7➛Question Choice Table","reference":"question_choice","reference_display":"Question Choice Table","type":"table_name","base_type":"table_name","attributes":{"element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper"}},{"name":"e3d9c114-faa2-43c7-b25f-1902bbb72141.record","label":"7➛Question Choice Record","reference":"question_choice","reference_display":"Question Choice Record","type":"reference","base_type":"reference","attributes":{"element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper"}},{"name":"53fe42dd-624a-4ba7-ae7f-0be7fa42298d.__dont_treat_as_error__","label":"5➛Don\u0027t Treat as Error","reference_display":"Don\u0027t Treat as Error","type":"boolean","base_type":"boolean","attributes":{"uiType":"boolean","visible_in_ui":"false","action_error_output":"true","element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper"}},{"name":"53fe42dd-624a-4ba7-ae7f-0be7fa42298d.__action_status__","label":"5➛Action Status","reference_display":"Action Status","type":"object","base_type":"object","attributes":{"uiType":"object","co_type_name":"FDACTIONSTATUS","action_error_output":"true","element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper"}},{"name":"53fe42dd-624a-4ba7-ae7f-0be7fa42298d.table_name","label":"5➛Question Choice Table","reference":"question_choice","reference_display":"Question Choice Table","type":"table_name","base_type":"table_name","attributes":{"element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper"}},{"name":"53fe42dd-624a-4ba7-ae7f-0be7fa42298d.record","label":"5➛Question Choice Record","reference":"question_choice","reference_display":"Question Choice Record","type":"reference","base_type":"reference","attributes":{"element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper"}},{"name":"Created_1.current","label":"Trigger➛Cafe Mana M2m Sizes Drinks Record","reference":"x_616811_cafe_mana_m2m_sizes_drinks","reference_display":"Cafe Mana M2m Sizes Drinks","type":"reference","base_type":"reference","attributes":{}},{"name":"cf60540a-e637-44bd-9d6d-9b829b1e19c9.__dont_treat_as_error__","label":"3➛Don\u0027t Treat as Error","reference_display":"Don\u0027t Treat as Error","type":"boolean","base_type":"boolean","attributes":{"uiType":"boolean","visible_in_ui":"false","action_error_output":"true","element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper"}},{"name":"cf60540a-e637-44bd-9d6d-9b829b1e19c9.__action_status__","label":"3➛Action Status","reference_display":"Action Status","type":"object","base_type":"object","attributes":{"uiType":"object","co_type_name":"FDACTIONSTATUS","action_error_output":"true","element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper"}},{"name":"cf60540a-e637-44bd-9d6d-9b829b1e19c9.table_name","label":"3➛Question Choice Table","reference":"question_choice","reference_display":"Question Choice Table","type":"table_name","base_type":"table_name","attributes":{"element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper"}},{"name":"cf60540a-e637-44bd-9d6d-9b829b1e19c9.record","label":"3➛Question Choice Record","reference":"question_choice","reference_display":"Question Choice Record","type":"reference","base_type":"reference","attributes":{"element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper"}},{"name":"Created_1.current.sizes.name","label":"Trigger➛Cafe Mana M2m Sizes Drinks Record➛Sizes➛Name","reference":"","reference_display":"Name","type":"string","base_type":"string","parent_table_name":"x_616811_cafe_mana_sizes","column_name":"name"},{"name":"Created_1.current.price","label":"Trigger➛Cafe Mana M2m Sizes Drinks Record➛Price","reference":"","reference_display":"Price","type":"price","base_type":"price","parent_table_name":"x_616811_cafe_mana_m2m_sizes_drinks","column_name":"price"},{"name":"a65ee04e-da1a-41a1-9e97-2cee8e34c090.__dont_treat_as_error__","label":"1➛Don\u0027t Treat as Error","reference_display":"Don\u0027t Treat as Error","type":"boolean","base_type":"boolean","attributes":{"uiType":"boolean","visible_in_ui":"false","action_error_output":"true","element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper"}},{"name":"a65ee04e-da1a-41a1-9e97-2cee8e34c090.__action_status__","label":"1➛Action Status","reference_display":"Action Status","type":"object","base_type":"object","attributes":{"uiType":"object","co_type_name":"FDACTIONSTATUS","action_error_output":"true","element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper"}},{"name":"a65ee04e-da1a-41a1-9e97-2cee8e34c090.table_name","label":"1➛Question Choice Table","reference":"question_choice","reference_display":"Question Choice Table","type":"table_name","base_type":"table_name","attributes":{"element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper"}},{"name":"a65ee04e-da1a-41a1-9e97-2cee8e34c090.record","label":"1➛Question Choice Record","reference":"question_choice","reference_display":"Question Choice Record","type":"reference","base_type":"reference","attributes":{"element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper"}},{"name":"f254e3f7-41a3-448d-9dd2-0ee95e55d0b3.record","label":"14➛Variable Record","reference":"item_option_new","reference_display":"Variable Record","type":"reference","base_type":"reference","attributes":{"element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper"}},{"name":"f254e3f7-41a3-448d-9dd2-0ee95e55d0b3.table_name","label":"14➛Variable Table","reference":"item_option_new","reference_display":"Variable Table","type":"table_name","base_type":"table_name","attributes":{"element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper"}},{"name":"f254e3f7-41a3-448d-9dd2-0ee95e55d0b3.__action_status__","label":"14➛Action Status","reference_display":"Action Status","type":"object","base_type":"object","attributes":{"uiType":"object","co_type_name":"FDACTIONSTATUS","action_error_output":"true","element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper"}},{"name":"f254e3f7-41a3-448d-9dd2-0ee95e55d0b3.__dont_treat_as_error__","label":"14➛Don\u0027t Treat as Error","reference_display":"Don\u0027t Treat as Error","type":"boolean","base_type":"boolean","attributes":{"uiType":"boolean","visible_in_ui":"false","action_error_output":"true","element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper"}},{"name":"ff75970f-bf78-40af-8ea3-2bbf8f73cecd.Records","label":"15➛Variable Records","reference":"item_option_new","reference_display":"Variable Records","type":"records","base_type":"records","attributes":{"element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper"}},{"name":"ff75970f-bf78-40af-8ea3-2bbf8f73cecd.Table","label":"15➛Variable Table","reference":"item_option_new","reference_display":"Variable Table","type":"table_name","base_type":"table_name","attributes":{"element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper"}},{"name":"ff75970f-bf78-40af-8ea3-2bbf8f73cecd.Count","label":"15➛Count","reference_display":"Count","type":"integer","base_type":"integer","attributes":{"element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper"}},{"name":"ff75970f-bf78-40af-8ea3-2bbf8f73cecd.__action_status__","label":"15➛Action Status","reference_display":"Action Status","type":"object","base_type":"object","attributes":{"uiType":"object","co_type_name":"FDACTIONSTATUS","action_error_output":"true","element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper"}},{"name":"ff75970f-bf78-40af-8ea3-2bbf8f73cecd.__dont_treat_as_error__","label":"15➛Don\u0027t Treat as Error","reference_display":"Don\u0027t Treat as Error","type":"boolean","base_type":"boolean","attributes":{"uiType":"boolean","visible_in_ui":"false","action_error_output":"true","element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper"}},{"name":"43abc3de-cbfd-4879-8fa8-d421e3b1d20e.record","label":"15➛Record","reference_display":"Record","type":"document_id","base_type":"document_id","attributes":{"element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper"}},{"name":"43abc3de-cbfd-4879-8fa8-d421e3b1d20e.table_name","label":"15➛Table","reference_display":"Table","type":"table_name","base_type":"table_name","attributes":{"element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper"}},{"name":"43abc3de-cbfd-4879-8fa8-d421e3b1d20e.__action_status__","label":"15➛Action Status","reference_display":"Action Status","type":"object","base_type":"object","attributes":{"co_type_name":"FDACTIONSTATUS","element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper","uiType":"object","action_error_output":"true"}},{"name":"43abc3de-cbfd-4879-8fa8-d421e3b1d20e.__dont_treat_as_error__","label":"15➛Don\u0027t Treat as Error","reference_display":"Don\u0027t Treat as Error","type":"boolean","base_type":"boolean","attributes":{"element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper","uiType":"boolean","visible_in_ui":"false","action_error_output":"true"}}]</label_cache>
+        <latest_snapshot/>
+        <master_snapshot/>
+        <name>Insert on Drinks Set on Creation of a M2M Drinks Sizes Record</name>
+        <natlang/>
+        <outputs/>
+        <remote_trigger_id/>
+        <run_as>system</run_as>
+        <run_with_roles/>
+        <sc_callable>false</sc_callable>
+        <show_draft_actions>false</show_draft_actions>
+        <show_triggered_flows>false</show_triggered_flows>
+        <status>draft</status>
+        <sys_class_name>sys_hub_flow</sys_class_name>
+        <sys_created_by>fletcher</sys_created_by>
+        <sys_created_on>2021-11-19 06:23:43</sys_created_on>
+        <sys_domain>global</sys_domain>
+        <sys_domain_path>/</sys_domain_path>
+        <sys_id>497f7bd747f330101c198a5f746d432a</sys_id>
+        <sys_mod_count>12</sys_mod_count>
+        <sys_name>Insert on Drinks Set on Creation of a M2M Drinks Sizes Record</sys_name>
+        <sys_overrides/>
+        <sys_package display_value="Cafe Management" source="x_616811_cafe_mana">6a49c4cb472730101c198a5f746d43b0</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Cafe Management">6a49c4cb472730101c198a5f746d43b0</sys_scope>
+        <sys_update_name>sys_hub_flow_497f7bd747f330101c198a5f746d432a</sys_update_name>
+        <sys_updated_by>fletcher</sys_updated_by>
+        <sys_updated_on>2021-11-23 03:49:08</sys_updated_on>
+        <type>flow</type>
+    </sys_hub_flow>
+    <sys_translated_text action="delete_multiple" query="documentkey=497f7bd747f330101c198a5f746d432a"/>
+    <sys_variable_value action="delete_multiple" query="document_key=497f7bd747f330101c198a5f746d432a"/>
+    <sys_hub_trigger_instance action="delete_multiple" query="flow=497f7bd747f330101c198a5f746d432a^sys_idNOT INe77810e3477730101c198a5f746d4397"/>
+    <sys_hub_trigger_instance action="INSERT_OR_UPDATE">
+        <comment/>
+        <display_text/>
+        <flow display_value="Insert on Drinks Set on Creation of a M2M Drinks Sizes Record">497f7bd747f330101c198a5f746d432a</flow>
+        <name>Created</name>
+        <remote_sys_id/>
+        <sys_created_by>fletcher</sys_created_by>
+        <sys_created_on>2021-11-19 08:13:07</sys_created_on>
+        <sys_id>e77810e3477730101c198a5f746d4397</sys_id>
+        <sys_mod_count>11</sys_mod_count>
+        <sys_scope/>
+        <sys_updated_by>fletcher</sys_updated_by>
+        <sys_updated_on>2021-11-23 03:49:08</sys_updated_on>
+        <trigger_definition display_value="Created">798916a0c31322002841b63b12d3ae7c</trigger_definition>
+        <trigger_inputs/>
+        <trigger_outputs/>
+        <trigger_type>record_create</trigger_type>
+    </sys_hub_trigger_instance>
+    <sys_variable_value action="delete_multiple" query="document_key=e77810e3477730101c198a5f746d4397"/>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>sys_hub_trigger_instance</document>
+        <document_key>e77810e3477730101c198a5f746d4397</document_key>
+        <order>100</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>fletcher</sys_created_by>
+        <sys_created_on>2021-11-19 08:13:07</sys_created_on>
+        <sys_id>637810e3477730101c198a5f746d4398</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>fletcher</sys_updated_by>
+        <sys_updated_on>2021-11-19 08:13:07</sys_updated_on>
+        <value>^EQ</value>
+        <variable display_value="Condition">66aadea0c31322002841b63b12d3aebf</variable>
+    </sys_variable_value>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>sys_hub_trigger_instance</document>
+        <document_key>e77810e3477730101c198a5f746d4397</document_key>
+        <order>1</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>fletcher</sys_created_by>
+        <sys_created_on>2021-11-19 08:13:07</sys_created_on>
+        <sys_id>6b7810e3477730101c198a5f746d4398</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>fletcher</sys_updated_by>
+        <sys_updated_on>2021-11-19 08:13:07</sys_updated_on>
+        <value>x_616811_cafe_mana_m2m_sizes_drinks</value>
+        <variable display_value="Table">cfca92e0c31322002841b63b12d3ae00</variable>
+    </sys_variable_value>
+    <sys_flow_cat_variable_model action="delete_multiple" query="id=497f7bd747f330101c198a5f746d432a^sys_idNOT IN457f7bd747f330101c198a5f746d432b"/>
+    <sys_flow_cat_variable_model action="INSERT_OR_UPDATE">
+        <id>497f7bd747f330101c198a5f746d432a</id>
+        <name>Insert on Drinks Set on Creation of a Sizes Record</name>
+        <sys_created_by>fletcher</sys_created_by>
+        <sys_created_on>2021-11-19 06:23:43</sys_created_on>
+        <sys_id>457f7bd747f330101c198a5f746d432b</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_scope/>
+        <sys_updated_by>fletcher</sys_updated_by>
+        <sys_updated_on>2021-11-19 06:23:43</sys_updated_on>
+    </sys_flow_cat_variable_model>
+    <sys_hub_flow_input action="delete_multiple" query="model=497f7bd747f330101c198a5f746d432a^sys_idNOT INaf7810e3477730101c198a5f746d437d,e37810e3477730101c198a5f746d4384"/>
+    <sys_hub_flow_input action="INSERT_OR_UPDATE">
+        <active>true</active>
+        <array>false</array>
+        <array_denormalized>false</array_denormalized>
+        <attributes>element_mapping_provider=com.glide.flow_design.action.data.FlowDesignVariableMapper,uiType=document_id,uiTypeLabel=Document ID</attributes>
+        <audit>false</audit>
+        <calculation><![CDATA[(function calculatedFieldValue(current) {
+
+	// Add your code here
+	return '';  // return the calculated value
+
+})(current);]]></calculation>
+        <choice/>
+        <choice_field/>
+        <choice_table/>
+        <column_label/>
+        <comments/>
+        <create_roles/>
+        <default_value/>
+        <defaultsort/>
+        <delete_roles/>
+        <dependent>table_name</dependent>
+        <dependent_on_field>table_name</dependent_on_field>
+        <display>false</display>
+        <dynamic_creation>false</dynamic_creation>
+        <dynamic_creation_script/>
+        <dynamic_default_value/>
+        <dynamic_ref_qual/>
+        <element>current</element>
+        <element_reference>false</element_reference>
+        <foreign_database/>
+        <function_definition/>
+        <function_field>false</function_field>
+        <help/>
+        <hint/>
+        <internal_type display_value="">document_id</internal_type>
+        <label>Record</label>
+        <mandatory>true</mandatory>
+        <max_length>200</max_length>
+        <model display_value="Insert on Drinks Set on Creation of a M2M Drinks Sizes Record">497f7bd747f330101c198a5f746d432a</model>
+        <model_id>497f7bd747f330101c198a5f746d432a</model_id>
+        <model_table>sys_hub_flow</model_table>
+        <name>var__m_sys_hub_flow_input_497f7bd747f330101c198a5f746d432a</name>
+        <next_element/>
+        <order>100</order>
+        <primary>false</primary>
+        <read_only>false</read_only>
+        <read_roles/>
+        <reference/>
+        <reference_cascade_rule/>
+        <reference_floats>false</reference_floats>
+        <reference_key/>
+        <reference_qual/>
+        <reference_qual_condition/>
+        <reference_type/>
+        <sizeclass/>
+        <spell_check>false</spell_check>
+        <staged>false</staged>
+        <sys_class_name>sys_hub_flow_input</sys_class_name>
+        <sys_created_by>fletcher</sys_created_by>
+        <sys_created_on>2021-11-19 08:13:07</sys_created_on>
+        <sys_id>af7810e3477730101c198a5f746d437d</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name/>
+        <sys_package/>
+        <sys_policy/>
+        <sys_scope display_value="Cafe Management">6a49c4cb472730101c198a5f746d43b0</sys_scope>
+        <sys_update_name/>
+        <sys_updated_by>fletcher</sys_updated_by>
+        <sys_updated_on>2021-11-19 08:13:07</sys_updated_on>
+        <table_reference>false</table_reference>
+        <text_index>false</text_index>
+        <unique>false</unique>
+        <use_dependent_field>true</use_dependent_field>
+        <use_dynamic_default>false</use_dynamic_default>
+        <use_reference_qualifier>simple</use_reference_qualifier>
+        <virtual>false</virtual>
+        <widget/>
+        <write_roles/>
+        <xml_view>false</xml_view>
+    </sys_hub_flow_input>
+    <sys_hub_flow_input action="INSERT_OR_UPDATE">
+        <active>true</active>
+        <array>false</array>
+        <array_denormalized>false</array_denormalized>
+        <attributes>element_mapping_provider=com.glide.flow_design.action.data.FlowDesignVariableMapper,test_input_hidden=true,uiType=table_name,uiTypeLabel=Table Name</attributes>
+        <audit>false</audit>
+        <calculation><![CDATA[(function calculatedFieldValue(current) {
+
+	// Add your code here
+	return '';  // return the calculated value
+
+})(current);]]></calculation>
+        <choice/>
+        <choice_field/>
+        <choice_table/>
+        <column_label/>
+        <comments/>
+        <create_roles/>
+        <default_value/>
+        <defaultsort/>
+        <delete_roles/>
+        <dependent/>
+        <dependent_on_field/>
+        <display>false</display>
+        <dynamic_creation>false</dynamic_creation>
+        <dynamic_creation_script/>
+        <dynamic_default_value/>
+        <dynamic_ref_qual/>
+        <element>table_name</element>
+        <element_reference>false</element_reference>
+        <foreign_database/>
+        <function_definition/>
+        <function_field>false</function_field>
+        <help/>
+        <hint/>
+        <internal_type display_value="">table_name</internal_type>
+        <label>Table Name</label>
+        <mandatory>false</mandatory>
+        <max_length>200</max_length>
+        <model display_value="Insert on Drinks Set on Creation of a M2M Drinks Sizes Record">497f7bd747f330101c198a5f746d432a</model>
+        <model_id>497f7bd747f330101c198a5f746d432a</model_id>
+        <model_table>sys_hub_flow</model_table>
+        <name>var__m_sys_hub_flow_input_497f7bd747f330101c198a5f746d432a</name>
+        <next_element/>
+        <order>101</order>
+        <primary>false</primary>
+        <read_only>false</read_only>
+        <read_roles/>
+        <reference/>
+        <reference_cascade_rule/>
+        <reference_floats>false</reference_floats>
+        <reference_key/>
+        <reference_qual/>
+        <reference_qual_condition/>
+        <reference_type/>
+        <sizeclass/>
+        <spell_check>false</spell_check>
+        <staged>false</staged>
+        <sys_class_name>sys_hub_flow_input</sys_class_name>
+        <sys_created_by>fletcher</sys_created_by>
+        <sys_created_on>2021-11-19 08:13:07</sys_created_on>
+        <sys_id>e37810e3477730101c198a5f746d4384</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name/>
+        <sys_package/>
+        <sys_policy/>
+        <sys_scope display_value="Cafe Management">6a49c4cb472730101c198a5f746d43b0</sys_scope>
+        <sys_update_name/>
+        <sys_updated_by>fletcher</sys_updated_by>
+        <sys_updated_on>2021-11-19 08:13:07</sys_updated_on>
+        <table_reference>false</table_reference>
+        <text_index>false</text_index>
+        <unique>false</unique>
+        <use_dependent_field>false</use_dependent_field>
+        <use_dynamic_default>false</use_dynamic_default>
+        <use_reference_qualifier>simple</use_reference_qualifier>
+        <virtual>false</virtual>
+        <widget/>
+        <write_roles/>
+        <xml_view>false</xml_view>
+    </sys_hub_flow_input>
+    <sys_hub_action_instance action="delete_multiple" query="flow=497f7bd747f330101c198a5f746d432a^sys_idNOT IN377810e3477730101c198a5f746d43b3,3f7810e3477730101c198a5f746d43a8,75c27fec474001101c198a5f746d433e,7b7810e3477730101c198a5f746d43cf,90d858e3477730101c198a5f746d4313,a37810e3477730101c198a5f746d439d,b37810e3477730101c198a5f746d43c6,bb495427477730101c198a5f746d43f0,cc42f3ec474001101c198a5f746d4317,fb7810e3477730101c198a5f746d43bc"/>
+    <sys_hub_action_instance action="INSERT_OR_UPDATE">
+        <action_inputs/>
+        <action_inputs/>
+        <action_type display_value="Update Record">f9d01dd2c31332002841b63b12d3aea1</action_type>
+        <action_type_parent/>
+        <comment/>
+        <compiled_snapshot/>
+        <display_text/>
+        <flow display_value="Insert on Drinks Set on Creation of a M2M Drinks Sizes Record">497f7bd747f330101c198a5f746d432a</flow>
+        <order>5</order>
+        <parent_ui_id>1ab940b4-2214-4ace-9b46-22a4d4d89832</parent_ui_id>
+        <sys_class_name>sys_hub_action_instance</sys_class_name>
+        <sys_created_by>fletcher</sys_created_by>
+        <sys_created_on>2021-11-19 08:13:08</sys_created_on>
+        <sys_id>377810e3477730101c198a5f746d43b3</sys_id>
+        <sys_mod_count>22</sys_mod_count>
+        <sys_scope display_value="Cafe Management">6a49c4cb472730101c198a5f746d43b0</sys_scope>
+        <sys_updated_by>fletcher</sys_updated_by>
+        <sys_updated_on>2021-11-23 03:49:08</sys_updated_on>
+        <ui_id>53fe42dd-624a-4ba7-ae7f-0be7fa42298d</ui_id>
+    </sys_hub_action_instance>
+    <sys_variable_value action="delete_multiple" query="document_key=377810e3477730101c198a5f746d43b3"/>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>sys_hub_action_instance</document>
+        <document_key>377810e3477730101c198a5f746d43b3</document_key>
+        <order>50</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>fletcher</sys_created_by>
+        <sys_created_on>2021-11-19 08:13:08</sys_created_on>
+        <sys_id>337810e3477730101c198a5f746d43b5</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>fletcher</sys_updated_by>
+        <sys_updated_on>2021-11-19 08:13:08</sys_updated_on>
+        <value>question_choice</value>
+        <variable display_value="Table">b5d01916c31332002841b63b12d3aec9</variable>
+    </sys_variable_value>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>sys_hub_action_instance</document>
+        <document_key>377810e3477730101c198a5f746d43b3</document_key>
+        <order>100</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>fletcher</sys_created_by>
+        <sys_created_on>2021-11-19 08:13:08</sys_created_on>
+        <sys_id>7f7810e3477730101c198a5f746d43b4</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>fletcher</sys_updated_by>
+        <sys_updated_on>2021-11-19 08:13:08</sys_updated_on>
+        <value>order=200</value>
+        <variable display_value="Fields">02d01916c31332002841b63b12d3aeee</variable>
+    </sys_variable_value>
+    <sys_element_mapping action="delete_multiple" query="id=377810e3477730101c198a5f746d43b3"/>
+    <sys_element_mapping action="INSERT_OR_UPDATE">
+        <field>record</field>
+        <id>377810e3477730101c198a5f746d43b3</id>
+        <sys_created_by>fletcher</sys_created_by>
+        <sys_created_on>2021-11-19 08:13:08</sys_created_on>
+        <sys_id>3b7810e3477730101c198a5f746d43b4</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>fletcher</sys_updated_by>
+        <sys_updated_on>2021-11-19 08:13:08</sys_updated_on>
+        <table>var__m_sys_hub_action_input_f9d01dd2c31332002841b63b12d3aea1</table>
+        <value>{{a65ee04e-da1a-41a1-9e97-2cee8e34c090.record}}</value>
+    </sys_element_mapping>
+    <sys_element_mapping action="INSERT_OR_UPDATE">
+        <field>table_name</field>
+        <id>377810e3477730101c198a5f746d43b3</id>
+        <sys_created_by>fletcher</sys_created_by>
+        <sys_created_on>2021-11-19 08:13:08</sys_created_on>
+        <sys_id>777810e3477730101c198a5f746d43b4</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>fletcher</sys_updated_by>
+        <sys_updated_on>2021-11-19 08:13:08</sys_updated_on>
+        <table>var__m_sys_hub_action_input_f9d01dd2c31332002841b63b12d3aea1</table>
+        <value/>
+    </sys_element_mapping>
+    <sys_element_mapping action="INSERT_OR_UPDATE">
+        <field>values</field>
+        <id>377810e3477730101c198a5f746d43b3</id>
+        <sys_created_by>fletcher</sys_created_by>
+        <sys_created_on>2021-11-19 08:13:08</sys_created_on>
+        <sys_id>fb7810e3477730101c198a5f746d43b4</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>fletcher</sys_updated_by>
+        <sys_updated_on>2021-11-19 08:13:08</sys_updated_on>
+        <table>var__m_sys_hub_action_input_f9d01dd2c31332002841b63b12d3aea1</table>
+        <value/>
+    </sys_element_mapping>
+    <sys_hub_action_instance action="INSERT_OR_UPDATE">
+        <action_inputs/>
+        <action_inputs/>
+        <action_type display_value="Update Record">f9d01dd2c31332002841b63b12d3aea1</action_type>
+        <action_type_parent/>
+        <comment/>
+        <compiled_snapshot/>
+        <display_text/>
+        <flow display_value="Insert on Drinks Set on Creation of a M2M Drinks Sizes Record">497f7bd747f330101c198a5f746d432a</flow>
+        <order>3</order>
+        <parent_ui_id>276fc9c3-8fcf-48af-99db-9d18d79d8b8a</parent_ui_id>
+        <sys_class_name>sys_hub_action_instance</sys_class_name>
+        <sys_created_by>fletcher</sys_created_by>
+        <sys_created_on>2021-11-19 08:13:07</sys_created_on>
+        <sys_id>3f7810e3477730101c198a5f746d43a8</sys_id>
+        <sys_mod_count>22</sys_mod_count>
+        <sys_scope display_value="Cafe Management">6a49c4cb472730101c198a5f746d43b0</sys_scope>
+        <sys_updated_by>fletcher</sys_updated_by>
+        <sys_updated_on>2021-11-23 03:49:08</sys_updated_on>
+        <ui_id>cf60540a-e637-44bd-9d6d-9b829b1e19c9</ui_id>
+    </sys_hub_action_instance>
+    <sys_variable_value action="delete_multiple" query="document_key=3f7810e3477730101c198a5f746d43a8"/>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>sys_hub_action_instance</document>
+        <document_key>3f7810e3477730101c198a5f746d43a8</document_key>
+        <order>50</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>fletcher</sys_created_by>
+        <sys_created_on>2021-11-19 08:13:07</sys_created_on>
+        <sys_id>3f7810e3477730101c198a5f746d43aa</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>fletcher</sys_updated_by>
+        <sys_updated_on>2021-11-19 08:13:07</sys_updated_on>
+        <value>question_choice</value>
+        <variable display_value="Table">b5d01916c31332002841b63b12d3aec9</variable>
+    </sys_variable_value>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>sys_hub_action_instance</document>
+        <document_key>3f7810e3477730101c198a5f746d43a8</document_key>
+        <order>100</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>fletcher</sys_created_by>
+        <sys_created_on>2021-11-19 08:13:07</sys_created_on>
+        <sys_id>7b7810e3477730101c198a5f746d43aa</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>fletcher</sys_updated_by>
+        <sys_updated_on>2021-11-19 08:13:07</sys_updated_on>
+        <value>order=100</value>
+        <variable display_value="Fields">02d01916c31332002841b63b12d3aeee</variable>
+    </sys_variable_value>
+    <sys_element_mapping action="delete_multiple" query="id=3f7810e3477730101c198a5f746d43a8"/>
+    <sys_element_mapping action="INSERT_OR_UPDATE">
+        <field>record</field>
+        <id>3f7810e3477730101c198a5f746d43a8</id>
+        <sys_created_by>fletcher</sys_created_by>
+        <sys_created_on>2021-11-19 08:13:07</sys_created_on>
+        <sys_id>377810e3477730101c198a5f746d43aa</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>fletcher</sys_updated_by>
+        <sys_updated_on>2021-11-19 08:13:07</sys_updated_on>
+        <table>var__m_sys_hub_action_input_f9d01dd2c31332002841b63b12d3aea1</table>
+        <value>{{a65ee04e-da1a-41a1-9e97-2cee8e34c090.record}}</value>
+    </sys_element_mapping>
+    <sys_element_mapping action="INSERT_OR_UPDATE">
+        <field>table_name</field>
+        <id>3f7810e3477730101c198a5f746d43a8</id>
+        <sys_created_by>fletcher</sys_created_by>
+        <sys_created_on>2021-11-19 08:13:07</sys_created_on>
+        <sys_id>737810e3477730101c198a5f746d43aa</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>fletcher</sys_updated_by>
+        <sys_updated_on>2021-11-19 08:13:07</sys_updated_on>
+        <table>var__m_sys_hub_action_input_f9d01dd2c31332002841b63b12d3aea1</table>
+        <value/>
+    </sys_element_mapping>
+    <sys_element_mapping action="INSERT_OR_UPDATE">
+        <field>values</field>
+        <id>3f7810e3477730101c198a5f746d43a8</id>
+        <sys_created_by>fletcher</sys_created_by>
+        <sys_created_on>2021-11-19 08:13:07</sys_created_on>
+        <sys_id>f77810e3477730101c198a5f746d43aa</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>fletcher</sys_updated_by>
+        <sys_updated_on>2021-11-19 08:13:07</sys_updated_on>
+        <table>var__m_sys_hub_action_input_f9d01dd2c31332002841b63b12d3aea1</table>
+        <value/>
+    </sys_element_mapping>
+    <sys_hub_action_instance action="INSERT_OR_UPDATE">
+        <action_inputs/>
+        <action_inputs/>
+        <action_type display_value="Look Up Records">43400a1587003300663ca1bb36cb0b4b</action_type>
+        <action_type_parent/>
+        <comment/>
+        <compiled_snapshot/>
+        <display_text/>
+        <flow display_value="Insert on Drinks Set on Creation of a M2M Drinks Sizes Record">497f7bd747f330101c198a5f746d432a</flow>
+        <order>15</order>
+        <parent_ui_id/>
+        <sys_class_name>sys_hub_action_instance</sys_class_name>
+        <sys_created_by>fletcher</sys_created_by>
+        <sys_created_on>2021-11-23 02:40:45</sys_created_on>
+        <sys_id>75c27fec474001101c198a5f746d433e</sys_id>
+        <sys_mod_count>12</sys_mod_count>
+        <sys_scope display_value="Cafe Management">6a49c4cb472730101c198a5f746d43b0</sys_scope>
+        <sys_updated_by>fletcher</sys_updated_by>
+        <sys_updated_on>2021-11-23 03:49:08</sys_updated_on>
+        <ui_id>ff75970f-bf78-40af-8ea3-2bbf8f73cecd</ui_id>
+    </sys_hub_action_instance>
+    <sys_variable_value action="delete_multiple" query="document_key=75c27fec474001101c198a5f746d433e"/>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>sys_hub_action_instance</document>
+        <document_key>75c27fec474001101c198a5f746d433e</document_key>
+        <order>4</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>fletcher</sys_created_by>
+        <sys_created_on>2021-11-23 02:40:45</sys_created_on>
+        <sys_id>b1c27fec474001101c198a5f746d4340</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>fletcher</sys_updated_by>
+        <sys_updated_on>2021-11-23 02:40:45</sys_updated_on>
+        <value>1</value>
+        <variable display_value="Max Results">4f400a1587003300663ca1bb36cb0b61</variable>
+    </sys_variable_value>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>sys_hub_action_instance</document>
+        <document_key>75c27fec474001101c198a5f746d433e</document_key>
+        <order>0</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>fletcher</sys_created_by>
+        <sys_created_on>2021-11-23 02:40:45</sys_created_on>
+        <sys_id>b5c27fec474001101c198a5f746d4340</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>fletcher</sys_updated_by>
+        <sys_updated_on>2021-11-23 02:40:45</sys_updated_on>
+        <value>item_option_new</value>
+        <variable display_value="Table">8f400a1587003300663ca1bb36cb0b4b</variable>
+    </sys_variable_value>
+    <sys_element_mapping action="delete_multiple" query="id=75c27fec474001101c198a5f746d433e"/>
+    <sys_element_mapping action="INSERT_OR_UPDATE">
+        <field>conditions</field>
+        <id>75c27fec474001101c198a5f746d433e</id>
+        <sys_created_by>fletcher</sys_created_by>
+        <sys_created_on>2021-11-23 02:40:45</sys_created_on>
+        <sys_id>7dc27fec474001101c198a5f746d433f</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>fletcher</sys_updated_by>
+        <sys_updated_on>2021-11-23 02:40:45</sys_updated_on>
+        <table>var__m_sys_hub_action_input_43400a1587003300663ca1bb36cb0b4b</table>
+        <value>question_text={{Created_1.current.sizes.name}}^variable_set=c014b42a47b730101c198a5f746d4309</value>
+    </sys_element_mapping>
+    <sys_element_mapping action="INSERT_OR_UPDATE">
+        <field>max_results</field>
+        <id>75c27fec474001101c198a5f746d433e</id>
+        <sys_created_by>fletcher</sys_created_by>
+        <sys_created_on>2021-11-23 02:40:45</sys_created_on>
+        <sys_id>b9c27fec474001101c198a5f746d433f</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>fletcher</sys_updated_by>
+        <sys_updated_on>2021-11-23 02:40:45</sys_updated_on>
+        <table>var__m_sys_hub_action_input_43400a1587003300663ca1bb36cb0b4b</table>
+        <value/>
+    </sys_element_mapping>
+    <sys_element_mapping action="INSERT_OR_UPDATE">
+        <field>table</field>
+        <id>75c27fec474001101c198a5f746d433e</id>
+        <sys_created_by>fletcher</sys_created_by>
+        <sys_created_on>2021-11-23 02:40:45</sys_created_on>
+        <sys_id>31c27fec474001101c198a5f746d4340</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>fletcher</sys_updated_by>
+        <sys_updated_on>2021-11-23 02:40:45</sys_updated_on>
+        <table>var__m_sys_hub_action_input_43400a1587003300663ca1bb36cb0b4b</table>
+        <value/>
+    </sys_element_mapping>
+    <sys_hub_action_instance action="INSERT_OR_UPDATE">
+        <action_inputs/>
+        <action_inputs/>
+        <action_type display_value="Update Record">f9d01dd2c31332002841b63b12d3aea1</action_type>
+        <action_type_parent/>
+        <comment/>
+        <compiled_snapshot/>
+        <display_text/>
+        <flow display_value="Insert on Drinks Set on Creation of a M2M Drinks Sizes Record">497f7bd747f330101c198a5f746d432a</flow>
+        <order>11</order>
+        <parent_ui_id>7daae8e6-6482-426a-ab01-84f8389172a7</parent_ui_id>
+        <sys_class_name>sys_hub_action_instance</sys_class_name>
+        <sys_created_by>fletcher</sys_created_by>
+        <sys_created_on>2021-11-19 08:13:08</sys_created_on>
+        <sys_id>7b7810e3477730101c198a5f746d43cf</sys_id>
+        <sys_mod_count>22</sys_mod_count>
+        <sys_scope display_value="Cafe Management">6a49c4cb472730101c198a5f746d43b0</sys_scope>
+        <sys_updated_by>fletcher</sys_updated_by>
+        <sys_updated_on>2021-11-23 03:49:08</sys_updated_on>
+        <ui_id>e101e994-b4b6-4d79-9e1e-56b45b555125</ui_id>
+    </sys_hub_action_instance>
+    <sys_variable_value action="delete_multiple" query="document_key=7b7810e3477730101c198a5f746d43cf"/>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>sys_hub_action_instance</document>
+        <document_key>7b7810e3477730101c198a5f746d43cf</document_key>
+        <order>50</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>fletcher</sys_created_by>
+        <sys_created_on>2021-11-19 08:13:08</sys_created_on>
+        <sys_id>777810e3477730101c198a5f746d43d1</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>fletcher</sys_updated_by>
+        <sys_updated_on>2021-11-19 08:13:08</sys_updated_on>
+        <value>question_choice</value>
+        <variable display_value="Table">b5d01916c31332002841b63b12d3aec9</variable>
+    </sys_variable_value>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>sys_hub_action_instance</document>
+        <document_key>7b7810e3477730101c198a5f746d43cf</document_key>
+        <order>100</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>fletcher</sys_created_by>
+        <sys_created_on>2021-11-19 08:13:08</sys_created_on>
+        <sys_id>b37810e3477730101c198a5f746d43d1</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>fletcher</sys_updated_by>
+        <sys_updated_on>2021-11-19 08:13:08</sys_updated_on>
+        <value>order=500</value>
+        <variable display_value="Fields">02d01916c31332002841b63b12d3aeee</variable>
+    </sys_variable_value>
+    <sys_element_mapping action="delete_multiple" query="id=7b7810e3477730101c198a5f746d43cf"/>
+    <sys_element_mapping action="INSERT_OR_UPDATE">
+        <field>record</field>
+        <id>7b7810e3477730101c198a5f746d43cf</id>
+        <sys_created_by>fletcher</sys_created_by>
+        <sys_created_on>2021-11-19 08:13:08</sys_created_on>
+        <sys_id>7f7810e3477730101c198a5f746d43d0</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>fletcher</sys_updated_by>
+        <sys_updated_on>2021-11-19 08:13:08</sys_updated_on>
+        <table>var__m_sys_hub_action_input_f9d01dd2c31332002841b63b12d3aea1</table>
+        <value>{{a65ee04e-da1a-41a1-9e97-2cee8e34c090.record}}</value>
+    </sys_element_mapping>
+    <sys_element_mapping action="INSERT_OR_UPDATE">
+        <field>table_name</field>
+        <id>7b7810e3477730101c198a5f746d43cf</id>
+        <sys_created_by>fletcher</sys_created_by>
+        <sys_created_on>2021-11-19 08:13:08</sys_created_on>
+        <sys_id>bb7810e3477730101c198a5f746d43d0</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>fletcher</sys_updated_by>
+        <sys_updated_on>2021-11-19 08:13:08</sys_updated_on>
+        <table>var__m_sys_hub_action_input_f9d01dd2c31332002841b63b12d3aea1</table>
+        <value/>
+    </sys_element_mapping>
+    <sys_element_mapping action="INSERT_OR_UPDATE">
+        <field>values</field>
+        <id>7b7810e3477730101c198a5f746d43cf</id>
+        <sys_created_by>fletcher</sys_created_by>
+        <sys_created_on>2021-11-19 08:13:08</sys_created_on>
+        <sys_id>337810e3477730101c198a5f746d43d1</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>fletcher</sys_updated_by>
+        <sys_updated_on>2021-11-19 08:13:08</sys_updated_on>
+        <table>var__m_sys_hub_action_input_f9d01dd2c31332002841b63b12d3aea1</table>
+        <value/>
+    </sys_element_mapping>
+    <sys_hub_action_instance action="INSERT_OR_UPDATE">
+        <action_inputs/>
+        <action_inputs/>
+        <action_type display_value="Create Record">2de05916c31332002841b63b12d3aee1</action_type>
+        <action_type_parent/>
+        <comment/>
+        <compiled_snapshot/>
+        <display_text/>
+        <flow display_value="Insert on Drinks Set on Creation of a M2M Drinks Sizes Record">497f7bd747f330101c198a5f746d432a</flow>
+        <order>14</order>
+        <parent_ui_id>07ee447d-17a7-498a-8ac2-5f2339f5e8ec</parent_ui_id>
+        <sys_class_name>sys_hub_action_instance</sys_class_name>
+        <sys_created_by>fletcher</sys_created_by>
+        <sys_created_on>2021-11-19 08:14:32</sys_created_on>
+        <sys_id>90d858e3477730101c198a5f746d4313</sys_id>
+        <sys_mod_count>20</sys_mod_count>
+        <sys_scope display_value="Cafe Management">6a49c4cb472730101c198a5f746d43b0</sys_scope>
+        <sys_updated_by>fletcher</sys_updated_by>
+        <sys_updated_on>2021-11-23 03:49:08</sys_updated_on>
+        <ui_id>f254e3f7-41a3-448d-9dd2-0ee95e55d0b3</ui_id>
+    </sys_hub_action_instance>
+    <sys_variable_value action="delete_multiple" query="document_key=90d858e3477730101c198a5f746d4313"/>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>sys_hub_action_instance</document>
+        <document_key>90d858e3477730101c198a5f746d4313</document_key>
+        <order>0</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>fletcher</sys_created_by>
+        <sys_created_on>2021-11-19 08:14:32</sys_created_on>
+        <sys_id>10d858e3477730101c198a5f746d4321</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>fletcher</sys_updated_by>
+        <sys_updated_on>2021-11-19 08:14:32</sys_updated_on>
+        <value>item_option_new</value>
+        <variable display_value="Table">61e05916c31332002841b63b12d3aee4</variable>
+    </sys_variable_value>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>sys_hub_action_instance</document>
+        <document_key>90d858e3477730101c198a5f746d4313</document_key>
+        <order>1</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>fletcher</sys_created_by>
+        <sys_created_on>2021-11-19 08:14:32</sys_created_on>
+        <sys_id>94d858e3477730101c198a5f746d4314</sys_id>
+        <sys_mod_count>1</sys_mod_count>
+        <sys_updated_by>fletcher</sys_updated_by>
+        <sys_updated_on>2021-11-19 08:33:30</sys_updated_on>
+        <value/>
+        <variable display_value="Fields">6de09916c31332002841b63b12d3ae1b</variable>
+    </sys_variable_value>
+    <sys_element_mapping action="delete_multiple" query="id=90d858e3477730101c198a5f746d4313"/>
+    <sys_element_mapping action="INSERT_OR_UPDATE">
+        <field>table_name</field>
+        <id>90d858e3477730101c198a5f746d4313</id>
+        <sys_created_by>fletcher</sys_created_by>
+        <sys_created_on>2021-11-19 08:14:32</sys_created_on>
+        <sys_id>50d858e3477730101c198a5f746d4314</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>fletcher</sys_updated_by>
+        <sys_updated_on>2021-11-19 08:14:32</sys_updated_on>
+        <table>var__m_sys_hub_action_input_2de05916c31332002841b63b12d3aee1</table>
+        <value/>
+    </sys_element_mapping>
+    <sys_element_mapping action="INSERT_OR_UPDATE">
+        <field>values</field>
+        <id>90d858e3477730101c198a5f746d4313</id>
+        <sys_created_by>fletcher</sys_created_by>
+        <sys_created_on>2021-11-19 08:14:32</sys_created_on>
+        <sys_id>14d858e3477730101c198a5f746d4314</sys_id>
+        <sys_mod_count>5</sys_mod_count>
+        <sys_updated_by>fletcher</sys_updated_by>
+        <sys_updated_on>2021-11-23 03:48:21</sys_updated_on>
+        <table>var__m_sys_hub_action_input_2de05916c31332002841b63b12d3aee1</table>
+        <value>{{Created_1.current.sizes.name}}^sys_scope={"display":"Cafe Management","value":"6a49c4cb472730101c198a5f746d43b0"}^type=3^variable_set={"display":"Drinks Set","value":"c014b42a47b730101c198a5f746d4309"}^active=true^mandatory=true^question_text=^name=fd-scripted</value>
+    </sys_element_mapping>
+    <sys_hub_input_scripts action="delete_multiple" query="instance=90d858e3477730101c198a5f746d4313^sys_idNOT INc22d9ce7477730101c198a5f746d43a3"/>
+    <sys_hub_input_scripts action="INSERT_OR_UPDATE">
+        <active>true</active>
+        <input_name>values</input_name>
+        <instance>90d858e3477730101c198a5f746d4313</instance>
+        <referenced_table>sys_hub_action_instance</referenced_table>
+        <script>{"question_text":{"scriptActive":false,"script":"/*\n**Access Flow/Action data using the fd_data object. Script must return a value.\n**example: var shortDesc \u003d fd_data.trigger.current.short_description;\n**return shortDesc;\n*/\nreturn fd_data.trigger.current.sizes.name + \u0027 Sizes\u0027;","savedValue":""},"name":{"scriptActive":true,"script":"/*\n**Access Flow/Action data using the fd_data object. Script must return a value.\n**example: var shortDesc \u003d fd_data.trigger.current.short_description;\n**return shortDesc;\n*/\n\nreturn fd_data.trigger.current.drinks.name.split(\u0027 \u0027).join(\u0027_\u0027);","savedValue":""}}</script>
+        <sys_created_by>fletcher</sys_created_by>
+        <sys_created_on>2021-11-19 08:33:30</sys_created_on>
+        <sys_id>c22d9ce7477730101c198a5f746d43a3</sys_id>
+        <sys_mod_count>1</sys_mod_count>
+        <sys_updated_by>fletcher</sys_updated_by>
+        <sys_updated_on>2021-11-23 03:48:21</sys_updated_on>
+    </sys_hub_input_scripts>
+    <sys_hub_action_instance action="INSERT_OR_UPDATE">
+        <action_inputs/>
+        <action_inputs/>
+        <action_type display_value="Create Record">2de05916c31332002841b63b12d3aee1</action_type>
+        <action_type_parent/>
+        <comment/>
+        <compiled_snapshot/>
+        <display_text/>
+        <flow display_value="Insert on Drinks Set on Creation of a M2M Drinks Sizes Record">497f7bd747f330101c198a5f746d432a</flow>
+        <order>1</order>
+        <parent_ui_id/>
+        <sys_class_name>sys_hub_action_instance</sys_class_name>
+        <sys_created_by>fletcher</sys_created_by>
+        <sys_created_on>2021-11-19 08:13:07</sys_created_on>
+        <sys_id>a37810e3477730101c198a5f746d439d</sys_id>
+        <sys_mod_count>22</sys_mod_count>
+        <sys_scope display_value="Cafe Management">6a49c4cb472730101c198a5f746d43b0</sys_scope>
+        <sys_updated_by>fletcher</sys_updated_by>
+        <sys_updated_on>2021-11-23 03:49:08</sys_updated_on>
+        <ui_id>a65ee04e-da1a-41a1-9e97-2cee8e34c090</ui_id>
+    </sys_hub_action_instance>
+    <sys_variable_value action="delete_multiple" query="document_key=a37810e3477730101c198a5f746d439d"/>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>sys_hub_action_instance</document>
+        <document_key>a37810e3477730101c198a5f746d439d</document_key>
+        <order>0</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>fletcher</sys_created_by>
+        <sys_created_on>2021-11-19 08:13:07</sys_created_on>
+        <sys_id>a37810e3477730101c198a5f746d439f</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>fletcher</sys_updated_by>
+        <sys_updated_on>2021-11-19 08:13:07</sys_updated_on>
+        <value>question_choice</value>
+        <variable display_value="Table">61e05916c31332002841b63b12d3aee4</variable>
+    </sys_variable_value>
+    <sys_element_mapping action="delete_multiple" query="id=a37810e3477730101c198a5f746d439d"/>
+    <sys_element_mapping action="INSERT_OR_UPDATE">
+        <field>table_name</field>
+        <id>a37810e3477730101c198a5f746d439d</id>
+        <sys_created_by>fletcher</sys_created_by>
+        <sys_created_on>2021-11-19 08:13:07</sys_created_on>
+        <sys_id>6b7810e3477730101c198a5f746d439e</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>fletcher</sys_updated_by>
+        <sys_updated_on>2021-11-19 08:13:07</sys_updated_on>
+        <table>var__m_sys_hub_action_input_2de05916c31332002841b63b12d3aee1</table>
+        <value/>
+    </sys_element_mapping>
+    <sys_element_mapping action="INSERT_OR_UPDATE">
+        <field>values</field>
+        <id>a37810e3477730101c198a5f746d439d</id>
+        <sys_created_by>fletcher</sys_created_by>
+        <sys_created_on>2021-11-19 08:13:07</sys_created_on>
+        <sys_id>237810e3477730101c198a5f746d439f</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>fletcher</sys_updated_by>
+        <sys_updated_on>2021-11-19 08:13:07</sys_updated_on>
+        <table>var__m_sys_hub_action_input_2de05916c31332002841b63b12d3aee1</table>
+        <value>misc={{Created_1.current.price}}^text={{Created_1.current.sizes.name}}</value>
+    </sys_element_mapping>
+    <sys_hub_action_instance action="INSERT_OR_UPDATE">
+        <action_inputs/>
+        <action_inputs/>
+        <action_type display_value="Update Record">f9d01dd2c31332002841b63b12d3aea1</action_type>
+        <action_type_parent/>
+        <comment/>
+        <compiled_snapshot/>
+        <display_text/>
+        <flow display_value="Insert on Drinks Set on Creation of a M2M Drinks Sizes Record">497f7bd747f330101c198a5f746d432a</flow>
+        <order>9</order>
+        <parent_ui_id>51df5df8-1e69-4498-b421-4961c207c2f3</parent_ui_id>
+        <sys_class_name>sys_hub_action_instance</sys_class_name>
+        <sys_created_by>fletcher</sys_created_by>
+        <sys_created_on>2021-11-19 08:13:08</sys_created_on>
+        <sys_id>b37810e3477730101c198a5f746d43c6</sys_id>
+        <sys_mod_count>22</sys_mod_count>
+        <sys_scope display_value="Cafe Management">6a49c4cb472730101c198a5f746d43b0</sys_scope>
+        <sys_updated_by>fletcher</sys_updated_by>
+        <sys_updated_on>2021-11-23 03:49:08</sys_updated_on>
+        <ui_id>57af8045-b7ef-45d8-9575-9dee0a71e0c7</ui_id>
+    </sys_hub_action_instance>
+    <sys_variable_value action="delete_multiple" query="document_key=b37810e3477730101c198a5f746d43c6"/>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>sys_hub_action_instance</document>
+        <document_key>b37810e3477730101c198a5f746d43c6</document_key>
+        <order>50</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>fletcher</sys_created_by>
+        <sys_created_on>2021-11-19 08:13:08</sys_created_on>
+        <sys_id>bf7810e3477730101c198a5f746d43c7</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>fletcher</sys_updated_by>
+        <sys_updated_on>2021-11-19 08:13:08</sys_updated_on>
+        <value>question_choice</value>
+        <variable display_value="Table">b5d01916c31332002841b63b12d3aec9</variable>
+    </sys_variable_value>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>sys_hub_action_instance</document>
+        <document_key>b37810e3477730101c198a5f746d43c6</document_key>
+        <order>100</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>fletcher</sys_created_by>
+        <sys_created_on>2021-11-19 08:13:08</sys_created_on>
+        <sys_id>fb7810e3477730101c198a5f746d43c7</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>fletcher</sys_updated_by>
+        <sys_updated_on>2021-11-19 08:13:08</sys_updated_on>
+        <value>order=400</value>
+        <variable display_value="Fields">02d01916c31332002841b63b12d3aeee</variable>
+    </sys_variable_value>
+    <sys_element_mapping action="delete_multiple" query="id=b37810e3477730101c198a5f746d43c6"/>
+    <sys_element_mapping action="INSERT_OR_UPDATE">
+        <field>record</field>
+        <id>b37810e3477730101c198a5f746d43c6</id>
+        <sys_created_by>fletcher</sys_created_by>
+        <sys_created_on>2021-11-19 08:13:08</sys_created_on>
+        <sys_id>b77810e3477730101c198a5f746d43c7</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>fletcher</sys_updated_by>
+        <sys_updated_on>2021-11-19 08:13:08</sys_updated_on>
+        <table>var__m_sys_hub_action_input_f9d01dd2c31332002841b63b12d3aea1</table>
+        <value>{{a65ee04e-da1a-41a1-9e97-2cee8e34c090.record}}</value>
+    </sys_element_mapping>
+    <sys_element_mapping action="INSERT_OR_UPDATE">
+        <field>table_name</field>
+        <id>b37810e3477730101c198a5f746d43c6</id>
+        <sys_created_by>fletcher</sys_created_by>
+        <sys_created_on>2021-11-19 08:13:08</sys_created_on>
+        <sys_id>f37810e3477730101c198a5f746d43c7</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>fletcher</sys_updated_by>
+        <sys_updated_on>2021-11-19 08:13:08</sys_updated_on>
+        <table>var__m_sys_hub_action_input_f9d01dd2c31332002841b63b12d3aea1</table>
+        <value/>
+    </sys_element_mapping>
+    <sys_element_mapping action="INSERT_OR_UPDATE">
+        <field>values</field>
+        <id>b37810e3477730101c198a5f746d43c6</id>
+        <sys_created_by>fletcher</sys_created_by>
+        <sys_created_on>2021-11-19 08:13:08</sys_created_on>
+        <sys_id>7b7810e3477730101c198a5f746d43c7</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>fletcher</sys_updated_by>
+        <sys_updated_on>2021-11-19 08:13:08</sys_updated_on>
+        <table>var__m_sys_hub_action_input_f9d01dd2c31332002841b63b12d3aea1</table>
+        <value/>
+    </sys_element_mapping>
+    <sys_hub_action_instance action="INSERT_OR_UPDATE">
+        <action_inputs/>
+        <action_inputs/>
+        <action_type display_value="Update Record">f9d01dd2c31332002841b63b12d3aea1</action_type>
+        <action_type_parent/>
+        <comment>Set the Question Field of the new Question Choice Record to reference to the new Variable Record</comment>
+        <compiled_snapshot/>
+        <display_text/>
+        <flow display_value="Insert on Drinks Set on Creation of a M2M Drinks Sizes Record">497f7bd747f330101c198a5f746d432a</flow>
+        <order>16</order>
+        <parent_ui_id/>
+        <sys_class_name>sys_hub_action_instance</sys_class_name>
+        <sys_created_by>fletcher</sys_created_by>
+        <sys_created_on>2021-11-19 08:16:41</sys_created_on>
+        <sys_id>bb495427477730101c198a5f746d43f0</sys_id>
+        <sys_mod_count>18</sys_mod_count>
+        <sys_scope display_value="Cafe Management">6a49c4cb472730101c198a5f746d43b0</sys_scope>
+        <sys_updated_by>fletcher</sys_updated_by>
+        <sys_updated_on>2021-11-23 03:49:08</sys_updated_on>
+        <ui_id>6b5f0872-736c-4a3c-92ac-61a32dc17d1a</ui_id>
+    </sys_hub_action_instance>
+    <sys_variable_value action="delete_multiple" query="document_key=bb495427477730101c198a5f746d43f0"/>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>sys_hub_action_instance</document>
+        <document_key>bb495427477730101c198a5f746d43f0</document_key>
+        <order>50</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>fletcher</sys_created_by>
+        <sys_created_on>2021-11-19 08:16:41</sys_created_on>
+        <sys_id>f3495427477730101c198a5f746d43f2</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>fletcher</sys_updated_by>
+        <sys_updated_on>2021-11-19 08:16:41</sys_updated_on>
+        <value>question_choice</value>
+        <variable display_value="Table">b5d01916c31332002841b63b12d3aec9</variable>
+    </sys_variable_value>
+    <sys_element_mapping action="delete_multiple" query="id=bb495427477730101c198a5f746d43f0"/>
+    <sys_element_mapping action="INSERT_OR_UPDATE">
+        <field>record</field>
+        <id>bb495427477730101c198a5f746d43f0</id>
+        <sys_created_by>fletcher</sys_created_by>
+        <sys_created_on>2021-11-19 08:16:41</sys_created_on>
+        <sys_id>bf495427477730101c198a5f746d43f1</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>fletcher</sys_updated_by>
+        <sys_updated_on>2021-11-19 08:16:41</sys_updated_on>
+        <table>var__m_sys_hub_action_input_f9d01dd2c31332002841b63b12d3aea1</table>
+        <value>{{a65ee04e-da1a-41a1-9e97-2cee8e34c090.record}}</value>
+    </sys_element_mapping>
+    <sys_element_mapping action="INSERT_OR_UPDATE">
+        <field>table_name</field>
+        <id>bb495427477730101c198a5f746d43f0</id>
+        <sys_created_by>fletcher</sys_created_by>
+        <sys_created_on>2021-11-19 08:16:41</sys_created_on>
+        <sys_id>fb495427477730101c198a5f746d43f1</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>fletcher</sys_updated_by>
+        <sys_updated_on>2021-11-19 08:16:41</sys_updated_on>
+        <table>var__m_sys_hub_action_input_f9d01dd2c31332002841b63b12d3aea1</table>
+        <value/>
+    </sys_element_mapping>
+    <sys_element_mapping action="INSERT_OR_UPDATE">
+        <field>values</field>
+        <id>bb495427477730101c198a5f746d43f0</id>
+        <sys_created_by>fletcher</sys_created_by>
+        <sys_created_on>2021-11-19 08:16:41</sys_created_on>
+        <sys_id>73495427477730101c198a5f746d43f2</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>fletcher</sys_updated_by>
+        <sys_updated_on>2021-11-19 08:16:41</sys_updated_on>
+        <table>var__m_sys_hub_action_input_f9d01dd2c31332002841b63b12d3aea1</table>
+        <value>question={{f254e3f7-41a3-448d-9dd2-0ee95e55d0b3.record}}</value>
+    </sys_element_mapping>
+    <sys_hub_action_instance action="INSERT_OR_UPDATE">
+        <action_inputs/>
+        <action_inputs/>
+        <action_type display_value="Look Up Records">43400a1587003300663ca1bb36cb0b4b</action_type>
+        <action_type_parent/>
+        <comment/>
+        <compiled_snapshot/>
+        <display_text/>
+        <flow display_value="Insert on Drinks Set on Creation of a M2M Drinks Sizes Record">497f7bd747f330101c198a5f746d432a</flow>
+        <order>12</order>
+        <parent_ui_id/>
+        <sys_class_name>sys_hub_action_instance</sys_class_name>
+        <sys_created_by>fletcher</sys_created_by>
+        <sys_created_on>2021-11-23 02:38:26</sys_created_on>
+        <sys_id>cc42f3ec474001101c198a5f746d4317</sys_id>
+        <sys_mod_count>14</sys_mod_count>
+        <sys_scope display_value="Cafe Management">6a49c4cb472730101c198a5f746d43b0</sys_scope>
+        <sys_updated_by>fletcher</sys_updated_by>
+        <sys_updated_on>2021-11-23 03:49:08</sys_updated_on>
+        <ui_id>7123465d-d827-4410-91b8-861a9a3700e5</ui_id>
+    </sys_hub_action_instance>
+    <sys_variable_value action="delete_multiple" query="document_key=cc42f3ec474001101c198a5f746d4317"/>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>sys_hub_action_instance</document>
+        <document_key>cc42f3ec474001101c198a5f746d4317</document_key>
+        <order>0</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>fletcher</sys_created_by>
+        <sys_created_on>2021-11-23 02:38:26</sys_created_on>
+        <sys_id>8042f3ec474001101c198a5f746d431b</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>fletcher</sys_updated_by>
+        <sys_updated_on>2021-11-23 02:38:26</sys_updated_on>
+        <value>item_option_new</value>
+        <variable display_value="Table">8f400a1587003300663ca1bb36cb0b4b</variable>
+    </sys_variable_value>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>sys_hub_action_instance</document>
+        <document_key>cc42f3ec474001101c198a5f746d4317</document_key>
+        <order>4</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>fletcher</sys_created_by>
+        <sys_created_on>2021-11-23 02:38:26</sys_created_on>
+        <sys_id>8842f3ec474001101c198a5f746d431a</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>fletcher</sys_updated_by>
+        <sys_updated_on>2021-11-23 02:38:26</sys_updated_on>
+        <value>1</value>
+        <variable display_value="Max Results">4f400a1587003300663ca1bb36cb0b61</variable>
+    </sys_variable_value>
+    <sys_element_mapping action="delete_multiple" query="id=cc42f3ec474001101c198a5f746d4317"/>
+    <sys_element_mapping action="INSERT_OR_UPDATE">
+        <field>conditions</field>
+        <id>cc42f3ec474001101c198a5f746d4317</id>
+        <sys_created_by>fletcher</sys_created_by>
+        <sys_created_on>2021-11-23 02:38:26</sys_created_on>
+        <sys_id>4442f3ec474001101c198a5f746d431a</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>fletcher</sys_updated_by>
+        <sys_updated_on>2021-11-23 02:38:26</sys_updated_on>
+        <table>var__m_sys_hub_action_input_43400a1587003300663ca1bb36cb0b4b</table>
+        <value>question_text={{Created_1.current.sizes.name}}^variable_set=c014b42a47b730101c198a5f746d4309</value>
+    </sys_element_mapping>
+    <sys_element_mapping action="INSERT_OR_UPDATE">
+        <field>max_results</field>
+        <id>cc42f3ec474001101c198a5f746d4317</id>
+        <sys_created_by>fletcher</sys_created_by>
+        <sys_created_on>2021-11-23 02:38:26</sys_created_on>
+        <sys_id>8c42f3ec474001101c198a5f746d4319</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>fletcher</sys_updated_by>
+        <sys_updated_on>2021-11-23 02:38:26</sys_updated_on>
+        <table>var__m_sys_hub_action_input_43400a1587003300663ca1bb36cb0b4b</table>
+        <value/>
+    </sys_element_mapping>
+    <sys_element_mapping action="INSERT_OR_UPDATE">
+        <field>table</field>
+        <id>cc42f3ec474001101c198a5f746d4317</id>
+        <sys_created_by>fletcher</sys_created_by>
+        <sys_created_on>2021-11-23 02:38:26</sys_created_on>
+        <sys_id>0842f3ec474001101c198a5f746d431a</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>fletcher</sys_updated_by>
+        <sys_updated_on>2021-11-23 02:38:26</sys_updated_on>
+        <table>var__m_sys_hub_action_input_43400a1587003300663ca1bb36cb0b4b</table>
+        <value/>
+    </sys_element_mapping>
+    <sys_hub_action_instance action="INSERT_OR_UPDATE">
+        <action_inputs/>
+        <action_inputs/>
+        <action_type display_value="Update Record">f9d01dd2c31332002841b63b12d3aea1</action_type>
+        <action_type_parent/>
+        <comment/>
+        <compiled_snapshot/>
+        <display_text/>
+        <flow display_value="Insert on Drinks Set on Creation of a M2M Drinks Sizes Record">497f7bd747f330101c198a5f746d432a</flow>
+        <order>7</order>
+        <parent_ui_id>5d1fad8a-b041-4485-a5d7-3affc9f8b4be</parent_ui_id>
+        <sys_class_name>sys_hub_action_instance</sys_class_name>
+        <sys_created_by>fletcher</sys_created_by>
+        <sys_created_on>2021-11-19 08:13:08</sys_created_on>
+        <sys_id>fb7810e3477730101c198a5f746d43bc</sys_id>
+        <sys_mod_count>22</sys_mod_count>
+        <sys_scope display_value="Cafe Management">6a49c4cb472730101c198a5f746d43b0</sys_scope>
+        <sys_updated_by>fletcher</sys_updated_by>
+        <sys_updated_on>2021-11-23 03:49:08</sys_updated_on>
+        <ui_id>e3d9c114-faa2-43c7-b25f-1902bbb72141</ui_id>
+    </sys_hub_action_instance>
+    <sys_variable_value action="delete_multiple" query="document_key=fb7810e3477730101c198a5f746d43bc"/>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>sys_hub_action_instance</document>
+        <document_key>fb7810e3477730101c198a5f746d43bc</document_key>
+        <order>100</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>fletcher</sys_created_by>
+        <sys_created_on>2021-11-19 08:13:08</sys_created_on>
+        <sys_id>377810e3477730101c198a5f746d43be</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>fletcher</sys_updated_by>
+        <sys_updated_on>2021-11-19 08:13:08</sys_updated_on>
+        <value>order=300</value>
+        <variable display_value="Fields">02d01916c31332002841b63b12d3aeee</variable>
+    </sys_variable_value>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>sys_hub_action_instance</document>
+        <document_key>fb7810e3477730101c198a5f746d43bc</document_key>
+        <order>50</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>fletcher</sys_created_by>
+        <sys_created_on>2021-11-19 08:13:08</sys_created_on>
+        <sys_id>f77810e3477730101c198a5f746d43be</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>fletcher</sys_updated_by>
+        <sys_updated_on>2021-11-19 08:13:08</sys_updated_on>
+        <value>question_choice</value>
+        <variable display_value="Table">b5d01916c31332002841b63b12d3aec9</variable>
+    </sys_variable_value>
+    <sys_element_mapping action="delete_multiple" query="id=fb7810e3477730101c198a5f746d43bc"/>
+    <sys_element_mapping action="INSERT_OR_UPDATE">
+        <field>record</field>
+        <id>fb7810e3477730101c198a5f746d43bc</id>
+        <sys_created_by>fletcher</sys_created_by>
+        <sys_created_on>2021-11-19 08:13:08</sys_created_on>
+        <sys_id>ff7810e3477730101c198a5f746d43bd</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>fletcher</sys_updated_by>
+        <sys_updated_on>2021-11-19 08:13:08</sys_updated_on>
+        <table>var__m_sys_hub_action_input_f9d01dd2c31332002841b63b12d3aea1</table>
+        <value>{{a65ee04e-da1a-41a1-9e97-2cee8e34c090.record}}</value>
+    </sys_element_mapping>
+    <sys_element_mapping action="INSERT_OR_UPDATE">
+        <field>table_name</field>
+        <id>fb7810e3477730101c198a5f746d43bc</id>
+        <sys_created_by>fletcher</sys_created_by>
+        <sys_created_on>2021-11-19 08:13:08</sys_created_on>
+        <sys_id>3f7810e3477730101c198a5f746d43bd</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>fletcher</sys_updated_by>
+        <sys_updated_on>2021-11-19 08:13:08</sys_updated_on>
+        <table>var__m_sys_hub_action_input_f9d01dd2c31332002841b63b12d3aea1</table>
+        <value/>
+    </sys_element_mapping>
+    <sys_element_mapping action="INSERT_OR_UPDATE">
+        <field>values</field>
+        <id>fb7810e3477730101c198a5f746d43bc</id>
+        <sys_created_by>fletcher</sys_created_by>
+        <sys_created_on>2021-11-19 08:13:08</sys_created_on>
+        <sys_id>b37810e3477730101c198a5f746d43be</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>fletcher</sys_updated_by>
+        <sys_updated_on>2021-11-19 08:13:08</sys_updated_on>
+        <table>var__m_sys_hub_action_input_f9d01dd2c31332002841b63b12d3aea1</table>
+        <value/>
+    </sys_element_mapping>
+    <sys_hub_flow_logic action="delete_multiple" query="flow=497f7bd747f330101c198a5f746d432a^sys_idNOT IN7b7810e3477730101c198a5f746d43ab,7b7810e3477730101c198a5f746d43c8,b37810e3477730101c198a5f746d43bf,c042f3ec474001101c198a5f746d431c,e37810e3477730101c198a5f746d43a0,fb7810e3477730101c198a5f746d43b5"/>
+    <sys_hub_flow_logic action="INSERT_OR_UPDATE">
+        <block display_value="">b37810e3477730101c198a5f746d43ab</block>
+        <comment/>
+        <connected_to>276fc9c3-8fcf-48af-99db-9d18d79d8b8a</connected_to>
+        <decision_table/>
+        <decision_table_inputs/>
+        <display_text/>
+        <extended_inputs/>
+        <flow display_value="Insert on Drinks Set on Creation of a M2M Drinks Sizes Record">497f7bd747f330101c198a5f746d432a</flow>
+        <flow_variable/>
+        <flow_variables_assigned/>
+        <inputs/>
+        <inputs/>
+        <logic_definition display_value="Else If">666e5545c3e232002841b63b12d3ae99</logic_definition>
+        <order>4</order>
+        <outputs_assigned/>
+        <outputs_to_assign/>
+        <parent_ui_id/>
+        <sys_class_name>sys_hub_flow_logic</sys_class_name>
+        <sys_created_by>fletcher</sys_created_by>
+        <sys_created_on>2021-11-19 08:13:07</sys_created_on>
+        <sys_id>7b7810e3477730101c198a5f746d43ab</sys_id>
+        <sys_mod_count>11</sys_mod_count>
+        <sys_scope display_value="Cafe Management">6a49c4cb472730101c198a5f746d43b0</sys_scope>
+        <sys_updated_by>fletcher</sys_updated_by>
+        <sys_updated_on>2021-11-23 03:49:08</sys_updated_on>
+        <ui_id>1ab940b4-2214-4ace-9b46-22a4d4d89832</ui_id>
+        <workflow_inputs/>
+        <workflow_reference/>
+    </sys_hub_flow_logic>
+    <sys_variable_value action="delete_multiple" query="document_key=7b7810e3477730101c198a5f746d43ab"/>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>sys_hub_flow_logic</document>
+        <document_key>7b7810e3477730101c198a5f746d43ab</document_key>
+        <order>10</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>fletcher</sys_created_by>
+        <sys_created_on>2021-11-19 08:13:08</sys_created_on>
+        <sys_id>337810e3477730101c198a5f746d43af</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>fletcher</sys_updated_by>
+        <sys_updated_on>2021-11-19 08:13:08</sys_updated_on>
+        <value>The Created Size is Tall</value>
+        <variable display_value="Condition Label">f0af19c1c32632002841b63b12d3aea2</variable>
+    </sys_variable_value>
+    <sys_element_mapping action="delete_multiple" query="id=7b7810e3477730101c198a5f746d43ab"/>
+    <sys_element_mapping action="INSERT_OR_UPDATE">
+        <field>condition</field>
+        <id>7b7810e3477730101c198a5f746d43ab</id>
+        <sys_created_by>fletcher</sys_created_by>
+        <sys_created_on>2021-11-19 08:13:08</sys_created_on>
+        <sys_id>bf7810e3477730101c198a5f746d43ae</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>fletcher</sys_updated_by>
+        <sys_updated_on>2021-11-19 08:13:08</sys_updated_on>
+        <table>var__m_sys_hub_flow_logic_input_666e5545c3e232002841b63b12d3ae99</table>
+        <value>{{Created_1.current.sizes.name}}=Tall</value>
+    </sys_element_mapping>
+    <sys_element_mapping action="INSERT_OR_UPDATE">
+        <field>condition_name</field>
+        <id>7b7810e3477730101c198a5f746d43ab</id>
+        <sys_created_by>fletcher</sys_created_by>
+        <sys_created_on>2021-11-19 08:13:08</sys_created_on>
+        <sys_id>fb7810e3477730101c198a5f746d43ae</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>fletcher</sys_updated_by>
+        <sys_updated_on>2021-11-19 08:13:08</sys_updated_on>
+        <table>var__m_sys_hub_flow_logic_input_666e5545c3e232002841b63b12d3ae99</table>
+        <value/>
+    </sys_element_mapping>
+    <sys_hub_flow_logic action="INSERT_OR_UPDATE">
+        <block display_value="">b37810e3477730101c198a5f746d43c8</block>
+        <comment/>
+        <connected_to>276fc9c3-8fcf-48af-99db-9d18d79d8b8a</connected_to>
+        <decision_table/>
+        <decision_table_inputs/>
+        <display_text/>
+        <extended_inputs/>
+        <flow display_value="Insert on Drinks Set on Creation of a M2M Drinks Sizes Record">497f7bd747f330101c198a5f746d432a</flow>
+        <flow_variable/>
+        <flow_variables_assigned/>
+        <inputs/>
+        <inputs/>
+        <logic_definition display_value="Else If">666e5545c3e232002841b63b12d3ae99</logic_definition>
+        <order>10</order>
+        <outputs_assigned/>
+        <outputs_to_assign/>
+        <parent_ui_id/>
+        <sys_class_name>sys_hub_flow_logic</sys_class_name>
+        <sys_created_by>fletcher</sys_created_by>
+        <sys_created_on>2021-11-19 08:13:08</sys_created_on>
+        <sys_id>7b7810e3477730101c198a5f746d43c8</sys_id>
+        <sys_mod_count>11</sys_mod_count>
+        <sys_scope display_value="Cafe Management">6a49c4cb472730101c198a5f746d43b0</sys_scope>
+        <sys_updated_by>fletcher</sys_updated_by>
+        <sys_updated_on>2021-11-23 03:49:08</sys_updated_on>
+        <ui_id>7daae8e6-6482-426a-ab01-84f8389172a7</ui_id>
+        <workflow_inputs/>
+        <workflow_reference/>
+    </sys_hub_flow_logic>
+    <sys_variable_value action="delete_multiple" query="document_key=7b7810e3477730101c198a5f746d43c8"/>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>sys_hub_flow_logic</document>
+        <document_key>7b7810e3477730101c198a5f746d43c8</document_key>
+        <order>10</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>fletcher</sys_created_by>
+        <sys_created_on>2021-11-19 08:13:08</sys_created_on>
+        <sys_id>f77810e3477730101c198a5f746d43cb</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>fletcher</sys_updated_by>
+        <sys_updated_on>2021-11-19 08:13:08</sys_updated_on>
+        <value>The Created Size is Trenta</value>
+        <variable display_value="Condition Label">f0af19c1c32632002841b63b12d3aea2</variable>
+    </sys_variable_value>
+    <sys_element_mapping action="delete_multiple" query="id=7b7810e3477730101c198a5f746d43c8"/>
+    <sys_element_mapping action="INSERT_OR_UPDATE">
+        <field>condition</field>
+        <id>7b7810e3477730101c198a5f746d43c8</id>
+        <sys_created_by>fletcher</sys_created_by>
+        <sys_created_on>2021-11-19 08:13:08</sys_created_on>
+        <sys_id>777810e3477730101c198a5f746d43cb</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>fletcher</sys_updated_by>
+        <sys_updated_on>2021-11-19 08:13:08</sys_updated_on>
+        <table>var__m_sys_hub_flow_logic_input_666e5545c3e232002841b63b12d3ae99</table>
+        <value>{{Created_1.current.sizes.name}}=Trenta</value>
+    </sys_element_mapping>
+    <sys_element_mapping action="INSERT_OR_UPDATE">
+        <field>condition_name</field>
+        <id>7b7810e3477730101c198a5f746d43c8</id>
+        <sys_created_by>fletcher</sys_created_by>
+        <sys_created_on>2021-11-19 08:13:08</sys_created_on>
+        <sys_id>b37810e3477730101c198a5f746d43cb</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>fletcher</sys_updated_by>
+        <sys_updated_on>2021-11-19 08:13:08</sys_updated_on>
+        <table>var__m_sys_hub_flow_logic_input_666e5545c3e232002841b63b12d3ae99</table>
+        <value/>
+    </sys_element_mapping>
+    <sys_hub_flow_logic action="INSERT_OR_UPDATE">
+        <block display_value="">fb7810e3477730101c198a5f746d43be</block>
+        <comment/>
+        <connected_to>276fc9c3-8fcf-48af-99db-9d18d79d8b8a</connected_to>
+        <decision_table/>
+        <decision_table_inputs/>
+        <display_text/>
+        <extended_inputs/>
+        <flow display_value="Insert on Drinks Set on Creation of a M2M Drinks Sizes Record">497f7bd747f330101c198a5f746d432a</flow>
+        <flow_variable/>
+        <flow_variables_assigned/>
+        <inputs/>
+        <inputs/>
+        <logic_definition display_value="Else If">666e5545c3e232002841b63b12d3ae99</logic_definition>
+        <order>8</order>
+        <outputs_assigned/>
+        <outputs_to_assign/>
+        <parent_ui_id/>
+        <sys_class_name>sys_hub_flow_logic</sys_class_name>
+        <sys_created_by>fletcher</sys_created_by>
+        <sys_created_on>2021-11-19 08:13:08</sys_created_on>
+        <sys_id>b37810e3477730101c198a5f746d43bf</sys_id>
+        <sys_mod_count>11</sys_mod_count>
+        <sys_scope display_value="Cafe Management">6a49c4cb472730101c198a5f746d43b0</sys_scope>
+        <sys_updated_by>fletcher</sys_updated_by>
+        <sys_updated_on>2021-11-23 03:49:08</sys_updated_on>
+        <ui_id>51df5df8-1e69-4498-b421-4961c207c2f3</ui_id>
+        <workflow_inputs/>
+        <workflow_reference/>
+    </sys_hub_flow_logic>
+    <sys_variable_value action="delete_multiple" query="document_key=b37810e3477730101c198a5f746d43bf"/>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>sys_hub_flow_logic</document>
+        <document_key>b37810e3477730101c198a5f746d43bf</document_key>
+        <order>10</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>fletcher</sys_created_by>
+        <sys_created_on>2021-11-19 08:13:08</sys_created_on>
+        <sys_id>337810e3477730101c198a5f746d43c2</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>fletcher</sys_updated_by>
+        <sys_updated_on>2021-11-19 08:13:08</sys_updated_on>
+        <value>The Created Size is Venti</value>
+        <variable display_value="Condition Label">f0af19c1c32632002841b63b12d3aea2</variable>
+    </sys_variable_value>
+    <sys_element_mapping action="delete_multiple" query="id=b37810e3477730101c198a5f746d43bf"/>
+    <sys_element_mapping action="INSERT_OR_UPDATE">
+        <field>condition</field>
+        <id>b37810e3477730101c198a5f746d43bf</id>
+        <sys_created_by>fletcher</sys_created_by>
+        <sys_created_on>2021-11-19 08:13:08</sys_created_on>
+        <sys_id>bf7810e3477730101c198a5f746d43c1</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>fletcher</sys_updated_by>
+        <sys_updated_on>2021-11-19 08:13:08</sys_updated_on>
+        <table>var__m_sys_hub_flow_logic_input_666e5545c3e232002841b63b12d3ae99</table>
+        <value>{{Created_1.current.sizes.name}}=Venti</value>
+    </sys_element_mapping>
+    <sys_element_mapping action="INSERT_OR_UPDATE">
+        <field>condition_name</field>
+        <id>b37810e3477730101c198a5f746d43bf</id>
+        <sys_created_by>fletcher</sys_created_by>
+        <sys_created_on>2021-11-19 08:13:08</sys_created_on>
+        <sys_id>fb7810e3477730101c198a5f746d43c1</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>fletcher</sys_updated_by>
+        <sys_updated_on>2021-11-19 08:13:08</sys_updated_on>
+        <table>var__m_sys_hub_flow_logic_input_666e5545c3e232002841b63b12d3ae99</table>
+        <value/>
+    </sys_element_mapping>
+    <sys_hub_flow_logic action="INSERT_OR_UPDATE">
+        <block display_value="">0842f3ec474001101c198a5f746d431b</block>
+        <comment/>
+        <connected_to/>
+        <decision_table/>
+        <decision_table_inputs/>
+        <display_text/>
+        <extended_inputs/>
+        <flow display_value="Insert on Drinks Set on Creation of a M2M Drinks Sizes Record">497f7bd747f330101c198a5f746d432a</flow>
+        <flow_variable/>
+        <flow_variables_assigned/>
+        <inputs/>
+        <inputs/>
+        <logic_definition display_value="If">af4e1945c3e232002841b63b12d3ae3e</logic_definition>
+        <order>13</order>
+        <outputs_assigned/>
+        <outputs_to_assign/>
+        <parent_ui_id/>
+        <sys_class_name>sys_hub_flow_logic</sys_class_name>
+        <sys_created_by>fletcher</sys_created_by>
+        <sys_created_on>2021-11-23 02:38:26</sys_created_on>
+        <sys_id>c042f3ec474001101c198a5f746d431c</sys_id>
+        <sys_mod_count>7</sys_mod_count>
+        <sys_scope display_value="Cafe Management">6a49c4cb472730101c198a5f746d43b0</sys_scope>
+        <sys_updated_by>fletcher</sys_updated_by>
+        <sys_updated_on>2021-11-23 03:49:08</sys_updated_on>
+        <ui_id>07ee447d-17a7-498a-8ac2-5f2339f5e8ec</ui_id>
+        <workflow_inputs/>
+        <workflow_reference/>
+    </sys_hub_flow_logic>
+    <sys_variable_value action="delete_multiple" query="document_key=c042f3ec474001101c198a5f746d431c"/>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>sys_hub_flow_logic</document>
+        <document_key>c042f3ec474001101c198a5f746d431c</document_key>
+        <order>10</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>fletcher</sys_created_by>
+        <sys_created_on>2021-11-23 02:38:26</sys_created_on>
+        <sys_id>4442f3ec474001101c198a5f746d431f</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>fletcher</sys_updated_by>
+        <sys_updated_on>2021-11-23 02:38:26</sys_updated_on>
+        <value>No previously created Variable Record</value>
+        <variable display_value="Condition Label">f0af19c1c32632002841b63b12d3aea3</variable>
+    </sys_variable_value>
+    <sys_element_mapping action="delete_multiple" query="id=c042f3ec474001101c198a5f746d431c"/>
+    <sys_element_mapping action="INSERT_OR_UPDATE">
+        <field>condition</field>
+        <id>c042f3ec474001101c198a5f746d431c</id>
+        <sys_created_by>fletcher</sys_created_by>
+        <sys_created_on>2021-11-23 02:38:26</sys_created_on>
+        <sys_id>c042f3ec474001101c198a5f746d431f</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>fletcher</sys_updated_by>
+        <sys_updated_on>2021-11-23 02:38:26</sys_updated_on>
+        <table>var__m_sys_hub_flow_logic_input_af4e1945c3e232002841b63b12d3ae3e</table>
+        <value>{{7123465d-d827-4410-91b8-861a9a3700e5.Count}}=0</value>
+    </sys_element_mapping>
+    <sys_element_mapping action="INSERT_OR_UPDATE">
+        <field>condition_name</field>
+        <id>c042f3ec474001101c198a5f746d431c</id>
+        <sys_created_by>fletcher</sys_created_by>
+        <sys_created_on>2021-11-23 02:38:26</sys_created_on>
+        <sys_id>0042f3ec474001101c198a5f746d431f</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>fletcher</sys_updated_by>
+        <sys_updated_on>2021-11-23 02:38:26</sys_updated_on>
+        <table>var__m_sys_hub_flow_logic_input_af4e1945c3e232002841b63b12d3ae3e</table>
+        <value/>
+    </sys_element_mapping>
+    <sys_hub_flow_logic action="INSERT_OR_UPDATE">
+        <block display_value="">2b7810e3477730101c198a5f746d439f</block>
+        <comment>Set the Order field depending on the Size of the created Sizes Drinks record</comment>
+        <connected_to/>
+        <decision_table/>
+        <decision_table_inputs/>
+        <display_text/>
+        <extended_inputs/>
+        <flow display_value="Insert on Drinks Set on Creation of a M2M Drinks Sizes Record">497f7bd747f330101c198a5f746d432a</flow>
+        <flow_variable/>
+        <flow_variables_assigned/>
+        <inputs/>
+        <inputs/>
+        <logic_definition display_value="If">af4e1945c3e232002841b63b12d3ae3e</logic_definition>
+        <order>2</order>
+        <outputs_assigned/>
+        <outputs_to_assign/>
+        <parent_ui_id/>
+        <sys_class_name>sys_hub_flow_logic</sys_class_name>
+        <sys_created_by>fletcher</sys_created_by>
+        <sys_created_on>2021-11-19 08:13:07</sys_created_on>
+        <sys_id>e37810e3477730101c198a5f746d43a0</sys_id>
+        <sys_mod_count>12</sys_mod_count>
+        <sys_scope display_value="Cafe Management">6a49c4cb472730101c198a5f746d43b0</sys_scope>
+        <sys_updated_by>fletcher</sys_updated_by>
+        <sys_updated_on>2021-11-23 03:49:08</sys_updated_on>
+        <ui_id>276fc9c3-8fcf-48af-99db-9d18d79d8b8a</ui_id>
+        <workflow_inputs/>
+        <workflow_reference/>
+    </sys_hub_flow_logic>
+    <sys_variable_value action="delete_multiple" query="document_key=e37810e3477730101c198a5f746d43a0"/>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>sys_hub_flow_logic</document>
+        <document_key>e37810e3477730101c198a5f746d43a0</document_key>
+        <order>10</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>fletcher</sys_created_by>
+        <sys_created_on>2021-11-19 08:13:07</sys_created_on>
+        <sys_id>a77810e3477730101c198a5f746d43a4</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>fletcher</sys_updated_by>
+        <sys_updated_on>2021-11-19 08:13:07</sys_updated_on>
+        <value>The Created Size is Short</value>
+        <variable display_value="Condition Label">f0af19c1c32632002841b63b12d3aea3</variable>
+    </sys_variable_value>
+    <sys_element_mapping action="delete_multiple" query="id=e37810e3477730101c198a5f746d43a0"/>
+    <sys_element_mapping action="INSERT_OR_UPDATE">
+        <field>condition</field>
+        <id>e37810e3477730101c198a5f746d43a0</id>
+        <sys_created_by>fletcher</sys_created_by>
+        <sys_created_on>2021-11-19 08:13:07</sys_created_on>
+        <sys_id>277810e3477730101c198a5f746d43a4</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>fletcher</sys_updated_by>
+        <sys_updated_on>2021-11-19 08:13:07</sys_updated_on>
+        <table>var__m_sys_hub_flow_logic_input_af4e1945c3e232002841b63b12d3ae3e</table>
+        <value>{{Created_1.current.sizes.name}}=Short</value>
+    </sys_element_mapping>
+    <sys_element_mapping action="INSERT_OR_UPDATE">
+        <field>condition_name</field>
+        <id>e37810e3477730101c198a5f746d43a0</id>
+        <sys_created_by>fletcher</sys_created_by>
+        <sys_created_on>2021-11-19 08:13:07</sys_created_on>
+        <sys_id>637810e3477730101c198a5f746d43a4</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>fletcher</sys_updated_by>
+        <sys_updated_on>2021-11-19 08:13:07</sys_updated_on>
+        <table>var__m_sys_hub_flow_logic_input_af4e1945c3e232002841b63b12d3ae3e</table>
+        <value/>
+    </sys_element_mapping>
+    <sys_hub_flow_logic action="INSERT_OR_UPDATE">
+        <block display_value="">377810e3477730101c198a5f746d43b5</block>
+        <comment/>
+        <connected_to>276fc9c3-8fcf-48af-99db-9d18d79d8b8a</connected_to>
+        <decision_table/>
+        <decision_table_inputs/>
+        <display_text/>
+        <extended_inputs/>
+        <flow display_value="Insert on Drinks Set on Creation of a M2M Drinks Sizes Record">497f7bd747f330101c198a5f746d432a</flow>
+        <flow_variable/>
+        <flow_variables_assigned/>
+        <inputs/>
+        <inputs/>
+        <logic_definition display_value="Else If">666e5545c3e232002841b63b12d3ae99</logic_definition>
+        <order>6</order>
+        <outputs_assigned/>
+        <outputs_to_assign/>
+        <parent_ui_id/>
+        <sys_class_name>sys_hub_flow_logic</sys_class_name>
+        <sys_created_by>fletcher</sys_created_by>
+        <sys_created_on>2021-11-19 08:13:08</sys_created_on>
+        <sys_id>fb7810e3477730101c198a5f746d43b5</sys_id>
+        <sys_mod_count>11</sys_mod_count>
+        <sys_scope display_value="Cafe Management">6a49c4cb472730101c198a5f746d43b0</sys_scope>
+        <sys_updated_by>fletcher</sys_updated_by>
+        <sys_updated_on>2021-11-23 03:49:08</sys_updated_on>
+        <ui_id>5d1fad8a-b041-4485-a5d7-3affc9f8b4be</ui_id>
+        <workflow_inputs/>
+        <workflow_reference/>
+    </sys_hub_flow_logic>
+    <sys_variable_value action="delete_multiple" query="document_key=fb7810e3477730101c198a5f746d43b5"/>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>sys_hub_flow_logic</document>
+        <document_key>fb7810e3477730101c198a5f746d43b5</document_key>
+        <order>10</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>fletcher</sys_created_by>
+        <sys_created_on>2021-11-19 08:13:08</sys_created_on>
+        <sys_id>7b7810e3477730101c198a5f746d43b8</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>fletcher</sys_updated_by>
+        <sys_updated_on>2021-11-19 08:13:08</sys_updated_on>
+        <value>The Created Size is Grande</value>
+        <variable display_value="Condition Label">f0af19c1c32632002841b63b12d3aea2</variable>
+    </sys_variable_value>
+    <sys_element_mapping action="delete_multiple" query="id=fb7810e3477730101c198a5f746d43b5"/>
+    <sys_element_mapping action="INSERT_OR_UPDATE">
+        <field>condition</field>
+        <id>fb7810e3477730101c198a5f746d43b5</id>
+        <sys_created_by>fletcher</sys_created_by>
+        <sys_created_on>2021-11-19 08:13:08</sys_created_on>
+        <sys_id>f77810e3477730101c198a5f746d43b8</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>fletcher</sys_updated_by>
+        <sys_updated_on>2021-11-19 08:13:08</sys_updated_on>
+        <table>var__m_sys_hub_flow_logic_input_666e5545c3e232002841b63b12d3ae99</table>
+        <value>{{Created_1.current.sizes.name}}=Grande</value>
+    </sys_element_mapping>
+    <sys_element_mapping action="INSERT_OR_UPDATE">
+        <field>condition_name</field>
+        <id>fb7810e3477730101c198a5f746d43b5</id>
+        <sys_created_by>fletcher</sys_created_by>
+        <sys_created_on>2021-11-19 08:13:08</sys_created_on>
+        <sys_id>377810e3477730101c198a5f746d43b8</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>fletcher</sys_updated_by>
+        <sys_updated_on>2021-11-19 08:13:08</sys_updated_on>
+        <table>var__m_sys_hub_flow_logic_input_666e5545c3e232002841b63b12d3ae99</table>
+        <value/>
+    </sys_element_mapping>
+    <sys_documentation action="delete_multiple" query="name=var__m_sys_hub_flow_input_497f7bd747f330101c198a5f746d432a^sys_idNOT IN2f7810e3477730101c198a5f746d4382,6f7810e3477730101c198a5f746d4394"/>
+    <sys_documentation action="INSERT_OR_UPDATE">
+        <element>current</element>
+        <help/>
+        <hint/>
+        <label>Record</label>
+        <language>en</language>
+        <name>var__m_sys_hub_flow_input_497f7bd747f330101c198a5f746d432a</name>
+        <plural/>
+        <sys_class_name>sys_documentation</sys_class_name>
+        <sys_created_by>fletcher</sys_created_by>
+        <sys_created_on>2021-11-19 08:13:07</sys_created_on>
+        <sys_id>2f7810e3477730101c198a5f746d4382</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name/>
+        <sys_package display_value="Cafe Management" source="x_616811_cafe_mana">6a49c4cb472730101c198a5f746d43b0</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Cafe Management">6a49c4cb472730101c198a5f746d43b0</sys_scope>
+        <sys_update_name/>
+        <sys_updated_by>fletcher</sys_updated_by>
+        <sys_updated_on>2021-11-19 08:13:07</sys_updated_on>
+        <url/>
+        <url_target/>
+    </sys_documentation>
+    <sys_documentation action="INSERT_OR_UPDATE">
+        <element>table_name</element>
+        <help/>
+        <hint/>
+        <label>Table Name</label>
+        <language>en</language>
+        <name>var__m_sys_hub_flow_input_497f7bd747f330101c198a5f746d432a</name>
+        <plural/>
+        <sys_class_name>sys_documentation</sys_class_name>
+        <sys_created_by>fletcher</sys_created_by>
+        <sys_created_on>2021-11-19 08:13:07</sys_created_on>
+        <sys_id>6f7810e3477730101c198a5f746d4394</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name/>
+        <sys_package display_value="Cafe Management" source="x_616811_cafe_mana">6a49c4cb472730101c198a5f746d43b0</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Cafe Management">6a49c4cb472730101c198a5f746d43b0</sys_scope>
+        <sys_update_name/>
+        <sys_updated_by>fletcher</sys_updated_by>
+        <sys_updated_on>2021-11-19 08:13:07</sys_updated_on>
+        <url/>
+        <url_target/>
+    </sys_documentation>
+</record_update>

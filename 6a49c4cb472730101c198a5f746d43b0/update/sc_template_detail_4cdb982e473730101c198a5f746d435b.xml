@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sc_template_detail">
+    <sc_template_detail action="INSERT_OR_UPDATE">
+        <applies_to_multi_row_variable_set>false</applies_to_multi_row_variable_set>
+        <item_option_new display_value="Questions">c59589b673221010c84e2bb43cf6a742</item_option_new>
+        <mandatory>false</mandatory>
+        <readonly>false</readonly>
+        <restricted>false</restricted>
+        <set/>
+        <sys_class_name>sc_template_detail</sys_class_name>
+        <sys_created_by>fletcher</sys_created_by>
+        <sys_created_on>2021-11-16 05:53:42</sys_created_on>
+        <sys_id>4cdb982e473730101c198a5f746d435b</sys_id>
+        <sys_mod_count>1</sys_mod_count>
+        <sys_name/>
+        <sys_package display_value="Cafe Management" source="x_616811_cafe_mana">6a49c4cb472730101c198a5f746d43b0</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Cafe Management">6a49c4cb472730101c198a5f746d43b0</sys_scope>
+        <sys_update_name>sc_template_detail_4cdb982e473730101c198a5f746d435b</sys_update_name>
+        <sys_updated_by>fletcher</sys_updated_by>
+        <sys_updated_on>2021-11-16 06:19:23</sys_updated_on>
+        <template display_value="Create a Drink">2a38906a473730101c198a5f746d43ec</template>
+        <value>{"serializedData":[{"id":"4b8120e2477730101c198a5f746d4349","name":"variables.drinks_set","active":false,"order":100,"friendly_type":"container_start","containerType":"one_to_many","type":0}],"variablesLayout":[{"layout":"normal","captionDisplay":"Drinks Set","name":"variables.drinks_set","caption":"Drinks Set","id":"4b8120e2477730101c198a5f746d4349","type":"one_to_many","columns":[{"fields":[]}]}],"variables":[{"containerSplitId":null,"containerType":"one_to_many","active":false,"label":"Drinks Set","columnCount":1,"type":0,"mandatory":false,"displayvalue":"","friendly_type":"container_start","layout":"normal","render_label":false,"read_only":false,"children":[[]],"name":"variables.drinks_set","attributes":"edge_encryption_enabled=true","hasSplit":false,"containerEndId":null,"id":"4b8120e2477730101c198a5f746d4349","value":null,"help_text":"","max_length":0,"order":100}],"uiPolicyMap":{},"restrictedVariables":[]}</value>
+    </sc_template_detail>
+</record_update>

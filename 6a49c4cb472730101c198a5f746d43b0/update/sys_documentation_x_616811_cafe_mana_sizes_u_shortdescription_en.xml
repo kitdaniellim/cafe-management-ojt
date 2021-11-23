@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update>
+    <sys_documentation element="u_shortdescription" label="Short Description" language="en" table="x_616811_cafe_mana_sizes">
+        <sys_documentation action="INSERT_OR_UPDATE">
+            <element>u_shortdescription</element>
+            <help/>
+            <hint/>
+            <label>Short Description</label>
+            <language>en</language>
+            <name>x_616811_cafe_mana_sizes</name>
+            <plural>Short Descriptions</plural>
+            <sys_class_name>sys_documentation</sys_class_name>
+            <sys_created_by>kit</sys_created_by>
+            <sys_created_on>2021-11-18 03:47:01</sys_created_on>
+            <sys_id>f7f1d24347f330101c198a5f746d43c3</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_name>Short Description</sys_name>
+            <sys_package display_value="Cafe Management" source="x_616811_cafe_mana">6a49c4cb472730101c198a5f746d43b0</sys_package>
+            <sys_policy/>
+            <sys_scope display_value="Cafe Management">6a49c4cb472730101c198a5f746d43b0</sys_scope>
+            <sys_update_name>sys_documentation_x_616811_cafe_mana_sizes_u_shortdescription_en</sys_update_name>
+            <sys_updated_by>kit</sys_updated_by>
+            <sys_updated_on>2021-11-18 03:47:01</sys_updated_on>
+            <url/>
+            <url_target/>
+        </sys_documentation>
+    </sys_documentation>
+</record_update>

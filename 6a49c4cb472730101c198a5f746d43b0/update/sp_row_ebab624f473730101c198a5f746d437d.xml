@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sp_row">
+    <sp_row action="INSERT_OR_UPDATE">
+        <class_name/>
+        <order>1</order>
+        <sp_column/>
+        <sp_container display_value="Cafe Home Page - Container 1">52ab6e0f473730101c198a5f746d435c</sp_container>
+        <sys_class_name>sp_row</sys_class_name>
+        <sys_created_by>kit</sys_created_by>
+        <sys_created_on>2021-11-18 05:39:14</sys_created_on>
+        <sys_id>ebab624f473730101c198a5f746d437d</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>1</sys_name>
+        <sys_package display_value="Cafe Management" source="x_616811_cafe_mana">6a49c4cb472730101c198a5f746d43b0</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Cafe Management">6a49c4cb472730101c198a5f746d43b0</sys_scope>
+        <sys_update_name>sp_row_ebab624f473730101c198a5f746d437d</sys_update_name>
+        <sys_updated_by>kit</sys_updated_by>
+        <sys_updated_on>2021-11-18 05:39:14</sys_updated_on>
+    </sp_row>
+</record_update>

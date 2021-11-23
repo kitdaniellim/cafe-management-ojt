@@ -1,0 +1,187 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sc_cat_item">
+    <sc_cat_item action="DELETE">
+        <access_type>restricted</access_type>
+        <active>true</active>
+        <availability>on_desktop</availability>
+        <billable>false</billable>
+        <category/>
+        <checked_out>false</checked_out>
+        <cost>0</cost>
+        <custom_cart/>
+        <delivery_plan/>
+        <delivery_plan_script/>
+        <delivery_time>1970-01-01 00:00:00</delivery_time>
+        <description><![CDATA[<p>some description that you cant edit lolll</p>]]></description>
+        <display_price_property>non_zero</display_price_property>
+        <entitlement_script/>
+        <flow_designer_flow display_value="Service Catalog item request">30f3d26187e92300e0ef0cf888cb0b91</flow_designer_flow>
+        <group/>
+        <hide_sp>false</hide_sp>
+        <icon/>
+        <ignore_price>false</ignore_price>
+        <image/>
+        <location/>
+        <mandatory_attachment>false</mandatory_attachment>
+        <meta/>
+        <mobile_hide_price>false</mobile_hide_price>
+        <mobile_picture/>
+        <mobile_picture_type>use_desktop_picture</mobile_picture_type>
+        <model/>
+        <name>The Fletcher Classic</name>
+        <no_attachment_v2>false</no_attachment_v2>
+        <no_cart>false</no_cart>
+        <no_cart_v2>false</no_cart_v2>
+        <no_delivery_time_v2>false</no_delivery_time_v2>
+        <no_order>false</no_order>
+        <no_order_now>false</no_order_now>
+        <no_proceed_checkout>false</no_proceed_checkout>
+        <no_quantity>false</no_quantity>
+        <no_quantity_v2>false</no_quantity_v2>
+        <no_search>false</no_search>
+        <no_wishlist_v2>false</no_wishlist_v2>
+        <omit_price>false</omit_price>
+        <order>0</order>
+        <ordered_item_link/>
+        <owner display_value="Kit Lim">42b2119247e330101c198a5f746d4389</owner>
+        <picture>ced7b60f477730101c198a5f746d4325</picture>
+        <preview>JavaScript: popupOpenStandard("com.glideapp.servicecatalog_cat_item_view.do?v=1&amp;sysparm_id=a679cec747b330101c198a5f746d43b4&amp;sysparm_preview=true", "summary");</preview>
+        <price>0</price>
+        <published_ref/>
+        <recurring_frequency/>
+        <request_method/>
+        <roles/>
+        <sc_catalogs/>
+        <sc_ic_item_staging/>
+        <sc_ic_version/>
+        <sc_template display_value="Create a Drink">2a38906a473730101c198a5f746d43ec</sc_template>
+        <short_description>Creamy silky idk what this coffee is but u should buy it</short_description>
+        <show_variable_help_on_load>false</show_variable_help_on_load>
+        <start_closed>false</start_closed>
+        <state>published</state>
+        <sys_class_name>sc_cat_item</sys_class_name>
+        <sys_created_by>kit</sys_created_by>
+        <sys_created_on>2021-11-18 06:32:22</sys_created_on>
+        <sys_id>a679cec747b330101c198a5f746d43b4</sys_id>
+        <sys_mod_count>5</sys_mod_count>
+        <sys_name>The Fletcher Classic</sys_name>
+        <sys_package display_value="Cafe Management" source="x_616811_cafe_mana">6a49c4cb472730101c198a5f746d43b0</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Cafe Management">6a49c4cb472730101c198a5f746d43b0</sys_scope>
+        <sys_update_name>sc_cat_item_a679cec747b330101c198a5f746d43b4</sys_update_name>
+        <sys_updated_by>kit</sys_updated_by>
+        <sys_updated_on>2021-11-18 06:52:31</sys_updated_on>
+        <taxonomy_topic/>
+        <template/>
+        <template_manager_roles/>
+        <type>item</type>
+        <use_sc_layout>true</use_sc_layout>
+        <vendor/>
+        <visible_bundle>true</visible_bundle>
+        <visible_guide>true</visible_guide>
+        <visible_standalone>true</visible_standalone>
+        <workflow/>
+    </sc_cat_item>
+    <sys_translated_text action="DELETE" query="documentkey=a679cec747b330101c198a5f746d43b4"/>
+    <fx_price action="DELETE" query="id=a679cec747b330101c198a5f746d43b4"/>
+    <fx_price action="DELETE">
+        <amount>0</amount>
+        <currency display_value="USD">USD</currency>
+        <field>price</field>
+        <id>a679cec747b330101c198a5f746d43b4</id>
+        <parent/>
+        <reference_amount>0</reference_amount>
+        <reference_currency display_value="USD">USD</reference_currency>
+        <sys_created_by>kit</sys_created_by>
+        <sys_created_on>2021-11-18 03:12:36</sys_created_on>
+        <sys_id>3f1a8a4b47b330101c198a5f746d43f0</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>kit</sys_updated_by>
+        <sys_updated_on>2021-11-18 03:12:36</sys_updated_on>
+        <table>sc_cat_item</table>
+        <type>calculated</type>
+    </fx_price>
+    <sys_attachment action="DELETE">
+        <average_image_color/>
+        <chunk_size_bytes>700000</chunk_size_bytes>
+        <compressed>true</compressed>
+        <content_type>image/jpeg</content_type>
+        <file_name>cafe.jpg</file_name>
+        <hash>a842c4fd13cbd41fa2f1749a0302136745484b4c27bd237f6a00be0844994b34</hash>
+        <image_height/>
+        <image_width/>
+        <size_bytes>5636</size_bytes>
+        <size_compressed>5632</size_compressed>
+        <state>available</state>
+        <sys_created_by>kit</sys_created_by>
+        <sys_created_on>2021-11-18 06:32:23</sys_created_on>
+        <sys_id>ced7b60f477730101c198a5f746d4325</sys_id>
+        <sys_mod_count>1</sys_mod_count>
+        <sys_updated_by>system</sys_updated_by>
+        <sys_updated_on>2021-11-18 06:52:21</sys_updated_on>
+        <table_name>ZZ_YYsc_cat_item</table_name>
+        <table_sys_id>a679cec747b330101c198a5f746d43b4</table_sys_id>
+    </sys_attachment>
+    <sys_attachment_doc action="DELETE">
+        <data>H4sIAAAAAAAAAA==</data>
+        <length>16</length>
+        <position>0</position>
+        <sys_attachment display_value="cafe.jpg" sys_id="ced7b60f477730101c198a5f746d4325">ced7b60f477730101c198a5f746d4325</sys_attachment>
+        <sys_created_by>kit</sys_created_by>
+        <sys_created_on>2021-11-18 06:32:23</sys_created_on>
+        <sys_id>ced7b60f477730101c198a5f746d4328</sys_id>
+    </sys_attachment_doc>
+    <sys_attachment_doc action="DELETE">
+        <data>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</data>
+        <length>7496</length>
+        <position>1</position>
+        <sys_attachment display_value="cafe.jpg" sys_id="ced7b60f477730101c198a5f746d4325">ced7b60f477730101c198a5f746d4325</sys_attachment>
+        <sys_created_by>kit</sys_created_by>
+        <sys_created_on>2021-11-18 06:32:23</sys_created_on>
+        <sys_id>06d7b60f477730101c198a5f746d4328</sys_id>
+    </sys_attachment_doc>
+    <sys_update_version action="INSERT_OR_UPDATE">
+        <action>DELETE</action>
+        <application display_value="Cafe Management">6a49c4cb472730101c198a5f746d43b0</application>
+        <file_path/>
+        <instance_id>a71ba0b1db236810431011f8489619ce</instance_id>
+        <instance_name>dev112014</instance_name>
+        <name>sc_cat_item_a679cec747b330101c198a5f746d43b4</name>
+        <payload>&lt;?xml version="1.0" encoding="UTF-8"?&gt;&lt;record_update table="sc_cat_item"&gt;&lt;sc_cat_item action="INSERT_OR_UPDATE"&gt;&lt;access_type&gt;restricted&lt;/access_type&gt;&lt;active&gt;true&lt;/active&gt;&lt;availability&gt;on_desktop&lt;/availability&gt;&lt;billable&gt;false&lt;/billable&gt;&lt;category/&gt;&lt;checked_out&gt;false&lt;/checked_out&gt;&lt;cost&gt;0&lt;/cost&gt;&lt;custom_cart/&gt;&lt;delivery_plan/&gt;&lt;delivery_plan_script/&gt;&lt;delivery_time&gt;1970-01-01 00:00:00&lt;/delivery_time&gt;&lt;description&gt;&lt;![CDATA[&lt;p&gt;some description that you cant edit lolll&lt;/p&gt;]]&gt;&lt;/description&gt;&lt;display_price_property&gt;non_zero&lt;/display_price_property&gt;&lt;entitlement_script/&gt;&lt;flow_designer_flow display_value="Service Catalog item request"&gt;30f3d26187e92300e0ef0cf888cb0b91&lt;/flow_designer_flow&gt;&lt;group/&gt;&lt;hide_sp&gt;false&lt;/hide_sp&gt;&lt;icon/&gt;&lt;ignore_price&gt;false&lt;/ignore_price&gt;&lt;image/&gt;&lt;location/&gt;&lt;mandatory_attachment&gt;false&lt;/mandatory_attachment&gt;&lt;meta/&gt;&lt;mobile_hide_price&gt;false&lt;/mobile_hide_price&gt;&lt;mobile_picture/&gt;&lt;mobile_picture_type&gt;use_desktop_picture&lt;/mobile_picture_type&gt;&lt;model/&gt;&lt;name&gt;The Fletcher Classic&lt;/name&gt;&lt;no_attachment_v2&gt;false&lt;/no_attachment_v2&gt;&lt;no_cart&gt;false&lt;/no_cart&gt;&lt;no_cart_v2&gt;false&lt;/no_cart_v2&gt;&lt;no_delivery_time_v2&gt;false&lt;/no_delivery_time_v2&gt;&lt;no_order&gt;false&lt;/no_order&gt;&lt;no_order_now&gt;false&lt;/no_order_now&gt;&lt;no_proceed_checkout&gt;false&lt;/no_proceed_checkout&gt;&lt;no_quantity&gt;false&lt;/no_quantity&gt;&lt;no_quantity_v2&gt;false&lt;/no_quantity_v2&gt;&lt;no_search&gt;false&lt;/no_search&gt;&lt;no_wishlist_v2&gt;false&lt;/no_wishlist_v2&gt;&lt;omit_price&gt;false&lt;/omit_price&gt;&lt;order&gt;0&lt;/order&gt;&lt;ordered_item_link/&gt;&lt;owner display_value="Kit Lim"&gt;42b2119247e330101c198a5f746d4389&lt;/owner&gt;&lt;picture&gt;ced7b60f477730101c198a5f746d4325&lt;/picture&gt;&lt;preview&gt;JavaScript: popupOpenStandard("com.glideapp.servicecatalog_cat_item_view.do?v=1&amp;amp;sysparm_id=a679cec747b330101c198a5f746d43b4&amp;amp;sysparm_preview=true", "summary");&lt;/preview&gt;&lt;price&gt;0&lt;/price&gt;&lt;published_ref/&gt;&lt;recurring_frequency/&gt;&lt;request_method/&gt;&lt;roles/&gt;&lt;sc_catalogs/&gt;&lt;sc_ic_item_staging/&gt;&lt;sc_ic_version/&gt;&lt;sc_template display_value="Create a Drink"&gt;2a38906a473730101c198a5f746d43ec&lt;/sc_template&gt;&lt;short_description&gt;Creamy silky idk what this coffee is but u should buy it&lt;/short_description&gt;&lt;show_variable_help_on_load&gt;false&lt;/show_variable_help_on_load&gt;&lt;start_closed&gt;false&lt;/start_closed&gt;&lt;state&gt;published&lt;/state&gt;&lt;sys_class_name&gt;sc_cat_item&lt;/sys_class_name&gt;&lt;sys_created_by&gt;kit&lt;/sys_created_by&gt;&lt;sys_created_on&gt;2021-11-18 06:32:22&lt;/sys_created_on&gt;&lt;sys_id&gt;a679cec747b330101c198a5f746d43b4&lt;/sys_id&gt;&lt;sys_mod_count&gt;5&lt;/sys_mod_count&gt;&lt;sys_name&gt;The Fletcher Classic&lt;/sys_name&gt;&lt;sys_package display_value="Cafe Management" source="x_616811_cafe_mana"&gt;6a49c4cb472730101c198a5f746d43b0&lt;/sys_package&gt;&lt;sys_policy/&gt;&lt;sys_scope display_value="Cafe Management"&gt;6a49c4cb472730101c198a5f746d43b0&lt;/sys_scope&gt;&lt;sys_update_name&gt;sc_cat_item_a679cec747b330101c198a5f746d43b4&lt;/sys_update_name&gt;&lt;sys_updated_by&gt;kit&lt;/sys_updated_by&gt;&lt;sys_updated_on&gt;2021-11-18 06:52:31&lt;/sys_updated_on&gt;&lt;taxonomy_topic/&gt;&lt;template/&gt;&lt;template_manager_roles/&gt;&lt;type&gt;item&lt;/type&gt;&lt;use_sc_layout&gt;true&lt;/use_sc_layout&gt;&lt;vendor/&gt;&lt;visible_bundle&gt;true&lt;/visible_bundle&gt;&lt;visible_guide&gt;true&lt;/visible_guide&gt;&lt;visible_standalone&gt;true&lt;/visible_standalone&gt;&lt;workflow/&gt;&lt;/sc_cat_item&gt;&lt;sys_translated_text action="delete_multiple" query="documentkey=a679cec747b330101c198a5f746d43b4"/&gt;&lt;fx_price action="delete_multiple" query="id=a679cec747b330101c198a5f746d43b4"/&gt;&lt;fx_price action="INSERT_OR_UPDATE"&gt;&lt;amount&gt;0&lt;/amount&gt;&lt;currency display_value="USD"&gt;USD&lt;/currency&gt;&lt;field&gt;price&lt;/field&gt;&lt;id&gt;a679cec747b330101c198a5f746d43b4&lt;/id&gt;&lt;parent/&gt;&lt;reference_amount&gt;0&lt;/reference_amount&gt;&lt;reference_currency display_value="USD"&gt;USD&lt;/reference_currency&gt;&lt;sys_created_by&gt;kit&lt;/sys_created_by&gt;&lt;sys_created_on&gt;2021-11-18 03:12:36&lt;/sys_created_on&gt;&lt;sys_id&gt;3f1a8a4b47b330101c198a5f746d43f0&lt;/sys_id&gt;&lt;sys_mod_count&gt;0&lt;/sys_mod_count&gt;&lt;sys_updated_by&gt;kit&lt;/sys_updated_by&gt;&lt;sys_updated_on&gt;2021-11-18 03:12:36&lt;/sys_updated_on&gt;&lt;table&gt;sc_cat_item&lt;/table&gt;&lt;type&gt;calculated&lt;/type&gt;&lt;/fx_price&gt;&lt;sys_attachment action="INSERT_OR_UPDATE"&gt;&lt;average_image_color/&gt;&lt;chunk_size_bytes&gt;700000&lt;/chunk_size_bytes&gt;&lt;compressed&gt;true&lt;/compressed&gt;&lt;content_type&gt;image/jpeg&lt;/content_type&gt;&lt;file_name&gt;cafe.jpg&lt;/file_name&gt;&lt;hash&gt;a842c4fd13cbd41fa2f1749a0302136745484b4c27bd237f6a00be0844994b34&lt;/hash&gt;&lt;image_height/&gt;&lt;image_width/&gt;&lt;size_bytes&gt;5636&lt;/size_bytes&gt;&lt;size_compressed&gt;5632&lt;/size_compressed&gt;&lt;state&gt;available&lt;/state&gt;&lt;sys_created_by&gt;kit&lt;/sys_created_by&gt;&lt;sys_created_on&gt;2021-11-18 06:32:23&lt;/sys_created_on&gt;&lt;sys_id&gt;ced7b60f477730101c198a5f746d4325&lt;/sys_id&gt;&lt;sys_mod_count&gt;1&lt;/sys_mod_count&gt;&lt;sys_updated_by&gt;system&lt;/sys_updated_by&gt;&lt;sys_updated_on&gt;2021-11-18 06:52:21&lt;/sys_updated_on&gt;&lt;table_name&gt;ZZ_YYsc_cat_item&lt;/table_name&gt;&lt;table_sys_id&gt;a679cec747b330101c198a5f746d43b4&lt;/table_sys_id&gt;&lt;/sys_attachment&gt;&lt;sys_attachment_doc action="INSERT_OR_UPDATE"&gt;&lt;data&gt;H4sIAAAAAAAAAA==&lt;/data&gt;&lt;length&gt;16&lt;/length&gt;&lt;position&gt;0&lt;/position&gt;&lt;sys_attachment display_value="cafe.jpg" sys_id="ced7b60f477730101c198a5f746d4325"&gt;ced7b60f477730101c198a5f746d4325&lt;/sys_attachment&gt;&lt;sys_created_by&gt;kit&lt;/sys_created_by&gt;&lt;sys_created_on&gt;2021-11-18 06:32:23&lt;/sys_created_on&gt;&lt;sys_id&gt;ced7b60f477730101c198a5f746d4328&lt;/sys_id&gt;&lt;/sys_attachment_doc&gt;&lt;sys_attachment_doc action="INSERT_OR_UPDATE"&gt;&lt;data&gt;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&lt;/data&gt;&lt;length&gt;7496&lt;/length&gt;&lt;position&gt;1&lt;/position&gt;&lt;sys_attachment display_value="cafe.jpg" sys_id="ced7b60f477730101c198a5f746d4325"&gt;ced7b60f477730101c198a5f746d4325&lt;/sys_attachment&gt;&lt;sys_created_by&gt;kit&lt;/sys_created_by&gt;&lt;sys_created_on&gt;2021-11-18 06:32:23&lt;/sys_created_on&gt;&lt;sys_id&gt;06d7b60f477730101c198a5f746d4328&lt;/sys_id&gt;&lt;/sys_attachment_doc&gt;&lt;/record_update&gt;</payload>
+        <payload_hash>0</payload_hash>
+        <record_name>The Fletcher Classic</record_name>
+        <reverted_from/>
+        <source>1ef7b1b4477330101c198a5f746d43d6</source>
+        <source_table>sys_update_set</source_table>
+        <state>previous</state>
+        <sys_created_by>kit</sys_created_by>
+        <sys_created_on>2021-11-18 06:52:31</sys_created_on>
+        <sys_id>857cb64347b730101c198a5f746d43bb</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_recorded_at>17d31d179e00000001</sys_recorded_at>
+        <sys_updated_by>kit</sys_updated_by>
+        <sys_updated_on>2021-11-18 06:52:31</sys_updated_on>
+        <type>Catalog Item</type>
+        <update_guid>8d7cb643afb730101c4b59a7d322c0ba</update_guid>
+        <update_guid_history>8d7cb643afb730101c4b59a7d322c0ba:2062646283,f26c7643b8b730106a0d359570c5655c:-1709372660,726c764321b7301061aad7ed026c9e48:-1441142128,ea6c76433bb73010e50501f5b46f442f:-678805384,6e6c764369b73010d33805ec5ed40913:-1441142128,ae6c3643b8b730109300504980b3c9ee:1449676535,f48ac28b70b33010769656e75c0f4e03:-1406051454,b48a828bb5b330102bec6520f70b23fc:799047193,a76a028bd0b33010f8a33a5497579100:1932019767,371a8a4bebb330102e7db89e088e5cf4:-1523067343</update_guid_history>
+    </sys_update_version>
+    <sys_metadata_delete action="INSERT_OR_UPDATE">
+        <sys_audit_delete display_value="The Fletcher Classic">497cb64347b730101c198a5f746d43e8</sys_audit_delete>
+        <sys_class_name>sys_metadata_delete</sys_class_name>
+        <sys_created_by>kit</sys_created_by>
+        <sys_created_on>2021-11-18 06:52:31</sys_created_on>
+        <sys_db_object display_value="" name="sc_cat_item">sc_cat_item</sys_db_object>
+        <sys_id>151b9b09d512487191f8a4131b6352b9</sys_id>
+        <sys_metadata>a679cec747b330101c198a5f746d43b4</sys_metadata>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>The Fletcher Classic</sys_name>
+        <sys_package display_value="Cafe Management" source="x_616811_cafe_mana">6a49c4cb472730101c198a5f746d43b0</sys_package>
+        <sys_parent/>
+        <sys_policy/>
+        <sys_scope display_value="Cafe Management">6a49c4cb472730101c198a5f746d43b0</sys_scope>
+        <sys_scope_delete display_value="">1c6aea8ac1af4c3ea4b770f9ea8efb84</sys_scope_delete>
+        <sys_update_name>sc_cat_item_a679cec747b330101c198a5f746d43b4</sys_update_name>
+        <sys_update_version display_value="sc_cat_item_a679cec747b330101c198a5f746d43b4">857cb64347b730101c198a5f746d43bb</sys_update_version>
+        <sys_updated_by>kit</sys_updated_by>
+        <sys_updated_on>2021-11-18 06:52:31</sys_updated_on>
+    </sys_metadata_delete>
+</record_update>

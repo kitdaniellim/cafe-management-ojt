@@ -1,0 +1,87 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update sys_domain="global" table="sys_app_module">
+    <sys_app_module action="DELETE">
+        <active>true</active>
+        <application display_value="Cafe Management">0997abcc477330101c198a5f746d43a6</application>
+        <assessment/>
+        <device_type/>
+        <filter/>
+        <hint/>
+        <homepage/>
+        <image/>
+        <link_type>LIST</link_type>
+        <map_page/>
+        <mobile_title>All Order_Drinks</mobile_title>
+        <mobile_view_name>Mobile</mobile_view_name>
+        <name>x_616811_cafe_mana_m2m_drinks_orders</name>
+        <order>10</order>
+        <override_menu_roles>false</override_menu_roles>
+        <query/>
+        <report/>
+        <roles/>
+        <sys_class_name>sys_app_module</sys_class_name>
+        <sys_created_by>fletcher</sys_created_by>
+        <sys_created_on>2021-11-12 08:46:45</sys_created_on>
+        <sys_domain>global</sys_domain>
+        <sys_domain_path>/</sys_domain_path>
+        <sys_id>cbecdc5d477730101c198a5f746d43eb</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>All Order_Drinks</sys_name>
+        <sys_overrides/>
+        <sys_package display_value="Cafe Management" source="x_616811_cafe_mana">6a49c4cb472730101c198a5f746d43b0</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Cafe Management">6a49c4cb472730101c198a5f746d43b0</sys_scope>
+        <sys_update_name>sys_app_module_cbecdc5d477730101c198a5f746d43eb</sys_update_name>
+        <sys_updated_by>fletcher</sys_updated_by>
+        <sys_updated_on>2021-11-12 08:46:45</sys_updated_on>
+        <timeline_page/>
+        <title>All Order_Drinks</title>
+        <uncancelable>false</uncancelable>
+        <view_name/>
+        <window_name/>
+    </sys_app_module>
+    <sys_update_version action="INSERT_OR_UPDATE">
+        <action>DELETE</action>
+        <application display_value="Cafe Management">6a49c4cb472730101c198a5f746d43b0</application>
+        <file_path/>
+        <instance_id>a71ba0b1db236810431011f8489619ce</instance_id>
+        <instance_name>dev112014</instance_name>
+        <name>sys_app_module_cbecdc5d477730101c198a5f746d43eb</name>
+        <payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update sys_domain="global" table="sys_app_module"><sys_app_module action="INSERT_OR_UPDATE"><active>true</active><application display_value="Cafe Management">0997abcc477330101c198a5f746d43a6</application><assessment/><device_type/><filter/><hint/><homepage/><image/><link_type>LIST</link_type><map_page/><mobile_title>All Order_Drinks</mobile_title><mobile_view_name>Mobile</mobile_view_name><name>x_616811_cafe_mana_m2m_drinks_orders</name><order>10</order><override_menu_roles>false</override_menu_roles><query/><report/><roles/><sys_class_name>sys_app_module</sys_class_name><sys_created_by>fletcher</sys_created_by><sys_created_on>2021-11-12 08:46:45</sys_created_on><sys_domain>global</sys_domain><sys_domain_path>/</sys_domain_path><sys_id>cbecdc5d477730101c198a5f746d43eb</sys_id><sys_mod_count>0</sys_mod_count><sys_name>All Order_Drinks</sys_name><sys_overrides/><sys_package display_value="Cafe Management" source="x_616811_cafe_mana">6a49c4cb472730101c198a5f746d43b0</sys_package><sys_policy/><sys_scope display_value="Cafe Management">6a49c4cb472730101c198a5f746d43b0</sys_scope><sys_update_name>sys_app_module_cbecdc5d477730101c198a5f746d43eb</sys_update_name><sys_updated_by>fletcher</sys_updated_by><sys_updated_on>2021-11-12 08:46:45</sys_updated_on><timeline_page/><title>All Order_Drinks</title><uncancelable>false</uncancelable><view_name/><window_name/></sys_app_module></record_update>]]></payload>
+        <payload_hash>-302419772</payload_hash>
+        <record_name>All Order_Drinks</record_name>
+        <reverted_from/>
+        <source>1ef7b1b4477330101c198a5f746d43d6</source>
+        <source_table>sys_update_set</source_table>
+        <state>previous</state>
+        <sys_created_by>fletcher</sys_created_by>
+        <sys_created_on>2021-11-12 08:46:45</sys_created_on>
+        <sys_id>001d509d477730101c198a5f746d4379</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_recorded_at>17d1353e77e0000001</sys_recorded_at>
+        <sys_updated_by>fletcher</sys_updated_by>
+        <sys_updated_on>2021-11-12 08:46:45</sys_updated_on>
+        <type>Module</type>
+        <update_guid>8c1d9c5d237730100c6c5f0e3afe0281</update_guid>
+        <update_guid_history>8c1d9c5d237730100c6c5f0e3afe0281:-302419772</update_guid_history>
+    </sys_update_version>
+    <sys_metadata_delete action="INSERT_OR_UPDATE">
+        <sys_audit_delete display_value="All Order_Drinks">59c597c747f730101c198a5f746d43a9</sys_audit_delete>
+        <sys_class_name>sys_metadata_delete</sys_class_name>
+        <sys_created_by>kit</sys_created_by>
+        <sys_created_on>2021-11-18 08:43:08</sys_created_on>
+        <sys_db_object display_value="" name="sys_app_module">sys_app_module</sys_db_object>
+        <sys_id>5476559ba18b476ca05ffe9fc5cf8da4</sys_id>
+        <sys_metadata>cbecdc5d477730101c198a5f746d43eb</sys_metadata>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>All Order_Drinks</sys_name>
+        <sys_package display_value="Cafe Management" source="x_616811_cafe_mana">6a49c4cb472730101c198a5f746d43b0</sys_package>
+        <sys_parent/>
+        <sys_policy/>
+        <sys_scope display_value="Cafe Management">6a49c4cb472730101c198a5f746d43b0</sys_scope>
+        <sys_scope_delete display_value="">1c6aea8ac1af4c3ea4b770f9ea8efb84</sys_scope_delete>
+        <sys_update_name>sys_app_module_cbecdc5d477730101c198a5f746d43eb</sys_update_name>
+        <sys_update_version display_value="sys_app_module_cbecdc5d477730101c198a5f746d43eb">001d509d477730101c198a5f746d4379</sys_update_version>
+        <sys_updated_by>kit</sys_updated_by>
+        <sys_updated_on>2021-11-18 08:43:08</sys_updated_on>
+    </sys_metadata_delete>
+</record_update>

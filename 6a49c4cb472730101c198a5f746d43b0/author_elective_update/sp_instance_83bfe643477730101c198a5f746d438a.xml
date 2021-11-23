@@ -1,0 +1,127 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sp_instance">
+    <sp_instance action="DELETE">
+        <active>true</active>
+        <class_name/>
+        <color>default</color>
+        <css/>
+        <glyph/>
+        <id/>
+        <order>1</order>
+        <roles/>
+        <short_description/>
+        <size>md</size>
+        <sp_column display_value="1">01adaacf473730101c198a5f746d435f</sp_column>
+        <sp_widget display_value="Cafe SC Categories">4f5fa643477730101c198a5f746d4395</sp_widget>
+        <sys_class_name>sp_instance</sys_class_name>
+        <sys_created_by>kit</sys_created_by>
+        <sys_created_on>2021-11-18 05:56:57</sys_created_on>
+        <sys_id>83bfe643477730101c198a5f746d438a</sys_id>
+        <sys_mod_count>1</sys_mod_count>
+        <sys_name/>
+        <sys_package display_value="Cafe Management" source="x_616811_cafe_mana">6a49c4cb472730101c198a5f746d43b0</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Cafe Management">6a49c4cb472730101c198a5f746d43b0</sys_scope>
+        <sys_update_name>sp_instance_83bfe643477730101c198a5f746d438a</sys_update_name>
+        <sys_updated_by>kit</sys_updated_by>
+        <sys_updated_on>2021-11-18 05:57:37</sys_updated_on>
+        <title/>
+        <url/>
+        <widget_parameters><![CDATA[{
+	"hide_xs": {
+		"value": "",
+		"displayValue": ""
+	},
+	"omit_badges": {
+		"value": "true",
+		"displayValue": "true"
+	},
+	"check_can_view": {
+		"value": "true",
+		"displayValue": "true"
+	},
+	"category_layout": {
+		"value": "",
+		"displayValue": ""
+	},
+	"page": {
+		"value": "",
+		"displayValue": ""
+	},
+	"number_of_categories_to_load": {
+		"value": null,
+		"displayValue": ""
+	}
+}]]></widget_parameters>
+    </sp_instance>
+    <sys_translated_text action="DELETE" query="documentkey=83bfe643477730101c198a5f746d438a"/>
+    <sys_update_version action="INSERT_OR_UPDATE">
+        <action>DELETE</action>
+        <application display_value="Cafe Management">6a49c4cb472730101c198a5f746d43b0</application>
+        <file_path/>
+        <instance_id>a71ba0b1db236810431011f8489619ce</instance_id>
+        <instance_name>dev112014</instance_name>
+        <name>sp_instance_83bfe643477730101c198a5f746d438a</name>
+        <payload>&lt;?xml version="1.0" encoding="UTF-8"?&gt;&lt;record_update table="sp_instance"&gt;&lt;sp_instance action="INSERT_OR_UPDATE"&gt;&lt;active&gt;true&lt;/active&gt;&lt;class_name/&gt;&lt;color&gt;default&lt;/color&gt;&lt;css/&gt;&lt;glyph/&gt;&lt;id/&gt;&lt;order&gt;1&lt;/order&gt;&lt;roles/&gt;&lt;short_description/&gt;&lt;size&gt;md&lt;/size&gt;&lt;sp_column display_value="1"&gt;01adaacf473730101c198a5f746d435f&lt;/sp_column&gt;&lt;sp_widget display_value="Cafe SC Categories"&gt;4f5fa643477730101c198a5f746d4395&lt;/sp_widget&gt;&lt;sys_class_name&gt;sp_instance&lt;/sys_class_name&gt;&lt;sys_created_by&gt;kit&lt;/sys_created_by&gt;&lt;sys_created_on&gt;2021-11-18 05:56:57&lt;/sys_created_on&gt;&lt;sys_id&gt;83bfe643477730101c198a5f746d438a&lt;/sys_id&gt;&lt;sys_mod_count&gt;1&lt;/sys_mod_count&gt;&lt;sys_name/&gt;&lt;sys_package display_value="Cafe Management" source="x_616811_cafe_mana"&gt;6a49c4cb472730101c198a5f746d43b0&lt;/sys_package&gt;&lt;sys_policy/&gt;&lt;sys_scope display_value="Cafe Management"&gt;6a49c4cb472730101c198a5f746d43b0&lt;/sys_scope&gt;&lt;sys_update_name&gt;sp_instance_83bfe643477730101c198a5f746d438a&lt;/sys_update_name&gt;&lt;sys_updated_by&gt;kit&lt;/sys_updated_by&gt;&lt;sys_updated_on&gt;2021-11-18 05:57:37&lt;/sys_updated_on&gt;&lt;title/&gt;&lt;url/&gt;&lt;widget_parameters&gt;&lt;![CDATA[{
+	"hide_xs": {
+		"value": "",
+		"displayValue": ""
+	},
+	"omit_badges": {
+		"value": "true",
+		"displayValue": "true"
+	},
+	"check_can_view": {
+		"value": "true",
+		"displayValue": "true"
+	},
+	"category_layout": {
+		"value": "",
+		"displayValue": ""
+	},
+	"page": {
+		"value": "",
+		"displayValue": ""
+	},
+	"number_of_categories_to_load": {
+		"value": null,
+		"displayValue": ""
+	}
+}]]&gt;&lt;/widget_parameters&gt;&lt;/sp_instance&gt;&lt;sys_translated_text action="delete_multiple" query="documentkey=83bfe643477730101c198a5f746d438a"/&gt;&lt;/record_update&gt;</payload>
+        <payload_hash>-1180755229</payload_hash>
+        <record_name/>
+        <reverted_from/>
+        <source>1ef7b1b4477330101c198a5f746d43d6</source>
+        <source_table>sys_update_set</source_table>
+        <state>previous</state>
+        <sys_created_by>kit</sys_created_by>
+        <sys_created_on>2021-11-18 05:57:37</sys_created_on>
+        <sys_id>74efee43477730101c198a5f746d435d</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_recorded_at>17d319f372f0000001</sys_recorded_at>
+        <sys_updated_by>kit</sys_updated_by>
+        <sys_updated_on>2021-11-18 05:57:37</sys_updated_on>
+        <type>Instance</type>
+        <update_guid>7cefee43167730105c8e7527ad1aef5c</update_guid>
+        <update_guid_history>7cefee43167730105c8e7527ad1aef5c:-1180755229,47bfe643e977301045658076a1ca708c:27322637</update_guid_history>
+    </sys_update_version>
+    <sys_metadata_delete action="INSERT_OR_UPDATE">
+        <sys_audit_delete display_value="">a8494f0f47b730101c198a5f746d4382</sys_audit_delete>
+        <sys_class_name>sys_metadata_delete</sys_class_name>
+        <sys_created_by>kit</sys_created_by>
+        <sys_created_on>2021-11-18 07:48:28</sys_created_on>
+        <sys_db_object display_value="" name="sp_instance">sp_instance</sys_db_object>
+        <sys_id>4d55ffdd5dcf46f8baabd73a53a4d201</sys_id>
+        <sys_metadata>83bfe643477730101c198a5f746d438a</sys_metadata>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name/>
+        <sys_package display_value="Cafe Management" source="x_616811_cafe_mana">6a49c4cb472730101c198a5f746d43b0</sys_package>
+        <sys_parent/>
+        <sys_policy/>
+        <sys_scope display_value="Cafe Management">6a49c4cb472730101c198a5f746d43b0</sys_scope>
+        <sys_scope_delete display_value="">1c6aea8ac1af4c3ea4b770f9ea8efb84</sys_scope_delete>
+        <sys_update_name>sp_instance_83bfe643477730101c198a5f746d438a</sys_update_name>
+        <sys_update_version display_value="sp_instance_83bfe643477730101c198a5f746d438a">74efee43477730101c198a5f746d435d</sys_update_version>
+        <sys_updated_by>kit</sys_updated_by>
+        <sys_updated_on>2021-11-18 07:48:28</sys_updated_on>
+    </sys_metadata_delete>
+</record_update>

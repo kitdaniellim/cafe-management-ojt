@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sc_cat_item_catalog">
+    <sc_cat_item_catalog action="DELETE">
+        <sc_cat_item display_value="Mocha Frappuccino">963242c347b330101c198a5f746d4339</sc_cat_item>
+        <sc_catalog display_value="Cafe Catalog">fdcc14ae473730101c198a5f746d4340</sc_catalog>
+        <sys_class_name>sc_cat_item_catalog</sys_class_name>
+        <sys_created_by>system</sys_created_by>
+        <sys_created_on>2021-11-18 02:38:07</sys_created_on>
+        <sys_id>6e3242c347b330101c198a5f746d434b</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>Cafe Catalog.Mocha Frappuccino</sys_name>
+        <sys_package display_value="Cafe Management" source="x_616811_cafe_mana">6a49c4cb472730101c198a5f746d43b0</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Cafe Management">6a49c4cb472730101c198a5f746d43b0</sys_scope>
+        <sys_update_name>sc_cat_item_catalog_6e3242c347b330101c198a5f746d434b</sys_update_name>
+        <sys_updated_by>system</sys_updated_by>
+        <sys_updated_on>2021-11-18 02:38:07</sys_updated_on>
+    </sc_cat_item_catalog>
+    <sys_update_version action="INSERT_OR_UPDATE">
+        <action>DELETE</action>
+        <application display_value="Cafe Management">6a49c4cb472730101c198a5f746d43b0</application>
+        <file_path/>
+        <instance_id>a71ba0b1db236810431011f8489619ce</instance_id>
+        <instance_name>dev112014</instance_name>
+        <name>sc_cat_item_catalog_6e3242c347b330101c198a5f746d434b</name>
+        <payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update table="sc_cat_item_catalog"><sc_cat_item_catalog action="INSERT_OR_UPDATE"><sc_cat_item display_value="Mocha Frappuccino">963242c347b330101c198a5f746d4339</sc_cat_item><sc_catalog display_value="Cafe Catalog">fdcc14ae473730101c198a5f746d4340</sc_catalog><sys_class_name>sc_cat_item_catalog</sys_class_name><sys_created_by>system</sys_created_by><sys_created_on>2021-11-18 02:38:07</sys_created_on><sys_id>6e3242c347b330101c198a5f746d434b</sys_id><sys_mod_count>0</sys_mod_count><sys_name>Cafe Catalog.Mocha Frappuccino</sys_name><sys_package display_value="Cafe Management" source="x_616811_cafe_mana">6a49c4cb472730101c198a5f746d43b0</sys_package><sys_policy/><sys_scope display_value="Cafe Management">6a49c4cb472730101c198a5f746d43b0</sys_scope><sys_update_name>sc_cat_item_catalog_6e3242c347b330101c198a5f746d434b</sys_update_name><sys_updated_by>system</sys_updated_by><sys_updated_on>2021-11-18 02:38:07</sys_updated_on></sc_cat_item_catalog></record_update>]]></payload>
+        <payload_hash>-1882206931</payload_hash>
+        <record_name>Cafe Catalog.Mocha Frappuccino</record_name>
+        <reverted_from/>
+        <source>19d35ebf476fb0101c198a5f746d4315</source>
+        <source_table>sys_update_set</source_table>
+        <state>previous</state>
+        <sys_created_by>system</sys_created_by>
+        <sys_created_on>2021-11-18 02:38:07</sys_created_on>
+        <sys_id>263242c347b330101c198a5f746d434f</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_recorded_at>17d30e88fff0000001</sys_recorded_at>
+        <sys_updated_by>system</sys_updated_by>
+        <sys_updated_on>2021-11-18 02:38:07</sys_updated_on>
+        <type>Catalog Items Catalog</type>
+        <update_guid>6e3242c385b33010d5aceed4a093514e</update_guid>
+        <update_guid_history>6e3242c385b33010d5aceed4a093514e:-1882206931</update_guid_history>
+    </sys_update_version>
+    <sys_metadata_delete action="INSERT_OR_UPDATE">
+        <sys_audit_delete display_value="Cafe Catalog.Mocha Frappuccino">298c764347b730101c198a5f746d433e</sys_audit_delete>
+        <sys_class_name>sys_metadata_delete</sys_class_name>
+        <sys_created_by>kit</sys_created_by>
+        <sys_created_on>2021-11-18 06:52:49</sys_created_on>
+        <sys_db_object display_value="" name="sc_cat_item_catalog">sc_cat_item_catalog</sys_db_object>
+        <sys_id>5077ee39406b42d8aa06ddd32ef9f240</sys_id>
+        <sys_metadata>6e3242c347b330101c198a5f746d434b</sys_metadata>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>Cafe Catalog.Mocha Frappuccino</sys_name>
+        <sys_package display_value="Cafe Management" source="x_616811_cafe_mana">6a49c4cb472730101c198a5f746d43b0</sys_package>
+        <sys_parent display_value="">963242c347b330101c198a5f746d4339</sys_parent>
+        <sys_policy/>
+        <sys_scope display_value="Cafe Management">6a49c4cb472730101c198a5f746d43b0</sys_scope>
+        <sys_scope_delete display_value="">1c6aea8ac1af4c3ea4b770f9ea8efb84</sys_scope_delete>
+        <sys_update_name>sc_cat_item_catalog_6e3242c347b330101c198a5f746d434b</sys_update_name>
+        <sys_update_version display_value="sc_cat_item_catalog_6e3242c347b330101c198a5f746d434b">263242c347b330101c198a5f746d434f</sys_update_version>
+        <sys_updated_by>kit</sys_updated_by>
+        <sys_updated_on>2021-11-18 06:52:49</sys_updated_on>
+    </sys_metadata_delete>
+</record_update>

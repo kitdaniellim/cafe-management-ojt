@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sc_service_fulfillment_stage">
+    <sc_service_fulfillment_stage action="DELETE">
+        <cat_item display_value="First Sample Drink">2010830747b730101c198a5f746d4387</cat_item>
+        <name/>
+        <order>100</order>
+        <sys_class_name>sc_service_fulfillment_stage</sys_class_name>
+        <sys_created_by>kit</sys_created_by>
+        <sys_created_on>2021-11-18 07:20:19</sys_created_on>
+        <sys_id>18d283c747b730101c198a5f746d4382</sys_id>
+        <sys_mod_count>1</sys_mod_count>
+        <sys_name/>
+        <sys_package display_value="Cafe Management" source="x_616811_cafe_mana">6a49c4cb472730101c198a5f746d43b0</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Cafe Management">6a49c4cb472730101c198a5f746d43b0</sys_scope>
+        <sys_update_name>sc_service_fulfillment_stage_18d283c747b730101c198a5f746d4382</sys_update_name>
+        <sys_updated_by>system</sys_updated_by>
+        <sys_updated_on>2021-11-18 07:40:15</sys_updated_on>
+    </sc_service_fulfillment_stage>
+    <sys_translated_text action="DELETE" query="documentkey=18d283c747b730101c198a5f746d4382"/>
+    <sys_update_version action="INSERT_OR_UPDATE">
+        <action>DELETE</action>
+        <application display_value="Cafe Management">6a49c4cb472730101c198a5f746d43b0</application>
+        <file_path/>
+        <instance_id>a71ba0b1db236810431011f8489619ce</instance_id>
+        <instance_name>dev112014</instance_name>
+        <name>sc_service_fulfillment_stage_18d283c747b730101c198a5f746d4382</name>
+        <payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update table="sc_service_fulfillment_stage"><sc_service_fulfillment_stage action="INSERT_OR_UPDATE"><cat_item display_value="First Sample Drink">2010830747b730101c198a5f746d4387</cat_item><name/><order>100</order><sys_class_name>sc_service_fulfillment_stage</sys_class_name><sys_created_by>kit</sys_created_by><sys_created_on>2021-11-18 07:20:19</sys_created_on><sys_id>18d283c747b730101c198a5f746d4382</sys_id><sys_mod_count>1</sys_mod_count><sys_name/><sys_package display_value="Cafe Management" source="x_616811_cafe_mana">6a49c4cb472730101c198a5f746d43b0</sys_package><sys_policy/><sys_scope display_value="Cafe Management">6a49c4cb472730101c198a5f746d43b0</sys_scope><sys_update_name>sc_service_fulfillment_stage_18d283c747b730101c198a5f746d4382</sys_update_name><sys_updated_by>system</sys_updated_by><sys_updated_on>2021-11-18 07:40:15</sys_updated_on></sc_service_fulfillment_stage><sys_translated_text action="delete_multiple" query="documentkey=18d283c747b730101c198a5f746d4382"/></record_update>]]></payload>
+        <payload_hash>-1246001704</payload_hash>
+        <record_name/>
+        <reverted_from/>
+        <source>1ef7b1b4477330101c198a5f746d43d6</source>
+        <source_table>sys_update_set</source_table>
+        <state>previous</state>
+        <sys_created_by>system</sys_created_by>
+        <sys_created_on>2021-11-18 07:40:15</sys_created_on>
+        <sys_id>9867cf8b47b730101c198a5f746d4390</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_recorded_at>17d31fd2c5c0000001</sys_recorded_at>
+        <sys_updated_by>system</sys_updated_by>
+        <sys_updated_on>2021-11-18 07:40:15</sys_updated_on>
+        <type>Service Fulfillment Stage</type>
+        <update_guid>1067cf8b82b73010bcafe7cf1fe5ec90</update_guid>
+        <update_guid_history>1067cf8b82b73010bcafe7cf1fe5ec90:-1246001704,54d283c7f9b730104f382105b561e584:-1173855374</update_guid_history>
+    </sys_update_version>
+    <sys_metadata_delete action="INSERT_OR_UPDATE">
+        <sys_audit_delete display_value="">a2b78bcb47b730101c198a5f746d4372</sys_audit_delete>
+        <sys_class_name>sys_metadata_delete</sys_class_name>
+        <sys_created_by>system</sys_created_by>
+        <sys_created_on>2021-11-18 07:41:47</sys_created_on>
+        <sys_db_object display_value="" name="sc_service_fulfillment_stage">sc_service_fulfillment_stage</sys_db_object>
+        <sys_id>6969413c3aad48f0bf7a5840f70ac900</sys_id>
+        <sys_metadata>18d283c747b730101c198a5f746d4382</sys_metadata>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name/>
+        <sys_package display_value="Cafe Management" source="x_616811_cafe_mana">6a49c4cb472730101c198a5f746d43b0</sys_package>
+        <sys_parent/>
+        <sys_policy/>
+        <sys_scope display_value="Cafe Management">6a49c4cb472730101c198a5f746d43b0</sys_scope>
+        <sys_scope_delete display_value="">1c6aea8ac1af4c3ea4b770f9ea8efb84</sys_scope_delete>
+        <sys_update_name>sc_service_fulfillment_stage_18d283c747b730101c198a5f746d4382</sys_update_name>
+        <sys_update_version display_value="sc_service_fulfillment_stage_18d283c747b730101c198a5f746d4382">9867cf8b47b730101c198a5f746d4390</sys_update_version>
+        <sys_updated_by>system</sys_updated_by>
+        <sys_updated_on>2021-11-18 07:41:47</sys_updated_on>
+    </sys_metadata_delete>
+</record_update>

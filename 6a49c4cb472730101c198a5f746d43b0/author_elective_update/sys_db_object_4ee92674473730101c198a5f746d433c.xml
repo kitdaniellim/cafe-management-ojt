@@ -1,0 +1,85 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_db_object">
+    <sys_db_object action="DELETE">
+        <access/>
+        <actions_access>true</actions_access>
+        <alter_access>true</alter_access>
+        <caller_access/>
+        <client_scripts_access>true</client_scripts_access>
+        <configuration_access>false</configuration_access>
+        <create_access>true</create_access>
+        <create_access_controls>false</create_access_controls>
+        <delete_access>false</delete_access>
+        <extension_model/>
+        <is_extendable>false</is_extendable>
+        <label>Cafe Mana M2m Sizes Orders</label>
+        <live_feed_enabled>false</live_feed_enabled>
+        <name>x_616811_cafe_mana_m2m_sizes_orders</name>
+        <number_ref/>
+        <provider_class/>
+        <read_access>true</read_access>
+        <scriptable_table>false</scriptable_table>
+        <super_class/>
+        <sys_class_code/>
+        <sys_class_name>sys_db_object</sys_class_name>
+        <sys_class_path/>
+        <sys_created_by>kit</sys_created_by>
+        <sys_created_on>2021-11-11 05:45:09</sys_created_on>
+        <sys_id>4ee92674473730101c198a5f746d433c</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>Cafe Mana M2m Sizes Orders</sys_name>
+        <sys_package display_value="Cafe Management" source="x_616811_cafe_mana">6a49c4cb472730101c198a5f746d43b0</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Cafe Management">6a49c4cb472730101c198a5f746d43b0</sys_scope>
+        <sys_update_name>sys_db_object_4ee92674473730101c198a5f746d433c</sys_update_name>
+        <sys_updated_by>kit</sys_updated_by>
+        <sys_updated_on>2021-11-11 05:45:09</sys_updated_on>
+        <update_access>true</update_access>
+        <user_role/>
+        <ws_access>true</ws_access>
+    </sys_db_object>
+    <sys_update_version action="INSERT_OR_UPDATE">
+        <action>DELETE</action>
+        <application display_value="Cafe Management">6a49c4cb472730101c198a5f746d43b0</application>
+        <file_path/>
+        <instance_id>a71ba0b1db236810431011f8489619ce</instance_id>
+        <instance_name>dev112014</instance_name>
+        <name>sys_db_object_4ee92674473730101c198a5f746d433c</name>
+        <payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_db_object"><sys_db_object action="INSERT_OR_UPDATE"><access/><actions_access>true</actions_access><alter_access>true</alter_access><caller_access/><client_scripts_access>true</client_scripts_access><configuration_access>false</configuration_access><create_access>true</create_access><create_access_controls>false</create_access_controls><delete_access>false</delete_access><extension_model/><is_extendable>false</is_extendable><label>Cafe Mana M2m Sizes Orders</label><live_feed_enabled>false</live_feed_enabled><name>x_616811_cafe_mana_m2m_sizes_orders</name><number_ref/><provider_class/><read_access>true</read_access><scriptable_table>false</scriptable_table><super_class/><sys_class_code/><sys_class_name>sys_db_object</sys_class_name><sys_class_path/><sys_created_by>kit</sys_created_by><sys_created_on>2021-11-11 05:45:09</sys_created_on><sys_id>4ee92674473730101c198a5f746d433c</sys_id><sys_mod_count>0</sys_mod_count><sys_name>Cafe Mana M2m Sizes Orders</sys_name><sys_package display_value="Cafe Management" source="x_616811_cafe_mana">6a49c4cb472730101c198a5f746d43b0</sys_package><sys_policy/><sys_scope display_value="Cafe Management">6a49c4cb472730101c198a5f746d43b0</sys_scope><sys_update_name>sys_db_object_4ee92674473730101c198a5f746d433c</sys_update_name><sys_updated_by>kit</sys_updated_by><sys_updated_on>2021-11-11 05:45:09</sys_updated_on><update_access>true</update_access><user_role/><ws_access>true</ws_access></sys_db_object></record_update>]]></payload>
+        <payload_hash>1922201495</payload_hash>
+        <record_name>Cafe Mana M2m Sizes Orders</record_name>
+        <reverted_from/>
+        <source>1ef7b1b4477330101c198a5f746d43d6</source>
+        <source_table>sys_update_set</source_table>
+        <state>previous</state>
+        <sys_created_by>kit</sys_created_by>
+        <sys_created_on>2021-11-11 05:45:09</sys_created_on>
+        <sys_id>86e9a2b4473730101c198a5f746d43f1</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_recorded_at>17d0d8748940000001</sys_recorded_at>
+        <sys_updated_by>kit</sys_updated_by>
+        <sys_updated_on>2021-11-11 05:45:09</sys_updated_on>
+        <type>Table</type>
+        <update_guid>02e9a2b41e373010e6df72cbfb1062f1</update_guid>
+        <update_guid_history>02e9a2b41e373010e6df72cbfb1062f1:1922201495</update_guid_history>
+    </sys_update_version>
+    <sys_metadata_delete action="INSERT_OR_UPDATE">
+        <sys_audit_delete/>
+        <sys_class_name>sys_metadata_delete</sys_class_name>
+        <sys_created_by>kit</sys_created_by>
+        <sys_created_on>2021-11-11 05:47:25</sys_created_on>
+        <sys_db_object display_value="" name="sys_db_object">sys_db_object</sys_db_object>
+        <sys_id>0067f6fd0c6d49c68002f38fe521c304</sys_id>
+        <sys_metadata>4ee92674473730101c198a5f746d433c</sys_metadata>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>Cafe Mana M2m Sizes Orders</sys_name>
+        <sys_package display_value="Cafe Management" source="x_616811_cafe_mana">6a49c4cb472730101c198a5f746d43b0</sys_package>
+        <sys_parent/>
+        <sys_policy/>
+        <sys_scope display_value="Cafe Management">6a49c4cb472730101c198a5f746d43b0</sys_scope>
+        <sys_scope_delete display_value="">1c6aea8ac1af4c3ea4b770f9ea8efb84</sys_scope_delete>
+        <sys_update_name>sys_db_object_4ee92674473730101c198a5f746d433c</sys_update_name>
+        <sys_update_version display_value="sys_db_object_4ee92674473730101c198a5f746d433c">86e9a2b4473730101c198a5f746d43f1</sys_update_version>
+        <sys_updated_by>kit</sys_updated_by>
+        <sys_updated_on>2021-11-11 05:47:25</sys_updated_on>
+    </sys_metadata_delete>
+</record_update>

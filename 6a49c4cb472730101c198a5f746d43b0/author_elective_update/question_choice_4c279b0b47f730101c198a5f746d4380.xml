@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="question_choice">
+    <question_choice action="DELETE">
+        <inactive>false</inactive>
+        <order>200</order>
+        <published_ref display_value="Tall">84c1838747b730101c198a5f746d4319</published_ref>
+        <question display_value="Drink Size">88279b0b47f730101c198a5f746d4362</question>
+        <sys_class_name>question_choice</sys_class_name>
+        <sys_created_by>kit</sys_created_by>
+        <sys_created_on>2021-11-18 08:49:03</sys_created_on>
+        <sys_id>4c279b0b47f730101c198a5f746d4380</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>Tall</sys_name>
+        <sys_package display_value="Cafe Management" source="x_616811_cafe_mana">6a49c4cb472730101c198a5f746d43b0</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Cafe Management">6a49c4cb472730101c198a5f746d43b0</sys_scope>
+        <sys_update_name>question_choice_4c279b0b47f730101c198a5f746d4380</sys_update_name>
+        <sys_updated_by>kit</sys_updated_by>
+        <sys_updated_on>2021-11-18 08:49:03</sys_updated_on>
+        <text>Tall</text>
+        <value>200</value>
+    </question_choice>
+    <fx_price action="DELETE" query="id=4c279b0b47f730101c198a5f746d4380"/>
+    <sys_update_version action="INSERT_OR_UPDATE">
+        <action>DELETE</action>
+        <application display_value="Cafe Management">6a49c4cb472730101c198a5f746d43b0</application>
+        <file_path/>
+        <instance_id>a71ba0b1db236810431011f8489619ce</instance_id>
+        <instance_name>dev112014</instance_name>
+        <name>question_choice_4c279b0b47f730101c198a5f746d4380</name>
+        <payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update table="question_choice"><question_choice action="INSERT_OR_UPDATE"><inactive>false</inactive><order>200</order><published_ref display_value="Tall">84c1838747b730101c198a5f746d4319</published_ref><question display_value="Drink Size">88279b0b47f730101c198a5f746d4362</question><sys_class_name>question_choice</sys_class_name><sys_created_by>kit</sys_created_by><sys_created_on>2021-11-18 08:49:03</sys_created_on><sys_id>4c279b0b47f730101c198a5f746d4380</sys_id><sys_mod_count>0</sys_mod_count><sys_name>Tall</sys_name><sys_package display_value="Cafe Management" source="x_616811_cafe_mana">6a49c4cb472730101c198a5f746d43b0</sys_package><sys_policy/><sys_scope display_value="Cafe Management">6a49c4cb472730101c198a5f746d43b0</sys_scope><sys_update_name>question_choice_4c279b0b47f730101c198a5f746d4380</sys_update_name><sys_updated_by>kit</sys_updated_by><sys_updated_on>2021-11-18 08:49:03</sys_updated_on><text>Tall</text><value>200</value></question_choice><fx_price action="delete_multiple" query="id=4c279b0b47f730101c198a5f746d4380"/></record_update>]]></payload>
+        <payload_hash>-1708744586</payload_hash>
+        <record_name>Tall</record_name>
+        <reverted_from/>
+        <source>1ef7b1b4477330101c198a5f746d43d6</source>
+        <source_table>sys_update_set</source_table>
+        <state>previous</state>
+        <sys_created_by>kit</sys_created_by>
+        <sys_created_on>2021-11-18 08:49:03</sys_created_on>
+        <sys_id>c0279b0b47f730101c198a5f746d4383</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_recorded_at>17d323c2b040000001</sys_recorded_at>
+        <sys_updated_by>kit</sys_updated_by>
+        <sys_updated_on>2021-11-18 08:49:03</sys_updated_on>
+        <type>Question Choice</type>
+        <update_guid>48279b0b0af73010c54f44f344387e82</update_guid>
+        <update_guid_history>48279b0b0af73010c54f44f344387e82:-1708744586</update_guid_history>
+    </sys_update_version>
+    <sys_metadata_delete action="INSERT_OR_UPDATE">
+        <sys_audit_delete display_value="Tall">ac479f0b47f730101c198a5f746d4366</sys_audit_delete>
+        <sys_class_name>sys_metadata_delete</sys_class_name>
+        <sys_created_by>system</sys_created_by>
+        <sys_created_on>2021-11-18 08:49:38</sys_created_on>
+        <sys_db_object display_value="" name="question_choice">question_choice</sys_db_object>
+        <sys_id>01a052a088a94b6f8a33173f46666fb9</sys_id>
+        <sys_metadata>4c279b0b47f730101c198a5f746d4380</sys_metadata>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>Tall</sys_name>
+        <sys_package display_value="Cafe Management" source="x_616811_cafe_mana">6a49c4cb472730101c198a5f746d43b0</sys_package>
+        <sys_parent display_value="">88279b0b47f730101c198a5f746d4362</sys_parent>
+        <sys_policy/>
+        <sys_scope display_value="Cafe Management">6a49c4cb472730101c198a5f746d43b0</sys_scope>
+        <sys_scope_delete display_value="">1c6aea8ac1af4c3ea4b770f9ea8efb84</sys_scope_delete>
+        <sys_update_name>question_choice_4c279b0b47f730101c198a5f746d4380</sys_update_name>
+        <sys_update_version display_value="question_choice_4c279b0b47f730101c198a5f746d4380">c0279b0b47f730101c198a5f746d4383</sys_update_version>
+        <sys_updated_by>system</sys_updated_by>
+        <sys_updated_on>2021-11-18 08:49:38</sys_updated_on>
+    </sys_metadata_delete>
+</record_update>

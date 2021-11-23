@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="m2m_sp_ng_pro_sp_widget">
+    <m2m_sp_ng_pro_sp_widget action="DELETE">
+        <sp_angular_provider display_value="scBasicSelect">e225f8b43b0523008ed00d8044efc4fe</sp_angular_provider>
+        <sp_widget display_value="Cafe SC Categories">4f5fa643477730101c198a5f746d4395</sp_widget>
+        <sys_class_name>m2m_sp_ng_pro_sp_widget</sys_class_name>
+        <sys_created_by>kit</sys_created_by>
+        <sys_created_on>2021-11-18 05:55:18</sys_created_on>
+        <sys_id>cf5fa643477730101c198a5f746d4399</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>scBasicSelect.Cafe SC Categories</sys_name>
+        <sys_package display_value="Cafe Management" source="x_616811_cafe_mana">6a49c4cb472730101c198a5f746d43b0</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Cafe Management">6a49c4cb472730101c198a5f746d43b0</sys_scope>
+        <sys_update_name>m2m_sp_ng_pro_sp_widget_cf5fa643477730101c198a5f746d4399</sys_update_name>
+        <sys_updated_by>kit</sys_updated_by>
+        <sys_updated_on>2021-11-18 05:55:18</sys_updated_on>
+    </m2m_sp_ng_pro_sp_widget>
+    <sys_update_version action="INSERT_OR_UPDATE">
+        <action>DELETE</action>
+        <application display_value="Cafe Management">6a49c4cb472730101c198a5f746d43b0</application>
+        <file_path/>
+        <instance_id>a71ba0b1db236810431011f8489619ce</instance_id>
+        <instance_name>dev112014</instance_name>
+        <name>m2m_sp_ng_pro_sp_widget_cf5fa643477730101c198a5f746d4399</name>
+        <payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update table="m2m_sp_ng_pro_sp_widget"><m2m_sp_ng_pro_sp_widget action="INSERT_OR_UPDATE"><sp_angular_provider display_value="scBasicSelect">e225f8b43b0523008ed00d8044efc4fe</sp_angular_provider><sp_widget display_value="Cafe SC Categories">4f5fa643477730101c198a5f746d4395</sp_widget><sys_class_name>m2m_sp_ng_pro_sp_widget</sys_class_name><sys_created_by>kit</sys_created_by><sys_created_on>2021-11-18 05:55:18</sys_created_on><sys_id>cf5fa643477730101c198a5f746d4399</sys_id><sys_mod_count>0</sys_mod_count><sys_name>scBasicSelect.Cafe SC Categories</sys_name><sys_package display_value="Cafe Management" source="x_616811_cafe_mana">6a49c4cb472730101c198a5f746d43b0</sys_package><sys_policy/><sys_scope display_value="Cafe Management">6a49c4cb472730101c198a5f746d43b0</sys_scope><sys_update_name>m2m_sp_ng_pro_sp_widget_cf5fa643477730101c198a5f746d4399</sys_update_name><sys_updated_by>kit</sys_updated_by><sys_updated_on>2021-11-18 05:55:18</sys_updated_on></m2m_sp_ng_pro_sp_widget></record_update>]]></payload>
+        <payload_hash>1388749874</payload_hash>
+        <record_name>scBasicSelect.Cafe SC Categories</record_name>
+        <reverted_from/>
+        <source>1ef7b1b4477330101c198a5f746d43d6</source>
+        <source_table>sys_update_set</source_table>
+        <state>previous</state>
+        <sys_created_by>kit</sys_created_by>
+        <sys_created_on>2021-11-18 05:55:18</sys_created_on>
+        <sys_id>875fa643477730101c198a5f746d439c</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_recorded_at>17d319d18420000001</sys_recorded_at>
+        <sys_updated_by>kit</sys_updated_by>
+        <sys_updated_on>2021-11-18 05:55:18</sys_updated_on>
+        <type>Angular Providers</type>
+        <update_guid>cf5fa643f87730105d9d8673f55dab9b</update_guid>
+        <update_guid_history>cf5fa643f87730105d9d8673f55dab9b:1388749874</update_guid_history>
+    </sys_update_version>
+    <sys_metadata_delete action="INSERT_OR_UPDATE">
+        <sys_audit_delete display_value="scBasicSelect.Cafe SC Categories">edf4e02347b730101c198a5f746d4354</sys_audit_delete>
+        <sys_class_name>sys_metadata_delete</sys_class_name>
+        <sys_created_by>kit</sys_created_by>
+        <sys_created_on>2021-11-19 09:07:35</sys_created_on>
+        <sys_db_object display_value="" name="m2m_sp_ng_pro_sp_widget">m2m_sp_ng_pro_sp_widget</sys_db_object>
+        <sys_id>27b65a9da71a43f8acd833fc397abc40</sys_id>
+        <sys_metadata>cf5fa643477730101c198a5f746d4399</sys_metadata>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>scBasicSelect.Cafe SC Categories</sys_name>
+        <sys_package display_value="Cafe Management" source="x_616811_cafe_mana">6a49c4cb472730101c198a5f746d43b0</sys_package>
+        <sys_parent/>
+        <sys_policy/>
+        <sys_scope display_value="Cafe Management">6a49c4cb472730101c198a5f746d43b0</sys_scope>
+        <sys_scope_delete display_value="">1c6aea8ac1af4c3ea4b770f9ea8efb84</sys_scope_delete>
+        <sys_update_name>m2m_sp_ng_pro_sp_widget_cf5fa643477730101c198a5f746d4399</sys_update_name>
+        <sys_update_version display_value="m2m_sp_ng_pro_sp_widget_cf5fa643477730101c198a5f746d4399">875fa643477730101c198a5f746d439c</sys_update_version>
+        <sys_updated_by>kit</sys_updated_by>
+        <sys_updated_on>2021-11-19 09:07:35</sys_updated_on>
+    </sys_metadata_delete>
+</record_update>
