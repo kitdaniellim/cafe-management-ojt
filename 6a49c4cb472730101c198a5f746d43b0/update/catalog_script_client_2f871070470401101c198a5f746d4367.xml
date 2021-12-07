@@ -19,21 +19,30 @@
         <order/>
         <script><![CDATA[function onLoad(){
 
-// 	var itemSysId = g_form.getUniqueValue(); // sys_id of opened item
-// 	var grItem = new GlideRecord('sc_cat_item'); // record of items
-// 	grItem.get(itemSysId); // record from the item sys_id
-// 	var itemName = grItem.name; // itemName holds the name of the selected item
+	var itemSysId = g_form.getUniqueValue(); // sys_id of opened item
 	
-	var grItemOptNew = new GlideAjax('DrinkVariables');
-	grItemOptNew.addParam('sysparm_name', 'GetAll');
-	grItemOptNew.getXML(testss);
+	var gaItemOptNew = new GlideAjax('DrinkVariables');
+	gaItemOptNew.addParam('sysparm_name', 'GetName');
+	gaItemOptNew.addParam('sysparm_sysID', itemSysId);
+	gaItemOptNew.getXML(GetName);
 // 	grItemOptNew.addQuery('name', 'copy_of_size');
-	function testss(response) {
-		var answer = response.responseXML.documentElement.getAttribute("answer");
-		alert(answer)
+	function GetName(response) {
+		var itemName = response.responseXML.documentElement.getAttribute("answer");
+		var gaQuestions = new GlideAjax('DrinkVariables');
+		gaItemOptNew.addParam('sysparm_name', 'GetAll');
+		gaItemOptNew.getXML(GetAll);
+		function GetAll(response) {
+			var questions = response.responseXML.documentElement.getAttribute("answer");
+			var questionName = itemName.split(' ').join('_');
+			questions = JSON.parse(questions);
+			for(var i=0 ; i<questions.length ; i++) {
+				questionName
+				if (questions[i] != questionName) {
+					g_form.setVisible(questions[i], false);
+				}
+			}
+		}
 	}
-	var test = grItemOptNew.getAnswer();
-	alert(test);
 // 	while (grItemOptNew.next()) {
 // 		alert('aaa');
 // 		g_form.setVisible(grItemOptNew.name, false);
@@ -51,7 +60,7 @@
         <sys_domain>global</sys_domain>
         <sys_domain_path>/</sys_domain_path>
         <sys_id>2f871070470401101c198a5f746d4367</sys_id>
-        <sys_mod_count>28</sys_mod_count>
+        <sys_mod_count>64</sys_mod_count>
         <sys_name>Choose Variable Question</sys_name>
         <sys_overrides/>
         <sys_package display_value="Cafe Management" source="x_616811_cafe_mana">6a49c4cb472730101c198a5f746d43b0</sys_package>
@@ -59,7 +68,7 @@
         <sys_scope display_value="Cafe Management">6a49c4cb472730101c198a5f746d43b0</sys_scope>
         <sys_update_name>catalog_script_client_2f871070470401101c198a5f746d4367</sys_update_name>
         <sys_updated_by>fletcher</sys_updated_by>
-        <sys_updated_on>2021-11-23 07:19:47</sys_updated_on>
+        <sys_updated_on>2021-11-25 06:11:41</sys_updated_on>
         <table/>
         <type>onLoad</type>
         <ui_type>10</ui_type>

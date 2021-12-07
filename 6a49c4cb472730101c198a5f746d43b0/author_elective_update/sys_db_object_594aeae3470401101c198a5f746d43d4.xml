@@ -1,0 +1,85 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_db_object">
+    <sys_db_object action="DELETE">
+        <access/>
+        <actions_access>false</actions_access>
+        <alter_access>false</alter_access>
+        <caller_access/>
+        <client_scripts_access>false</client_scripts_access>
+        <configuration_access>false</configuration_access>
+        <create_access>false</create_access>
+        <create_access_controls>false</create_access_controls>
+        <delete_access>false</delete_access>
+        <extension_model/>
+        <is_extendable>false</is_extendable>
+        <label>Cafe Drinks Testtttt</label>
+        <live_feed_enabled>false</live_feed_enabled>
+        <name>x_616811_cafe_mana_cafe_drinks_testtttt</name>
+        <number_ref/>
+        <provider_class/>
+        <read_access>true</read_access>
+        <scriptable_table>false</scriptable_table>
+        <super_class display_value="Import Set Row" name="sys_import_set_row">280a25f245113010c0a05206e0e0f899</super_class>
+        <sys_class_code/>
+        <sys_class_name>sys_db_object</sys_class_name>
+        <sys_class_path/>
+        <sys_created_by>fletcher</sys_created_by>
+        <sys_created_on>2021-12-02 05:05:44</sys_created_on>
+        <sys_id>594aeae3470401101c198a5f746d43d4</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>Cafe Mana Cafe Drinks Testtttt</sys_name>
+        <sys_package display_value="Cafe Management" source="x_616811_cafe_mana">6a49c4cb472730101c198a5f746d43b0</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Cafe Management">6a49c4cb472730101c198a5f746d43b0</sys_scope>
+        <sys_update_name>sys_db_object_594aeae3470401101c198a5f746d43d4</sys_update_name>
+        <sys_updated_by>fletcher</sys_updated_by>
+        <sys_updated_on>2021-12-02 05:05:44</sys_updated_on>
+        <update_access>false</update_access>
+        <user_role/>
+        <ws_access>true</ws_access>
+    </sys_db_object>
+    <sys_update_version action="INSERT_OR_UPDATE">
+        <action>DELETE</action>
+        <application display_value="Cafe Management">6a49c4cb472730101c198a5f746d43b0</application>
+        <file_path/>
+        <instance_id>a71ba0b1db236810431011f8489619ce</instance_id>
+        <instance_name>dev112014</instance_name>
+        <name>sys_db_object_594aeae3470401101c198a5f746d43d4</name>
+        <payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_db_object"><sys_db_object action="INSERT_OR_UPDATE"><access/><actions_access>false</actions_access><alter_access>false</alter_access><caller_access/><client_scripts_access>false</client_scripts_access><configuration_access>false</configuration_access><create_access>false</create_access><create_access_controls>false</create_access_controls><delete_access>false</delete_access><extension_model/><is_extendable>false</is_extendable><label>Cafe Drinks Testtttt</label><live_feed_enabled>false</live_feed_enabled><name>x_616811_cafe_mana_cafe_drinks_testtttt</name><number_ref/><provider_class/><read_access>true</read_access><scriptable_table>false</scriptable_table><super_class display_value="Import Set Row" name="sys_import_set_row">280a25f245113010c0a05206e0e0f899</super_class><sys_class_code/><sys_class_name>sys_db_object</sys_class_name><sys_class_path/><sys_created_by>fletcher</sys_created_by><sys_created_on>2021-12-02 05:05:44</sys_created_on><sys_id>594aeae3470401101c198a5f746d43d4</sys_id><sys_mod_count>0</sys_mod_count><sys_name>Cafe Mana Cafe Drinks Testtttt</sys_name><sys_package display_value="Cafe Management" source="x_616811_cafe_mana">6a49c4cb472730101c198a5f746d43b0</sys_package><sys_policy/><sys_scope display_value="Cafe Management">6a49c4cb472730101c198a5f746d43b0</sys_scope><sys_update_name>sys_db_object_594aeae3470401101c198a5f746d43d4</sys_update_name><sys_updated_by>fletcher</sys_updated_by><sys_updated_on>2021-12-02 05:05:44</sys_updated_on><update_access>false</update_access><user_role/><ws_access>true</ws_access></sys_db_object></record_update>]]></payload>
+        <payload_hash>-1719543036</payload_hash>
+        <record_name>Cafe Drinks Testtttt</record_name>
+        <reverted_from/>
+        <source>1ef7b1b4477330101c198a5f746d43d6</source>
+        <source_table>sys_update_set</source_table>
+        <state>previous</state>
+        <sys_created_by>fletcher</sys_created_by>
+        <sys_created_on>2021-12-02 05:05:44</sys_created_on>
+        <sys_id>dd4a2ee3470401101c198a5f746d4336</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_recorded_at>17d7988bef10000001</sys_recorded_at>
+        <sys_updated_by>fletcher</sys_updated_by>
+        <sys_updated_on>2021-12-02 05:05:44</sys_updated_on>
+        <type>Table</type>
+        <update_guid>594a2ee377040110f2576ebe8bfaba36</update_guid>
+        <update_guid_history>594a2ee377040110f2576ebe8bfaba36:-1719543036</update_guid_history>
+    </sys_update_version>
+    <sys_metadata_delete action="INSERT_OR_UPDATE">
+        <sys_audit_delete/>
+        <sys_class_name>sys_metadata_delete</sys_class_name>
+        <sys_created_by>fletcher</sys_created_by>
+        <sys_created_on>2021-12-07 03:40:01</sys_created_on>
+        <sys_db_object display_value="" name="sys_db_object">sys_db_object</sys_db_object>
+        <sys_id>65011c4cf24743688c40c4c00e730151</sys_id>
+        <sys_metadata>594aeae3470401101c198a5f746d43d4</sys_metadata>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>Cafe Mana Cafe Drinks Testtttt</sys_name>
+        <sys_package display_value="Cafe Management" source="x_616811_cafe_mana">6a49c4cb472730101c198a5f746d43b0</sys_package>
+        <sys_parent/>
+        <sys_policy/>
+        <sys_scope display_value="Cafe Management">6a49c4cb472730101c198a5f746d43b0</sys_scope>
+        <sys_scope_delete display_value="">1c6aea8ac1af4c3ea4b770f9ea8efb84</sys_scope_delete>
+        <sys_update_name>sys_db_object_594aeae3470401101c198a5f746d43d4</sys_update_name>
+        <sys_update_version display_value="sys_db_object_594aeae3470401101c198a5f746d43d4">dd4a2ee3470401101c198a5f746d4336</sys_update_version>
+        <sys_updated_by>fletcher</sys_updated_by>
+        <sys_updated_on>2021-12-07 03:40:01</sys_updated_on>
+    </sys_metadata_delete>
+</record_update>

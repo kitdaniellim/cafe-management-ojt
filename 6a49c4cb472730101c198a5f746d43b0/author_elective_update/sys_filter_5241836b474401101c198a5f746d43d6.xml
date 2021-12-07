@@ -1,0 +1,75 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update sys_domain="global" table="sys_filter">
+    <sys_filter action="DELETE">
+        <filter table="sc_req_item">cat_item.sys_scope=6a49c4cb472730101c198a5f746d43b0^sys_created_onONThis month@javascript:gs.beginningOfThisMonth()@javascript:gs.endOfThisMonth()^EQ<item display_table="sys_scope" display_value="Cafe Management" endquery="false" field="cat_item.sys_scope" goto="false" newquery="false" operator="=" or="false" value="6a49c4cb472730101c198a5f746d43b0"/>
+            <item endquery="false" field="sys_created_on" goto="false" newquery="false" operator="ON" or="false" value="This month@javascript:gs.beginningOfThisMonth()@javascript:gs.endOfThisMonth()"/>
+            <item endquery="true" field="" goto="false" newquery="false" operator="=" or="false" value=""/>
+        </filter>
+        <group display_value="Cafe Manager" name="Cafe Manager">d3900f2b474401101c198a5f746d43c3</group>
+        <last_used/>
+        <mobile>false</mobile>
+        <roles/>
+        <sys_class_name>sys_filter</sys_class_name>
+        <sys_created_by>fletcher</sys_created_by>
+        <sys_created_on>2021-12-02 06:46:17</sys_created_on>
+        <sys_domain>global</sys_domain>
+        <sys_domain_path>/</sys_domain_path>
+        <sys_id>5241836b474401101c198a5f746d43d6</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>Cafe Drinks for the month</sys_name>
+        <sys_package display_value="Cafe Management" source="x_616811_cafe_mana">6a49c4cb472730101c198a5f746d43b0</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Cafe Management">6a49c4cb472730101c198a5f746d43b0</sys_scope>
+        <sys_update_name>sys_filter_5241836b474401101c198a5f746d43d6</sys_update_name>
+        <sys_updated_by>fletcher</sys_updated_by>
+        <sys_updated_on>2021-12-02 06:46:17</sys_updated_on>
+        <table>sc_req_item</table>
+        <title>Cafe Drinks for the month</title>
+        <user/>
+    </sys_filter>
+    <sys_translated_text action="DELETE" query="documentkey=5241836b474401101c198a5f746d43d6"/>
+    <sys_update_version action="INSERT_OR_UPDATE">
+        <action>DELETE</action>
+        <application display_value="Cafe Management">6a49c4cb472730101c198a5f746d43b0</application>
+        <file_path/>
+        <instance_id>a71ba0b1db236810431011f8489619ce</instance_id>
+        <instance_name>dev112014</instance_name>
+        <name>sys_filter_5241836b474401101c198a5f746d43d6</name>
+        <payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update sys_domain="global" table="sys_filter"><sys_filter action="INSERT_OR_UPDATE"><filter table="sc_req_item">cat_item.sys_scope=6a49c4cb472730101c198a5f746d43b0^sys_created_onONThis month@javascript:gs.beginningOfThisMonth()@javascript:gs.endOfThisMonth()^EQ<item display_table="sys_scope" display_value="Cafe Management" endquery="false" field="cat_item.sys_scope" goto="false" newquery="false" operator="=" or="false" value="6a49c4cb472730101c198a5f746d43b0"/><item endquery="false" field="sys_created_on" goto="false" newquery="false" operator="ON" or="false" value="This month@javascript:gs.beginningOfThisMonth()@javascript:gs.endOfThisMonth()"/><item endquery="true" field="" goto="false" newquery="false" operator="=" or="false" value=""/></filter><group display_value="Cafe Manager" name="Cafe Manager">d3900f2b474401101c198a5f746d43c3</group><last_used/><mobile>false</mobile><roles/><sys_class_name>sys_filter</sys_class_name><sys_created_by>fletcher</sys_created_by><sys_created_on>2021-12-02 06:46:17</sys_created_on><sys_domain>global</sys_domain><sys_domain_path>/</sys_domain_path><sys_id>5241836b474401101c198a5f746d43d6</sys_id><sys_mod_count>0</sys_mod_count><sys_name>Cafe Drinks for the month</sys_name><sys_package display_value="Cafe Management" source="x_616811_cafe_mana">6a49c4cb472730101c198a5f746d43b0</sys_package><sys_policy/><sys_scope display_value="Cafe Management">6a49c4cb472730101c198a5f746d43b0</sys_scope><sys_update_name>sys_filter_5241836b474401101c198a5f746d43d6</sys_update_name><sys_updated_by>fletcher</sys_updated_by><sys_updated_on>2021-12-02 06:46:17</sys_updated_on><table>sc_req_item</table><title>Cafe Drinks for the month</title><user/></sys_filter><sys_translated_text action="delete_multiple" query="documentkey=5241836b474401101c198a5f746d43d6"/></record_update>]]></payload>
+        <payload_hash>533211913</payload_hash>
+        <record_name>Cafe Drinks for the month</record_name>
+        <reverted_from/>
+        <source>1ef7b1b4477330101c198a5f746d43d6</source>
+        <source_table>sys_update_set</source_table>
+        <state>previous</state>
+        <sys_created_by>fletcher</sys_created_by>
+        <sys_created_on>2021-12-02 06:46:17</sys_created_on>
+        <sys_id>de41836b474401101c198a5f746d43d7</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_recorded_at>17d79e4ce500000001</sys_recorded_at>
+        <sys_updated_by>fletcher</sys_updated_by>
+        <sys_updated_on>2021-12-02 06:46:17</sys_updated_on>
+        <type>Filter</type>
+        <update_guid>1a41836bad440110ba4a5506f6ad8cd7</update_guid>
+        <update_guid_history>1a41836bad440110ba4a5506f6ad8cd7:533211913</update_guid_history>
+    </sys_update_version>
+    <sys_metadata_delete action="INSERT_OR_UPDATE">
+        <sys_audit_delete/>
+        <sys_class_name>sys_metadata_delete</sys_class_name>
+        <sys_created_by>fletcher</sys_created_by>
+        <sys_created_on>2021-12-02 06:54:03</sys_created_on>
+        <sys_db_object display_value="" name="sys_filter">sys_filter</sys_db_object>
+        <sys_id>03661604ce99461484e1abc86ba4d2b9</sys_id>
+        <sys_metadata>5241836b474401101c198a5f746d43d6</sys_metadata>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>Cafe Drinks for the month</sys_name>
+        <sys_package display_value="Cafe Management" source="x_616811_cafe_mana">6a49c4cb472730101c198a5f746d43b0</sys_package>
+        <sys_parent display_value="Sc Req Item">210e69f245553010c0a05206e0e0f86a</sys_parent>
+        <sys_policy/>
+        <sys_scope display_value="Cafe Management">6a49c4cb472730101c198a5f746d43b0</sys_scope>
+        <sys_scope_delete display_value="">1c6aea8ac1af4c3ea4b770f9ea8efb84</sys_scope_delete>
+        <sys_update_name>sys_filter_5241836b474401101c198a5f746d43d6</sys_update_name>
+        <sys_update_version display_value="sys_filter_5241836b474401101c198a5f746d43d6">de41836b474401101c198a5f746d43d7</sys_update_version>
+        <sys_updated_by>fletcher</sys_updated_by>
+        <sys_updated_on>2021-12-02 06:54:03</sys_updated_on>
+    </sys_metadata_delete>
+</record_update>

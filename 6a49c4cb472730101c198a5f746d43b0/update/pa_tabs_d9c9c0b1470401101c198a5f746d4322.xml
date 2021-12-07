@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update sys_domain="global" table="pa_tabs">
+    <pa_tabs action="INSERT_OR_UPDATE">
+        <canvas_page display_value="PA Cafe Management Dash - New Tab">5dc900b1470401101c198a5f746d43be</canvas_page>
+        <name>Cafe Management Dash - New Tab</name>
+        <page display_value="PA Cafe Management Dash - New Tab">59c900b1470401101c198a5f746d43bd</page>
+        <sys_class_name>pa_tabs</sys_class_name>
+        <sys_created_by>fletcher</sys_created_by>
+        <sys_created_on>2021-11-26 06:55:07</sys_created_on>
+        <sys_domain>global</sys_domain>
+        <sys_domain_path>/</sys_domain_path>
+        <sys_id>d9c9c0b1470401101c198a5f746d4322</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>Cafe Management Dash - New Tab</sys_name>
+        <sys_overrides/>
+        <sys_package display_value="Cafe Management" source="x_616811_cafe_mana">6a49c4cb472730101c198a5f746d43b0</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Cafe Management">6a49c4cb472730101c198a5f746d43b0</sys_scope>
+        <sys_update_name>pa_tabs_d9c9c0b1470401101c198a5f746d4322</sys_update_name>
+        <sys_updated_by>fletcher</sys_updated_by>
+        <sys_updated_on>2021-11-26 06:55:07</sys_updated_on>
+    </pa_tabs>
+</record_update>

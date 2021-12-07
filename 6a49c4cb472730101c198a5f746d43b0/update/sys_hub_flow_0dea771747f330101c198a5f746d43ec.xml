@@ -16,7 +16,7 @@
         <name>Update Drink Record on Active Change</name>
         <natlang/>
         <outputs/>
-        <remote_trigger_id>5e685ca3477730101c198a5f746d43c9</remote_trigger_id>
+        <remote_trigger_id>560a3591478001101c198a5f746d435c</remote_trigger_id>
         <run_as>user</run_as>
         <run_with_roles/>
         <sc_callable>false</sc_callable>
@@ -29,7 +29,7 @@
         <sys_domain>global</sys_domain>
         <sys_domain_path>/</sys_domain_path>
         <sys_id>0dea771747f330101c198a5f746d43ec</sys_id>
-        <sys_mod_count>17</sys_mod_count>
+        <sys_mod_count>20</sys_mod_count>
         <sys_name>Update Drink Record on Active Change</sys_name>
         <sys_overrides/>
         <sys_package display_value="Cafe Management" source="x_616811_cafe_mana">6a49c4cb472730101c198a5f746d43b0</sys_package>
@@ -37,7 +37,7 @@
         <sys_scope display_value="Cafe Management">6a49c4cb472730101c198a5f746d43b0</sys_scope>
         <sys_update_name>sys_hub_flow_0dea771747f330101c198a5f746d43ec</sys_update_name>
         <sys_updated_by>kit</sys_updated_by>
-        <sys_updated_on>2021-11-19 08:12:46</sys_updated_on>
+        <sys_updated_on>2021-11-25 01:48:39</sys_updated_on>
         <type>flow</type>
     </sys_hub_flow>
     <sys_translated_text action="delete_multiple" query="documentkey=0dea771747f330101c198a5f746d43ec"/>
@@ -57,42 +57,42 @@
         <run_when_user_setting>any</run_when_user_setting>
         <sys_class_name>sys_flow_record_trigger</sys_class_name>
         <sys_created_by>kit</sys_created_by>
-        <sys_created_on>2021-11-19 08:12:45</sys_created_on>
+        <sys_created_on>2021-11-25 01:48:39</sys_created_on>
         <sys_domain>global</sys_domain>
         <sys_domain_path>/</sys_domain_path>
-        <sys_id>5e685ca3477730101c198a5f746d43c9</sys_id>
+        <sys_id>560a3591478001101c198a5f746d435c</sys_id>
         <sys_mod_count>0</sys_mod_count>
         <sys_overrides/>
         <sys_scope display_value="Cafe Management">6a49c4cb472730101c198a5f746d43b0</sys_scope>
         <sys_updated_by>kit</sys_updated_by>
-        <sys_updated_on>2021-11-19 08:12:45</sys_updated_on>
+        <sys_updated_on>2021-11-25 01:48:39</sys_updated_on>
         <table>sc_cat_item</table>
     </sys_flow_record_trigger>
     <sys_trigger_runner_mapping action="INSERT_OR_UPDATE">
         <active>true</active>
-        <data>{"table":"sys_trigger_runner_mapping","id":"d6685ca3477730101c198a5f746d43ca","name":"trigger_runner","type":"java.util.Collections$UnmodifiableMap"}</data>
+        <data>{"table":"sys_trigger_runner_mapping","id":"120a3591478001101c198a5f746d435d","name":"trigger_runner","type":"java.util.Collections$UnmodifiableMap"}</data>
         <identifier>0dea771747f330101c198a5f746d43ec</identifier>
         <runner>FDTriggerRunner</runner>
         <sys_created_by>kit</sys_created_by>
-        <sys_created_on>2021-11-19 08:12:45</sys_created_on>
-        <sys_id>d6685ca3477730101c198a5f746d43ca</sys_id>
+        <sys_created_on>2021-11-25 01:48:39</sys_created_on>
+        <sys_id>120a3591478001101c198a5f746d435d</sys_id>
         <sys_mod_count>1</sys_mod_count>
         <sys_updated_by>kit</sys_updated_by>
-        <sys_updated_on>2021-11-19 08:12:45</sys_updated_on>
-        <trigger display_value="">5e685ca3477730101c198a5f746d43c9</trigger>
+        <sys_updated_on>2021-11-25 01:48:39</sys_updated_on>
+        <trigger display_value="">560a3591478001101c198a5f746d435c</trigger>
     </sys_trigger_runner_mapping>
     <sys_json_chunk action="INSERT_OR_UPDATE">
         <data>H4sIAAAAAAAAAGXLWwqAIBBA0b3MdytwKxGD5fggGUFHLKK99yAo6Pce7ga5MtqYGgYGBaOeZpdTZQPdTc0TYy2UMYYioPrh0wuJBHbXl8T/jpc1r48mRlqE2JA5u9WxEOwH5v2lw4YAAAA=</data>
-        <document_id>d6685ca3477730101c198a5f746d43ca</document_id>
+        <document_id>120a3591478001101c198a5f746d435d</document_id>
         <field>trigger_runner</field>
         <length>144</length>
         <position>0</position>
         <source_table>sys_trigger_runner_mapping</source_table>
         <sys_created_by>kit</sys_created_by>
-        <sys_created_on>2021-11-19 08:12:45</sys_created_on>
-        <sys_id>9e685ca3477730101c198a5f746d43ca</sys_id>
+        <sys_created_on>2021-11-25 01:48:39</sys_created_on>
+        <sys_id>1a0a3591478001101c198a5f746d435d</sys_id>
     </sys_json_chunk>
-    <sys_trigger_runner_mapping action="delete_multiple" query="identifier=0dea771747f330101c198a5f746d43ec^sys_idNOT INd6685ca3477730101c198a5f746d43ca"/>
+    <sys_trigger_runner_mapping action="delete_multiple" query="identifier=0dea771747f330101c198a5f746d43ec^sys_idNOT IN120a3591478001101c198a5f746d435d"/>
     <sys_hub_trigger_instance action="delete_multiple" query="flow=0dea771747f330101c198a5f746d43ec^sys_idNOT INe8f900e3473730101c198a5f746d437a"/>
     <sys_hub_trigger_instance action="INSERT_OR_UPDATE">
         <comment>When Catalog Item Active field changes</comment>
@@ -103,10 +103,10 @@
         <sys_created_by>kit</sys_created_by>
         <sys_created_on>2021-11-19 07:09:34</sys_created_on>
         <sys_id>e8f900e3473730101c198a5f746d437a</sys_id>
-        <sys_mod_count>14</sys_mod_count>
+        <sys_mod_count>17</sys_mod_count>
         <sys_scope/>
         <sys_updated_by>kit</sys_updated_by>
-        <sys_updated_on>2021-11-19 08:12:45</sys_updated_on>
+        <sys_updated_on>2021-11-25 01:48:39</sys_updated_on>
         <trigger_definition display_value="Updated">bb695e60c31322002841b63b12d3aea5</trigger_definition>
         <trigger_inputs/>
         <trigger_outputs/>
@@ -217,14 +217,14 @@
         <sys_created_by>kit</sys_created_by>
         <sys_created_on>2021-11-19 06:52:09</sys_created_on>
         <sys_id>21f588af47f330101c198a5f746d43c7</sys_id>
-        <sys_mod_count>7</sys_mod_count>
+        <sys_mod_count>9</sys_mod_count>
         <sys_name/>
         <sys_package/>
         <sys_policy/>
         <sys_scope display_value="Cafe Management">6a49c4cb472730101c198a5f746d43b0</sys_scope>
         <sys_update_name/>
         <sys_updated_by>kit</sys_updated_by>
-        <sys_updated_on>2021-11-19 08:12:45</sys_updated_on>
+        <sys_updated_on>2021-11-25 01:48:39</sys_updated_on>
         <table_reference>false</table_reference>
         <text_index>false</text_index>
         <unique>false</unique>
@@ -298,14 +298,14 @@
         <sys_created_by>kit</sys_created_by>
         <sys_created_on>2021-11-19 06:52:09</sys_created_on>
         <sys_id>25f588af47f330101c198a5f746d43ce</sys_id>
-        <sys_mod_count>7</sys_mod_count>
+        <sys_mod_count>9</sys_mod_count>
         <sys_name/>
         <sys_package/>
         <sys_policy/>
         <sys_scope display_value="Cafe Management">6a49c4cb472730101c198a5f746d43b0</sys_scope>
         <sys_update_name/>
         <sys_updated_by>kit</sys_updated_by>
-        <sys_updated_on>2021-11-19 08:12:45</sys_updated_on>
+        <sys_updated_on>2021-11-25 01:48:39</sys_updated_on>
         <table_reference>false</table_reference>
         <text_index>false</text_index>
         <unique>false</unique>
@@ -321,7 +321,7 @@
         <active>true</active>
         <array>false</array>
         <array_denormalized>false</array_denormalized>
-        <attributes>child_label=FDChangeDetails,child_name=FDChangeDetails,child_type=object,child_type_label=Object,co_type_name=FD4a685ca3b7773010483490b1fb852c3d,element_mapping_provider=com.glide.flow_design.action.data.FlowDesignVariableMapper,pwd2droppable=true,uiType=array.object,uiTypeLabel=Array.Object</attributes>
+        <attributes>child_label=FDChangeDetails,child_name=FDChangeDetails,child_type=object,child_type_label=Object,co_type_name=FD020af1911a800110b1ee37bdf9c146db,element_mapping_provider=com.glide.flow_design.action.data.FlowDesignVariableMapper,pwd2droppable=true,uiType=array.object,uiTypeLabel=Array.Object</attributes>
         <audit>false</audit>
         <calculation><![CDATA[(function calculatedFieldValue(current) {
 
@@ -379,14 +379,14 @@
         <sys_created_by>kit</sys_created_by>
         <sys_created_on>2021-11-19 07:09:34</sys_created_on>
         <sys_id>a4f900e3473730101c198a5f746d436d</sys_id>
-        <sys_mod_count>12</sys_mod_count>
+        <sys_mod_count>15</sys_mod_count>
         <sys_name/>
         <sys_package/>
         <sys_policy/>
         <sys_scope display_value="Cafe Management">6a49c4cb472730101c198a5f746d43b0</sys_scope>
         <sys_update_name/>
         <sys_updated_by>kit</sys_updated_by>
-        <sys_updated_on>2021-11-19 08:12:45</sys_updated_on>
+        <sys_updated_on>2021-11-25 01:48:39</sys_updated_on>
         <table_reference>false</table_reference>
         <text_index>false</text_index>
         <unique>false</unique>
@@ -404,7 +404,7 @@
         <action_inputs/>
         <action_type display_value="Update Record">f9d01dd2c31332002841b63b12d3aea1</action_type>
         <action_type_parent/>
-        <comment/>
+        <comment>Updates drink record</comment>
         <compiled_snapshot>f9d01dd2c31332002841b63b12d3aea1</compiled_snapshot>
         <display_text/>
         <flow display_value="Update Drink Record on Active Change">0dea771747f330101c198a5f746d43ec</flow>
@@ -414,10 +414,10 @@
         <sys_created_by>kit</sys_created_by>
         <sys_created_on>2021-11-19 07:45:40</sys_created_on>
         <sys_id>253218ab473730101c198a5f746d433f</sys_id>
-        <sys_mod_count>28</sys_mod_count>
+        <sys_mod_count>36</sys_mod_count>
         <sys_scope display_value="Cafe Management">6a49c4cb472730101c198a5f746d43b0</sys_scope>
         <sys_updated_by>system</sys_updated_by>
-        <sys_updated_on>2021-11-19 08:23:40</sys_updated_on>
+        <sys_updated_on>2021-11-25 05:57:42</sys_updated_on>
         <ui_id>90d28547-bddd-4a9c-8413-5706e4772c8c</ui_id>
     </sys_hub_action_instance>
     <sys_variable_value action="delete_multiple" query="document_key=253218ab473730101c198a5f746d433f"/>
@@ -477,7 +477,7 @@
         <action_inputs/>
         <action_type display_value="Look Up Record">9d09f99587003300663ca1bb36cb0ba3</action_type>
         <action_type_parent/>
-        <comment/>
+        <comment>Find drink record with the associated name</comment>
         <compiled_snapshot>9d09f99587003300663ca1bb36cb0ba3</compiled_snapshot>
         <display_text/>
         <flow display_value="Update Drink Record on Active Change">0dea771747f330101c198a5f746d43ec</flow>
@@ -487,10 +487,10 @@
         <sys_created_by>kit</sys_created_by>
         <sys_created_on>2021-11-19 07:45:40</sys_created_on>
         <sys_id>ed3218ab473730101c198a5f746d4331</sys_id>
-        <sys_mod_count>28</sys_mod_count>
+        <sys_mod_count>36</sys_mod_count>
         <sys_scope display_value="Cafe Management">6a49c4cb472730101c198a5f746d43b0</sys_scope>
         <sys_updated_by>system</sys_updated_by>
-        <sys_updated_on>2021-11-19 08:23:40</sys_updated_on>
+        <sys_updated_on>2021-11-25 05:57:42</sys_updated_on>
         <ui_id>81e246b5-aaf2-4a84-9d16-98053fff0d73</ui_id>
     </sys_hub_action_instance>
     <sys_variable_value action="delete_multiple" query="document_key=ed3218ab473730101c198a5f746d4331"/>
@@ -608,18 +608,18 @@
         <binding_strategy>com.snc.process_flow.engine.binding.OncePerRecord</binding_strategy>
         <plan>{"persistor":{"@class":".ChunkingPlanPersistor","table":"sys_flow_trigger_plan","id":"b6f50caf47f330101c198a5f746d43ae","name":"plan","plan_signature":null}}</plan>
         <plan_id>0dea771747f330101c198a5f746d43ec</plan_id>
-        <snapshot>86ea10a7477730101c198a5f746d4372</snapshot>
+        <snapshot>5a03be59474401101c198a5f746d43b2</snapshot>
         <sys_created_by>kit</sys_created_by>
         <sys_created_on>2021-11-19 06:52:14</sys_created_on>
         <sys_domain>global</sys_domain>
         <sys_domain_path>/</sys_domain_path>
         <sys_id>b6f50caf47f330101c198a5f746d43ae</sys_id>
-        <sys_mod_count>3</sys_mod_count>
+        <sys_mod_count>4</sys_mod_count>
         <sys_overrides/>
         <sys_scope/>
         <sys_updated_by>kit</sys_updated_by>
-        <sys_updated_on>2021-11-19 08:12:45</sys_updated_on>
-        <trigger display_value="">5e685ca3477730101c198a5f746d43c9</trigger>
+        <sys_updated_on>2021-11-25 01:48:39</sys_updated_on>
+        <trigger display_value="">560a3591478001101c198a5f746d435c</trigger>
     </sys_flow_trigger_plan>
     <sys_hub_flow_snapshot action="INSERT_OR_UPDATE">
         <access>public</access>
@@ -649,7 +649,7 @@
         <sys_domain>global</sys_domain>
         <sys_domain_path>/</sys_domain_path>
         <sys_id>aaf50caf47f330101c198a5f746d4337</sys_id>
-        <sys_mod_count>3</sys_mod_count>
+        <sys_mod_count>4</sys_mod_count>
         <sys_name/>
         <sys_overrides/>
         <sys_package/>
@@ -657,7 +657,7 @@
         <sys_scope display_value="Cafe Management">6a49c4cb472730101c198a5f746d43b0</sys_scope>
         <sys_update_name/>
         <sys_updated_by>kit</sys_updated_by>
-        <sys_updated_on>2021-11-19 08:12:44</sys_updated_on>
+        <sys_updated_on>2021-11-25 01:48:38</sys_updated_on>
         <type>flow</type>
     </sys_hub_flow_snapshot>
     <sys_translated_text action="delete_multiple" query="documentkey=aaf50caf47f330101c198a5f746d4337"/>
@@ -672,10 +672,10 @@
         <sys_created_by>kit</sys_created_by>
         <sys_created_on>2021-11-19 06:52:14</sys_created_on>
         <sys_id>baf50caf47f330101c198a5f746d439c</sys_id>
-        <sys_mod_count>12</sys_mod_count>
+        <sys_mod_count>15</sys_mod_count>
         <sys_scope/>
         <sys_updated_by>kit</sys_updated_by>
-        <sys_updated_on>2021-11-19 08:12:45</sys_updated_on>
+        <sys_updated_on>2021-11-25 01:48:39</sys_updated_on>
         <trigger_definition display_value="Updated">bb695e60c31322002841b63b12d3aea5</trigger_definition>
         <trigger_inputs/>
         <trigger_outputs/>
@@ -814,14 +814,14 @@
         <sys_created_by>kit</sys_created_by>
         <sys_created_on>2021-11-19 06:52:14</sys_created_on>
         <sys_id>66f50caf47f330101c198a5f746d437d</sys_id>
-        <sys_mod_count>5</sys_mod_count>
+        <sys_mod_count>7</sys_mod_count>
         <sys_name/>
         <sys_package/>
         <sys_policy/>
         <sys_scope display_value="Cafe Management">6a49c4cb472730101c198a5f746d43b0</sys_scope>
         <sys_update_name/>
         <sys_updated_by>kit</sys_updated_by>
-        <sys_updated_on>2021-11-19 08:12:44</sys_updated_on>
+        <sys_updated_on>2021-11-25 01:48:38</sys_updated_on>
         <table_reference>false</table_reference>
         <text_index>false</text_index>
         <unique>false</unique>
@@ -895,14 +895,14 @@
         <sys_created_by>kit</sys_created_by>
         <sys_created_on>2021-11-19 06:52:13</sys_created_on>
         <sys_id>a2f50caf47f330101c198a5f746d433a</sys_id>
-        <sys_mod_count>5</sys_mod_count>
+        <sys_mod_count>7</sys_mod_count>
         <sys_name/>
         <sys_package/>
         <sys_policy/>
         <sys_scope display_value="Cafe Management">6a49c4cb472730101c198a5f746d43b0</sys_scope>
         <sys_update_name/>
         <sys_updated_by>kit</sys_updated_by>
-        <sys_updated_on>2021-11-19 08:12:44</sys_updated_on>
+        <sys_updated_on>2021-11-25 01:48:38</sys_updated_on>
         <table_reference>false</table_reference>
         <text_index>false</text_index>
         <unique>false</unique>
@@ -918,7 +918,7 @@
         <active>true</active>
         <array>false</array>
         <array_denormalized>false</array_denormalized>
-        <attributes>child_label=FDChangeDetails,child_name=FDChangeDetails,child_type=object,child_type_label=Object,co_type_name=FD4a685ca3b7773010483490b1fb852c3d,element_mapping_provider=com.glide.flow_design.action.data.FlowDesignVariableMapper,pwd2droppable=true,uiType=array.object,uiTypeLabel=Array.Object</attributes>
+        <attributes>child_label=FDChangeDetails,child_name=FDChangeDetails,child_type=object,child_type_label=Object,co_type_name=FD020af1911a800110b1ee37bdf9c146db,element_mapping_provider=com.glide.flow_design.action.data.FlowDesignVariableMapper,pwd2droppable=true,uiType=array.object,uiTypeLabel=Array.Object</attributes>
         <audit>false</audit>
         <calculation><![CDATA[(function calculatedFieldValue(current) {
 
@@ -976,14 +976,14 @@
         <sys_created_by>kit</sys_created_by>
         <sys_created_on>2021-11-19 08:09:06</sys_created_on>
         <sys_id>b097d063477730101c198a5f746d4368</sys_id>
-        <sys_mod_count>3</sys_mod_count>
+        <sys_mod_count>4</sys_mod_count>
         <sys_name/>
         <sys_package/>
         <sys_policy/>
         <sys_scope display_value="Cafe Management">6a49c4cb472730101c198a5f746d43b0</sys_scope>
         <sys_update_name/>
         <sys_updated_by>kit</sys_updated_by>
-        <sys_updated_on>2021-11-19 08:12:44</sys_updated_on>
+        <sys_updated_on>2021-11-25 01:48:38</sys_updated_on>
         <table_reference>false</table_reference>
         <text_index>false</text_index>
         <unique>false</unique>
@@ -1001,7 +1001,7 @@
         <action_inputs/>
         <action_type display_value="Update Record">f9d01dd2c31332002841b63b12d3aea1</action_type>
         <action_type_parent display_value="Update Record">baf174c8c3c232002841b63b12d3aee4</action_type_parent>
-        <comment/>
+        <comment>Updates drink record</comment>
         <compiled_snapshot>f9d01dd2c31332002841b63b12d3aea1</compiled_snapshot>
         <display_text/>
         <flow display_value="Update Drink Record on Active Change">aaf50caf47f330101c198a5f746d4337</flow>
@@ -1011,10 +1011,10 @@
         <sys_created_by>kit</sys_created_by>
         <sys_created_on>2021-11-19 08:09:07</sys_created_on>
         <sys_id>8997d063477730101c198a5f746d438f</sys_id>
-        <sys_mod_count>12</sys_mod_count>
+        <sys_mod_count>16</sys_mod_count>
         <sys_scope display_value="Cafe Management">6a49c4cb472730101c198a5f746d43b0</sys_scope>
         <sys_updated_by>kit</sys_updated_by>
-        <sys_updated_on>2021-11-19 08:12:44</sys_updated_on>
+        <sys_updated_on>2021-11-25 01:48:38</sys_updated_on>
         <ui_id>90d28547-bddd-4a9c-8413-5706e4772c8c</ui_id>
     </sys_hub_action_instance>
     <sys_variable_value action="delete_multiple" query="document_key=8997d063477730101c198a5f746d438f"/>
@@ -1074,7 +1074,7 @@
         <action_inputs/>
         <action_type display_value="Look Up Record">9d09f99587003300663ca1bb36cb0ba3</action_type>
         <action_type_parent display_value="Look Up Record">b93f42810b30030085c083eb37673a63</action_type_parent>
-        <comment/>
+        <comment>Find drink record with the associated name</comment>
         <compiled_snapshot>9d09f99587003300663ca1bb36cb0ba3</compiled_snapshot>
         <display_text/>
         <flow display_value="Update Drink Record on Active Change">aaf50caf47f330101c198a5f746d4337</flow>
@@ -1084,10 +1084,10 @@
         <sys_created_by>kit</sys_created_by>
         <sys_created_on>2021-11-19 08:09:07</sys_created_on>
         <sys_id>c597d063477730101c198a5f746d4387</sys_id>
-        <sys_mod_count>12</sys_mod_count>
+        <sys_mod_count>16</sys_mod_count>
         <sys_scope display_value="Cafe Management">6a49c4cb472730101c198a5f746d43b0</sys_scope>
         <sys_updated_by>kit</sys_updated_by>
-        <sys_updated_on>2021-11-19 08:12:44</sys_updated_on>
+        <sys_updated_on>2021-11-25 01:48:38</sys_updated_on>
         <ui_id>81e246b5-aaf2-4a84-9d16-98053fff0d73</ui_id>
     </sys_hub_action_instance>
     <sys_variable_value action="delete_multiple" query="document_key=c597d063477730101c198a5f746d4387"/>

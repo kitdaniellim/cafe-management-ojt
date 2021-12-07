@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sc_service_fulfillment_stage">
+    <sc_service_fulfillment_stage action="INSERT_OR_UPDATE">
+        <cat_item display_value="Drink Name">d72f21d5474001101c198a5f746d43e3</cat_item>
+        <name/>
+        <order>100</order>
+        <sys_class_name>sc_service_fulfillment_stage</sys_class_name>
+        <sys_created_by>kit</sys_created_by>
+        <sys_created_on>2021-11-25 01:01:59</sys_created_on>
+        <sys_id>3e5fa1d5474001101c198a5f746d43b5</sys_id>
+        <sys_mod_count>1</sys_mod_count>
+        <sys_name/>
+        <sys_package display_value="Cafe Management" source="x_616811_cafe_mana">6a49c4cb472730101c198a5f746d43b0</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Cafe Management">6a49c4cb472730101c198a5f746d43b0</sys_scope>
+        <sys_update_name>sc_service_fulfillment_stage_3e5fa1d5474001101c198a5f746d43b5</sys_update_name>
+        <sys_updated_by>kit</sys_updated_by>
+        <sys_updated_on>2021-11-25 01:02:01</sys_updated_on>
+    </sc_service_fulfillment_stage>
+    <sys_translated_text action="delete_multiple" query="documentkey=3e5fa1d5474001101c198a5f746d43b5"/>
+</record_update>

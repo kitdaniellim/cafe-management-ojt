@@ -1,0 +1,69 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sc_service_fulfillment_approval_step">
+    <sc_service_fulfillment_approval_step action="DELETE">
+        <approval_title>Billy Manager</approval_title>
+        <approval_type>anyone_approves</approval_type>
+        <groups/>
+        <service_fulfillment_stage display_value="">5ece7a95478401101c198a5f746d43bd</service_fulfillment_stage>
+        <service_fulfillment_step_configuration display_value="Custom approval">2b7d9a7e87022010c84e4561d5cb0b21</service_fulfillment_step_configuration>
+        <sys_class_name>sc_service_fulfillment_approval_step</sys_class_name>
+        <sys_created_by>kit</sys_created_by>
+        <sys_created_on>2021-11-25 06:49:01</sys_created_on>
+        <sys_id>b4ce3e95478401101c198a5f746d432b</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>Approval from </sys_name>
+        <sys_package display_value="Cafe Management" source="x_616811_cafe_mana">6a49c4cb472730101c198a5f746d43b0</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Cafe Management">6a49c4cb472730101c198a5f746d43b0</sys_scope>
+        <sys_update_name>sc_service_fulfillment_approval_step_b4ce3e95478401101c198a5f746d432b</sys_update_name>
+        <sys_updated_by>kit</sys_updated_by>
+        <sys_updated_on>2021-11-25 06:49:01</sys_updated_on>
+        <title>Approval from Billy Manager</title>
+        <users>098d3df8477330101c198a5f746d43e8</users>
+    </sc_service_fulfillment_approval_step>
+    <sys_translated_text action="DELETE" query="documentkey=b4ce3e95478401101c198a5f746d432b"/>
+    <sys_update_version action="INSERT_OR_UPDATE">
+        <action>DELETE</action>
+        <application display_value="Cafe Management">6a49c4cb472730101c198a5f746d43b0</application>
+        <file_path/>
+        <instance_id>a71ba0b1db236810431011f8489619ce</instance_id>
+        <instance_name>dev112014</instance_name>
+        <name>sc_service_fulfillment_approval_step_b4ce3e95478401101c198a5f746d432b</name>
+        <payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update table="sc_service_fulfillment_approval_step"><sc_service_fulfillment_approval_step action="INSERT_OR_UPDATE"><approval_title>Billy Manager</approval_title><approval_type>anyone_approves</approval_type><groups/><service_fulfillment_stage display_value="">5ece7a95478401101c198a5f746d43bd</service_fulfillment_stage><service_fulfillment_step_configuration display_value="Custom approval">2b7d9a7e87022010c84e4561d5cb0b21</service_fulfillment_step_configuration><sys_class_name>sc_service_fulfillment_approval_step</sys_class_name><sys_created_by>kit</sys_created_by><sys_created_on>2021-11-25 06:49:01</sys_created_on><sys_id>b4ce3e95478401101c198a5f746d432b</sys_id><sys_mod_count>0</sys_mod_count><sys_name>Approval from </sys_name><sys_package display_value="Cafe Management" source="x_616811_cafe_mana">6a49c4cb472730101c198a5f746d43b0</sys_package><sys_policy/><sys_scope display_value="Cafe Management">6a49c4cb472730101c198a5f746d43b0</sys_scope><sys_update_name>sc_service_fulfillment_approval_step_b4ce3e95478401101c198a5f746d432b</sys_update_name><sys_updated_by>kit</sys_updated_by><sys_updated_on>2021-11-25 06:49:01</sys_updated_on><title>Approval from Billy Manager</title><users>098d3df8477330101c198a5f746d43e8</users></sc_service_fulfillment_approval_step><sys_translated_text action="delete_multiple" query="documentkey=b4ce3e95478401101c198a5f746d432b"/></record_update>]]></payload>
+        <payload_hash>1414489694</payload_hash>
+        <record_name>Approval from Billy Manager</record_name>
+        <reverted_from/>
+        <source>1ef7b1b4477330101c198a5f746d43d6</source>
+        <source_table>sys_update_set</source_table>
+        <state>previous</state>
+        <sys_created_by>kit</sys_created_by>
+        <sys_created_on>2021-11-25 06:49:01</sys_created_on>
+        <sys_id>5ece32d5478401101c198a5f746d43c5</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_recorded_at>17d55dac9f00000001</sys_recorded_at>
+        <sys_updated_by>kit</sys_updated_by>
+        <sys_updated_on>2021-11-25 06:49:01</sys_updated_on>
+        <type>Service Fulfillment Approval Step</type>
+        <update_guid>d2ce32d55984011051dbd94926bfa0c5</update_guid>
+        <update_guid_history>d2ce32d55984011051dbd94926bfa0c5:1414489694</update_guid_history>
+    </sys_update_version>
+    <sys_metadata_delete action="INSERT_OR_UPDATE">
+        <sys_audit_delete display_value="Approval from Billy Manager">bfcf3ed5478401101c198a5f746d43c7</sys_audit_delete>
+        <sys_class_name>sys_metadata_delete</sys_class_name>
+        <sys_created_by>kit</sys_created_by>
+        <sys_created_on>2021-11-25 06:53:29</sys_created_on>
+        <sys_db_object display_value="" name="sc_service_fulfillment_approval_step">sc_service_fulfillment_approval_step</sys_db_object>
+        <sys_id>0dcfd902c71e4480b627f638d6835900</sys_id>
+        <sys_metadata>b4ce3e95478401101c198a5f746d432b</sys_metadata>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>Approval from </sys_name>
+        <sys_package display_value="Cafe Management" source="x_616811_cafe_mana">6a49c4cb472730101c198a5f746d43b0</sys_package>
+        <sys_parent/>
+        <sys_policy/>
+        <sys_scope display_value="Cafe Management">6a49c4cb472730101c198a5f746d43b0</sys_scope>
+        <sys_scope_delete display_value="">1c6aea8ac1af4c3ea4b770f9ea8efb84</sys_scope_delete>
+        <sys_update_name>sc_service_fulfillment_approval_step_b4ce3e95478401101c198a5f746d432b</sys_update_name>
+        <sys_update_version display_value="sc_service_fulfillment_approval_step_b4ce3e95478401101c198a5f746d432b">5ece32d5478401101c198a5f746d43c5</sys_update_version>
+        <sys_updated_by>kit</sys_updated_by>
+        <sys_updated_on>2021-11-25 06:53:29</sys_updated_on>
+    </sys_metadata_delete>
+</record_update>
