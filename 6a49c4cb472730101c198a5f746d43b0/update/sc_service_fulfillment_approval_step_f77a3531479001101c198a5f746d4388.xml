@@ -1,24 +1,24 @@
 <?xml version="1.0" encoding="UTF-8"?><record_update table="sc_service_fulfillment_approval_step">
     <sc_service_fulfillment_approval_step action="INSERT_OR_UPDATE">
-        <approval_title>Billy Manager</approval_title>
+        <approval_title>Cafe Manager</approval_title>
         <approval_type>anyone_approves</approval_type>
-        <groups/>
-        <service_fulfillment_stage display_value="">9cd5ba5d474401101c198a5f746d4365</service_fulfillment_stage>
+        <groups name="Cafe Manager">d3900f2b474401101c198a5f746d43c3</groups>
+        <service_fulfillment_stage display_value="">a39a7131479001101c198a5f746d43f4</service_fulfillment_stage>
         <service_fulfillment_step_configuration display_value="Custom approval">2b7d9a7e87022010c84e4561d5cb0b21</service_fulfillment_step_configuration>
         <sys_class_name>sc_service_fulfillment_approval_step</sys_class_name>
         <sys_created_by>fletcher</sys_created_by>
-        <sys_created_on>2021-11-25 06:09:51</sys_created_on>
-        <sys_id>50d5ba5d474401101c198a5f746d4369</sys_id>
+        <sys_created_on>2021-12-09 01:23:51</sys_created_on>
+        <sys_id>f77a3531479001101c198a5f746d4388</sys_id>
         <sys_mod_count>0</sys_mod_count>
-        <sys_name>Approval from Billy Manager</sys_name>
+        <sys_name>Approval from </sys_name>
         <sys_package display_value="Cafe Management" source="x_616811_cafe_mana">6a49c4cb472730101c198a5f746d43b0</sys_package>
         <sys_policy/>
         <sys_scope display_value="Cafe Management">6a49c4cb472730101c198a5f746d43b0</sys_scope>
-        <sys_update_name>sc_service_fulfillment_approval_step_50d5ba5d474401101c198a5f746d4369</sys_update_name>
+        <sys_update_name>sc_service_fulfillment_approval_step_f77a3531479001101c198a5f746d4388</sys_update_name>
         <sys_updated_by>fletcher</sys_updated_by>
-        <sys_updated_on>2021-11-25 06:09:51</sys_updated_on>
-        <title>Approval from Billy Manager</title>
-        <users>098d3df8477330101c198a5f746d43e8</users>
+        <sys_updated_on>2021-12-09 01:23:51</sys_updated_on>
+        <title>Approval from Cafe Manager</title>
+        <users/>
     </sc_service_fulfillment_approval_step>
-    <sys_translated_text action="delete_multiple" query="documentkey=50d5ba5d474401101c198a5f746d4369"/>
+    <sys_translated_text action="delete_multiple" query="documentkey=f77a3531479001101c198a5f746d4388"/>
 </record_update>

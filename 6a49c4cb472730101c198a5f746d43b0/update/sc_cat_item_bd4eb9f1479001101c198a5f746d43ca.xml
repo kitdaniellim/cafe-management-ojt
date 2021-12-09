@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?><record_update table="sc_cat_item">
     <sc_cat_item action="INSERT_OR_UPDATE">
         <access_type>restricted</access_type>
-        <active>false</active>
+        <active>true</active>
         <availability>on_desktop</availability>
         <billable>false</billable>
         <category display_value="Drinks">431d14ae473730101c198a5f746d4397</category>
@@ -27,7 +27,7 @@
         <mobile_picture/>
         <mobile_picture_type>use_desktop_picture</mobile_picture_type>
         <model/>
-        <name>Expresso Latte Omega Prime</name>
+        <name>Drink Pleasee</name>
         <no_attachment_v2>true</no_attachment_v2>
         <no_cart>false</no_cart>
         <no_cart_v2>false</no_cart_v2>
@@ -42,11 +42,11 @@
         <omit_price>false</omit_price>
         <order>0</order>
         <ordered_item_link/>
-        <owner display_value="Kit Lim">42b2119247e330101c198a5f746d4389</owner>
+        <owner display_value="Fletcher Chua">5902d95247e330101c198a5f746d43b0</owner>
         <picture/>
-        <preview>JavaScript: popupOpenStandard("com.glideapp.servicecatalog_cat_item_view.do?v=1&amp;sysparm_id=dac40519479401101c198a5f746d439a&amp;sysparm_preview=true", "summary");</preview>
+        <preview>JavaScript: popupOpenStandard("com.glideapp.servicecatalog_cat_item_view.do?v=1&amp;sysparm_id=bd4eb9f1479001101c198a5f746d43ca&amp;sysparm_preview=true", "summary");</preview>
         <price>0</price>
-        <published_ref display_value="Expresso Latte Omega Prime">5272b619474401101c198a5f746d4321</published_ref>
+        <published_ref/>
         <recurring_frequency/>
         <request_method/>
         <roles/>
@@ -54,22 +54,22 @@
         <sc_ic_item_staging/>
         <sc_ic_version/>
         <sc_template display_value="Create a Drink">2a38906a473730101c198a5f746d43ec</sc_template>
-        <short_description>Best drink!</short_description>
+        <short_description>Short description of your drink</short_description>
         <show_variable_help_on_load>false</show_variable_help_on_load>
         <start_closed>false</start_closed>
-        <state>draft</state>
+        <state>published</state>
         <sys_class_name>sc_cat_item</sys_class_name>
-        <sys_created_by>kit</sys_created_by>
-        <sys_created_on>2021-12-07 08:11:42</sys_created_on>
-        <sys_id>dac40519479401101c198a5f746d439a</sys_id>
-        <sys_mod_count>0</sys_mod_count>
-        <sys_name>Expresso Latte Omega Prime</sys_name>
+        <sys_created_by>fletcher</sys_created_by>
+        <sys_created_on>2021-12-09 01:40:01</sys_created_on>
+        <sys_id>bd4eb9f1479001101c198a5f746d43ca</sys_id>
+        <sys_mod_count>5</sys_mod_count>
+        <sys_name>Drink Pleasee</sys_name>
         <sys_package display_value="Cafe Management" source="x_616811_cafe_mana">6a49c4cb472730101c198a5f746d43b0</sys_package>
         <sys_policy/>
         <sys_scope display_value="Cafe Management">6a49c4cb472730101c198a5f746d43b0</sys_scope>
-        <sys_update_name>sc_cat_item_dac40519479401101c198a5f746d439a</sys_update_name>
-        <sys_updated_by>kit</sys_updated_by>
-        <sys_updated_on>2021-12-07 08:11:42</sys_updated_on>
+        <sys_update_name>sc_cat_item_bd4eb9f1479001101c198a5f746d43ca</sys_update_name>
+        <sys_updated_by>system</sys_updated_by>
+        <sys_updated_on>2021-12-09 01:40:41</sys_updated_on>
         <taxonomy_topic/>
         <template/>
         <template_manager_roles/>
@@ -81,22 +81,22 @@
         <visible_standalone>true</visible_standalone>
         <workflow/>
     </sc_cat_item>
-    <sys_translated_text action="delete_multiple" query="documentkey=dac40519479401101c198a5f746d439a"/>
-    <fx_price action="delete_multiple" query="id=dac40519479401101c198a5f746d439a"/>
+    <sys_translated_text action="delete_multiple" query="documentkey=bd4eb9f1479001101c198a5f746d43ca"/>
+    <fx_price action="delete_multiple" query="id=bd4eb9f1479001101c198a5f746d43ca"/>
     <fx_price action="INSERT_OR_UPDATE">
         <amount>0</amount>
         <currency display_value="USD">USD</currency>
         <field>price</field>
-        <id>dac40519479401101c198a5f746d439a</id>
+        <id>bd4eb9f1479001101c198a5f746d43ca</id>
         <parent/>
         <reference_amount>0</reference_amount>
         <reference_currency display_value="USD">USD</reference_currency>
-        <sys_created_by>kit</sys_created_by>
-        <sys_created_on>2021-12-07 08:11:42</sys_created_on>
-        <sys_id>1ac40519479401101c198a5f746d439c</sys_id>
+        <sys_created_by>fletcher</sys_created_by>
+        <sys_created_on>2021-12-09 01:40:01</sys_created_on>
+        <sys_id>505ef135479001101c198a5f746d434a</sys_id>
         <sys_mod_count>0</sys_mod_count>
-        <sys_updated_by>kit</sys_updated_by>
-        <sys_updated_on>2021-12-07 08:11:42</sys_updated_on>
+        <sys_updated_by>fletcher</sys_updated_by>
+        <sys_updated_on>2021-12-09 01:40:01</sys_updated_on>
         <table>sc_cat_item</table>
         <type>calculated</type>
     </fx_price>

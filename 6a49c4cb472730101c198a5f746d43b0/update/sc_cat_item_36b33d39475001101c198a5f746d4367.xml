@@ -1,0 +1,160 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sc_cat_item">
+    <sc_cat_item action="INSERT_OR_UPDATE">
+        <access_type>restricted</access_type>
+        <active>true</active>
+        <availability>on_desktop</availability>
+        <billable>false</billable>
+        <category display_value="Drinks">431d14ae473730101c198a5f746d4397</category>
+        <checked_out/>
+        <cost>0</cost>
+        <custom_cart/>
+        <delivery_plan display_value="DEFAULT">523da512c611228900811a37c97c2014</delivery_plan>
+        <delivery_plan_script/>
+        <delivery_time>1970-01-03 00:00:00</delivery_time>
+        <description/>
+        <display_price_property>non_zero</display_price_property>
+        <entitlement_script/>
+        <flow_designer_flow/>
+        <group/>
+        <hide_sp>false</hide_sp>
+        <icon/>
+        <ignore_price>false</ignore_price>
+        <image/>
+        <location/>
+        <mandatory_attachment>false</mandatory_attachment>
+        <meta/>
+        <mobile_hide_price>false</mobile_hide_price>
+        <mobile_picture/>
+        <mobile_picture_type>use_desktop_picture</mobile_picture_type>
+        <model/>
+        <name>New Drinkk</name>
+        <no_attachment_v2>false</no_attachment_v2>
+        <no_cart>false</no_cart>
+        <no_cart_v2>false</no_cart_v2>
+        <no_delivery_time_v2>false</no_delivery_time_v2>
+        <no_order>false</no_order>
+        <no_order_now>false</no_order_now>
+        <no_proceed_checkout>false</no_proceed_checkout>
+        <no_quantity>false</no_quantity>
+        <no_quantity_v2>false</no_quantity_v2>
+        <no_search>false</no_search>
+        <no_wishlist_v2>false</no_wishlist_v2>
+        <omit_price>false</omit_price>
+        <order>0</order>
+        <ordered_item_link/>
+        <owner display_value="Fletcher Chua">5902d95247e330101c198a5f746d43b0</owner>
+        <picture>5f547179475001101c198a5f746d439e</picture>
+        <preview>JavaScript: popupOpenStandard("com.glideapp.servicecatalog_cat_item_view.do?v=1&amp;sysparm_id=36b33d39475001101c198a5f746d4367&amp;sysparm_preview=true", "summary");</preview>
+        <price>0</price>
+        <published_ref/>
+        <recurring_frequency/>
+        <recurring_price>0</recurring_price>
+        <request_method/>
+        <roles/>
+        <sc_catalogs>fdcc14ae473730101c198a5f746d4340</sc_catalogs>
+        <sc_ic_item_staging/>
+        <sc_ic_version/>
+        <sc_template/>
+        <short_description/>
+        <show_variable_help_on_load>false</show_variable_help_on_load>
+        <start_closed>false</start_closed>
+        <state/>
+        <sys_class_name>sc_cat_item</sys_class_name>
+        <sys_created_by>fletcher</sys_created_by>
+        <sys_created_on>2021-12-09 00:54:18</sys_created_on>
+        <sys_id>36b33d39475001101c198a5f746d4367</sys_id>
+        <sys_mod_count>1</sys_mod_count>
+        <sys_name>New Drinkk</sys_name>
+        <sys_package display_value="Cafe Management" source="x_616811_cafe_mana">6a49c4cb472730101c198a5f746d43b0</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Cafe Management">6a49c4cb472730101c198a5f746d43b0</sys_scope>
+        <sys_update_name>sc_cat_item_36b33d39475001101c198a5f746d4367</sys_update_name>
+        <sys_updated_by>fletcher</sys_updated_by>
+        <sys_updated_on>2021-12-09 00:56:32</sys_updated_on>
+        <taxonomy_topic/>
+        <template/>
+        <template_manager_roles/>
+        <type>item</type>
+        <use_sc_layout>true</use_sc_layout>
+        <vendor/>
+        <visible_bundle>true</visible_bundle>
+        <visible_guide>true</visible_guide>
+        <visible_standalone>true</visible_standalone>
+        <workflow/>
+    </sc_cat_item>
+    <sys_translated_text action="delete_multiple" query="documentkey=36b33d39475001101c198a5f746d4367"/>
+    <fx_price action="delete_multiple" query="id=36b33d39475001101c198a5f746d4367"/>
+    <fx_price action="INSERT_OR_UPDATE">
+        <amount>0</amount>
+        <currency display_value="USD">USD</currency>
+        <field>price</field>
+        <id>36b33d39475001101c198a5f746d4367</id>
+        <parent/>
+        <reference_amount>0</reference_amount>
+        <reference_currency display_value="USD">USD</reference_currency>
+        <sys_created_by>fletcher</sys_created_by>
+        <sys_created_on>2021-12-09 00:54:18</sys_created_on>
+        <sys_id>2ad3bd39475001101c198a5f746d4341</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>fletcher</sys_updated_by>
+        <sys_updated_on>2021-12-09 00:54:18</sys_updated_on>
+        <table>sc_cat_item</table>
+        <type>calculated</type>
+    </fx_price>
+    <fx_price action="INSERT_OR_UPDATE">
+        <amount>0</amount>
+        <currency display_value="USD">USD</currency>
+        <field>recurring_price</field>
+        <id>36b33d39475001101c198a5f746d4367</id>
+        <parent/>
+        <reference_amount>0</reference_amount>
+        <reference_currency display_value="USD">USD</reference_currency>
+        <sys_created_by>fletcher</sys_created_by>
+        <sys_created_on>2021-12-09 00:54:18</sys_created_on>
+        <sys_id>62d3bd39475001101c198a5f746d4342</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>fletcher</sys_updated_by>
+        <sys_updated_on>2021-12-09 00:54:18</sys_updated_on>
+        <table>sc_cat_item</table>
+        <type>calculated</type>
+    </fx_price>
+    <sys_attachment action="INSERT_OR_UPDATE">
+        <average_image_color>#d7dcdb</average_image_color>
+        <chunk_size_bytes>700000</chunk_size_bytes>
+        <compressed>true</compressed>
+        <content_type>image/jpeg</content_type>
+        <file_name>picture</file_name>
+        <hash>cbe7d1eeadc20003264be7e22e1164dab4518fe625ec96509ce6a0c1d6ec0f02</hash>
+        <image_height>31</image_height>
+        <image_width>146</image_width>
+        <size_bytes>9006</size_bytes>
+        <size_compressed>2283</size_compressed>
+        <state>available</state>
+        <sys_created_by>fletcher</sys_created_by>
+        <sys_created_on>2021-12-09 00:56:32</sys_created_on>
+        <sys_id>5f547179475001101c198a5f746d439e</sys_id>
+        <sys_mod_count>3</sys_mod_count>
+        <sys_updated_by>fletcher</sys_updated_by>
+        <sys_updated_on>2021-12-09 00:56:32</sys_updated_on>
+        <table_name>ZZ_YYsc_cat_item</table_name>
+        <table_sys_id>36b33d39475001101c198a5f746d4367</table_sys_id>
+    </sys_attachment>
+    <sys_attachment_doc action="INSERT_OR_UPDATE">
+        <data>H4sIAAAAAAAAAA==</data>
+        <length>16</length>
+        <position>0</position>
+        <sys_attachment display_value="picture" sys_id="5f547179475001101c198a5f746d439e">5f547179475001101c198a5f746d439e</sys_attachment>
+        <sys_created_by>fletcher</sys_created_by>
+        <sys_created_on>2021-12-09 00:56:32</sys_created_on>
+        <sys_id>9f547179475001101c198a5f746d439e</sys_id>
+    </sys_attachment_doc>
+    <sys_attachment_doc action="INSERT_OR_UPDATE">
+        <data>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</data>
+        <length>3032</length>
+        <position>1</position>
+        <sys_attachment display_value="picture" sys_id="5f547179475001101c198a5f746d439e">5f547179475001101c198a5f746d439e</sys_attachment>
+        <sys_created_by>fletcher</sys_created_by>
+        <sys_created_on>2021-12-09 00:56:32</sys_created_on>
+        <sys_id>13547179475001101c198a5f746d439f</sys_id>
+    </sys_attachment_doc>
+</record_update>

@@ -1,19 +1,19 @@
 <?xml version="1.0" encoding="UTF-8"?><record_update table="io_set_item">
     <io_set_item action="INSERT_OR_UPDATE">
         <order>100</order>
-        <sc_cat_item display_value="Expresso Latte Omega Prime">5272b619474401101c198a5f746d4321</sc_cat_item>
+        <sc_cat_item display_value="New Drinkkk">6251b575475001101c198a5f746d4345</sc_cat_item>
         <sys_class_name>io_set_item</sys_class_name>
-        <sys_created_by>kit</sys_created_by>
-        <sys_created_on>2021-12-07 08:11:42</sys_created_on>
-        <sys_id>9ec44519479401101c198a5f746d43a9</sys_id>
+        <sys_created_by>fletcher</sys_created_by>
+        <sys_created_on>2021-12-09 00:48:09</sys_created_on>
+        <sys_id>6072f1f5475001101c198a5f746d4355</sys_id>
         <sys_mod_count>1</sys_mod_count>
-        <sys_name>Drinks Question Set.Expresso Latte Omega Prime</sys_name>
+        <sys_name>Drinks Question Set.New Drinkkk</sys_name>
         <sys_package display_value="Cafe Management" source="x_616811_cafe_mana">6a49c4cb472730101c198a5f746d43b0</sys_package>
         <sys_policy/>
         <sys_scope display_value="Cafe Management">6a49c4cb472730101c198a5f746d43b0</sys_scope>
-        <sys_update_name>io_set_item_9ec44519479401101c198a5f746d43a9</sys_update_name>
-        <sys_updated_by>system</sys_updated_by>
-        <sys_updated_on>2021-12-07 08:33:56</sys_updated_on>
+        <sys_update_name>io_set_item_6072f1f5475001101c198a5f746d4355</sys_update_name>
+        <sys_updated_by>fletcher</sys_updated_by>
+        <sys_updated_on>2021-12-09 00:48:09</sys_updated_on>
         <variable_set display_value="Drinks Question Set">c014b42a47b730101c198a5f746d4309</variable_set>
     </io_set_item>
 </record_update>
